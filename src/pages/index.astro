@@ -1,0 +1,8 @@
+---
+import HomeFeedPage from "../components/HomeFeedPage.astro";
+import { loadFeedData, loadFeedMeta } from "../lib/feed/load";
+
+const [feedData, metaData] = await Promise.all([loadFeedData(), loadFeedMeta()]);
+---
+
+<HomeFeedPage feedData={feedData} metaData={metaData} />

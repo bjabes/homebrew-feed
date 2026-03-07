@@ -1,0 +1,100 @@
+---
+import FeedCard from "./FeedCard.astro";
+import SiteLayout from "../layouts/SiteLayout.astro";
+import { createFeedBrowserModel, renderEmptyStateMarkup, renderResultsSummary } from "../lib/feed/browser";
+import type { FeedData, FeedMeta, FeedWindow } from "../lib/feed/types";
+
+interface Props {
+  feedData: FeedData;
+  metaData: FeedMeta;
+}
+
+const { feedData, metaData } = Astro.props;
+const defaultModel = createFeedBrowserModel(feedData, {
+  search: ""
+});
+const windowLabels: Record<FeedWindow, string> = {
+  today: "Today",
+  week: "This Week",
+  month: "This Month"
+};
+---
+
+<SiteLayout title="What's New In Homebrew">
+  <section class="hero">
+    <span class="eyebrow">Homebrew feed</span>
+    <h1>What&apos;s New In Homebrew</h1>
+    <p class="lede">
+      Track the freshest additions and release changes across Homebrew formulae and casks without
+      digging through raw JSON or commit logs.
+    </p>
+    <div class="snapshot-strip">
+      <span><strong>Latest snapshot:</strong> {metaData.latestSnapshotDate ?? "No snapshot yet"}</span>
+      <span><strong>Published items:</strong> {metaData.itemCount}</span>
+      <span><strong>Snapshots retained:</strong> {metaData.snapshotCount}</span>
+    </div>
+  </section>
+
+  <section class="feed-shell">
+    <div class="controls" data-feed-app>
+      <div class="window-pills" data-window-controls>
+        {
+          (["today", "week", "month"] as const).map((window) => (
+            <button
+              class={`window-pill ${defaultModel.state.window === window ? "is-active" : ""}`}
+              data-window={window}
+              type="button"
+            >
+              {windowLabels[window]} <span>{metaData.windowCounts[window]}</span>
+            </button>
+          ))
+        }
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="kind-filter">Package type</label>
+          <select id="kind-filter" data-type-filter>
+            <option value="all">All packages</option>
+            <option value="formula">Formulae</option>
+            <option value="cask">Casks</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="feed-search">Search</label>
+          <input
+            id="feed-search"
+            data-search-input
+            type="search"
+            value={defaultModel.state.q}
+            placeholder="Search by package name or token"
+          />
+        </div>
+      </div>
+
+      <p class="results-summary" data-results-summary>
+        {renderResultsSummary(
+          defaultModel.visibleItems.length,
+          defaultModel.state.window,
+          feedData.latestSnapshotDate
+        )}
+      </p>
+
+      <div class="feed-list" data-feed-list>
+        {
+          defaultModel.visibleItems.length > 0 ? (
+            defaultModel.visibleItems.map((item) => <FeedCard item={item} />)
+          ) : (
+            <Fragment set:html={renderEmptyStateMarkup(metaData)} />
+          )
+        }
+      </div>
+    </div>
+  </section>
+
+  <script type="module" define:vars={{ feedData, metaData }}>
+    import { hydrateFeedPage } from "../lib/feed/browser";
+
+    hydrateFeedPage(document, feedData, metaData);
+  </script>
+</SiteLayout>
