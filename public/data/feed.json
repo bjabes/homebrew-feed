@@ -1,5 +1,2786 @@
 {
-  "generatedAt": "2026-03-07T01:11:38.070Z",
-  "latestSnapshotDate": "2026-03-07",
-  "items": []
+  "generatedAt": "2026-03-08T17:01:26.928Z",
+  "latestSnapshotDate": "2026-03-08",
+  "items": [
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "alma",
+      "name": "Alma",
+      "changeType": "updated",
+      "currentVersion": "0.0.675",
+      "previousVersion": "0.0.660",
+      "packageUrl": "https://formulae.brew.sh/cask/alma"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "amethyst",
+      "name": "Amethyst",
+      "changeType": "updated",
+      "currentVersion": "0.24.2",
+      "previousVersion": "0.24.1",
+      "packageUrl": "https://formulae.brew.sh/cask/amethyst"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "antigravity",
+      "name": "Google Antigravity",
+      "changeType": "updated",
+      "currentVersion": "1.20.4,5535391095848960",
+      "previousVersion": "1.20.3,6711822635106304",
+      "packageUrl": "https://formulae.brew.sh/cask/antigravity"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "aqua-voice",
+      "name": "Aqua Voice",
+      "changeType": "updated",
+      "currentVersion": "0.12.1",
+      "previousVersion": "0.11.9",
+      "packageUrl": "https://formulae.brew.sh/cask/aqua-voice"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "base",
+      "name": "Menial Base",
+      "changeType": "updated",
+      "currentVersion": "3.3.0",
+      "previousVersion": "3.2.1",
+      "packageUrl": "https://formulae.brew.sh/cask/base"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "bookends",
+      "name": "Bookends",
+      "changeType": "updated",
+      "currentVersion": "15.3.1",
+      "previousVersion": "15.3",
+      "packageUrl": "https://formulae.brew.sh/cask/bookends"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "boss",
+      "name": "BOSS",
+      "changeType": "updated",
+      "currentVersion": "8.17.19",
+      "previousVersion": "8.17.10",
+      "packageUrl": "https://formulae.brew.sh/cask/boss"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "captains-deck",
+      "name": "Captain's Deck",
+      "changeType": "updated",
+      "currentVersion": "1.3.2",
+      "previousVersion": "1.3.1",
+      "packageUrl": "https://formulae.brew.sh/cask/captains-deck"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "claude-code",
+      "name": "Claude Code",
+      "changeType": "updated",
+      "currentVersion": "2.1.71",
+      "previousVersion": "2.1.70",
+      "packageUrl": "https://formulae.brew.sh/cask/claude-code"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "claudebar",
+      "name": "ClaudeBar",
+      "changeType": "updated",
+      "currentVersion": "0.4.41",
+      "previousVersion": "0.4.40",
+      "packageUrl": "https://formulae.brew.sh/cask/claudebar"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "cncjs",
+      "name": "CNSjs",
+      "changeType": "updated",
+      "currentVersion": "1.10.9",
+      "previousVersion": "1.10.8",
+      "packageUrl": "https://formulae.brew.sh/cask/cncjs"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "cocktail",
+      "name": "Cocktail",
+      "changeType": "updated",
+      "currentVersion": "19.6",
+      "previousVersion": "19.5",
+      "packageUrl": "https://formulae.brew.sh/cask/cocktail"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "comet",
+      "name": "Comet",
+      "changeType": "updated",
+      "currentVersion": "145.0.7632.2407",
+      "previousVersion": "145.0.7632.900",
+      "packageUrl": "https://formulae.brew.sh/cask/comet"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "comfyui",
+      "name": "ComfyUI",
+      "changeType": "updated",
+      "currentVersion": "0.8.18,2603073ckg6b7ln",
+      "previousVersion": "0.8.16,260306jf02vg6wm",
+      "packageUrl": "https://formulae.brew.sh/cask/comfyui"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "commander",
+      "name": "Commander",
+      "changeType": "updated",
+      "currentVersion": "0.6.801",
+      "previousVersion": "0.6.795",
+      "packageUrl": "https://formulae.brew.sh/cask/commander"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "conductor",
+      "name": "Conductor",
+      "changeType": "updated",
+      "currentVersion": "0.38.2,01KK3EY0J1XJW5CK6DWB6636W9",
+      "previousVersion": "0.38.1,01KK2ANFAVVEDS0VTTDY6AEPZT",
+      "packageUrl": "https://formulae.brew.sh/cask/conductor"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "cursor",
+      "name": "Cursor",
+      "changeType": "updated",
+      "currentVersion": "2.6.13,60faf7b51077ed1df1db718157bbfed740d2e168",
+      "previousVersion": "2.6.12,1917e900a0c4b0111dc7975777cfff60853059d3",
+      "packageUrl": "https://formulae.brew.sh/cask/cursor"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "dockflow",
+      "name": "DockFlow",
+      "changeType": "updated",
+      "currentVersion": "1.66",
+      "previousVersion": "1.65",
+      "packageUrl": "https://formulae.brew.sh/cask/dockflow"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "dockside",
+      "name": "Dockside",
+      "changeType": "updated",
+      "currentVersion": "2.0.6",
+      "previousVersion": "2.0.5",
+      "packageUrl": "https://formulae.brew.sh/cask/dockside"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "drawio",
+      "name": "draw.io Desktop",
+      "changeType": "updated",
+      "currentVersion": "29.6.1",
+      "previousVersion": "29.5.2",
+      "packageUrl": "https://formulae.brew.sh/cask/drawio"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "droid",
+      "name": "Droid",
+      "changeType": "updated",
+      "currentVersion": "0.70.0",
+      "previousVersion": "0.69.0",
+      "packageUrl": "https://formulae.brew.sh/cask/droid"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "effect-house",
+      "name": "TikTok Effect House",
+      "changeType": "updated",
+      "currentVersion": "5.8.0,4940,02252026,104",
+      "previousVersion": "5.7.1,0416,01292026,104",
+      "packageUrl": "https://formulae.brew.sh/cask/effect-house"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "eigent",
+      "name": "Eigent",
+      "changeType": "updated",
+      "currentVersion": "0.0.87",
+      "previousVersion": "0.0.86",
+      "packageUrl": "https://formulae.brew.sh/cask/eigent"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "electerm",
+      "name": "electerm",
+      "changeType": "updated",
+      "currentVersion": "2.13.6",
+      "previousVersion": "2.13.0",
+      "packageUrl": "https://formulae.brew.sh/cask/electerm"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "element@nightly",
+      "name": "Element Nightly",
+      "changeType": "updated",
+      "currentVersion": "2026030801",
+      "previousVersion": "2026030601",
+      "packageUrl": "https://formulae.brew.sh/cask/element@nightly"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "emdash",
+      "name": "Emdash",
+      "changeType": "updated",
+      "currentVersion": "0.4.27",
+      "previousVersion": "0.4.26",
+      "packageUrl": "https://formulae.brew.sh/cask/emdash"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "fiji",
+      "name": "Fiji",
+      "changeType": "updated",
+      "currentVersion": "20260307-1317",
+      "previousVersion": "20260305-0817",
+      "packageUrl": "https://formulae.brew.sh/cask/fiji"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "firefox@nightly",
+      "name": "Mozilla Firefox Nightly",
+      "changeType": "updated",
+      "currentVersion": "150.0a1,2026-03-08-09-28-14",
+      "previousVersion": "150.0a1,2026-03-06-04-45-42",
+      "packageUrl": "https://formulae.brew.sh/cask/firefox@nightly"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "flowdown",
+      "name": "FlowDown",
+      "changeType": "updated",
+      "currentVersion": "4.6.2",
+      "previousVersion": "4.6.0",
+      "packageUrl": "https://formulae.brew.sh/cask/flowdown"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "fmail3",
+      "name": "FMail3",
+      "changeType": "updated",
+      "currentVersion": "2.0",
+      "previousVersion": "1.5.5",
+      "packageUrl": "https://formulae.brew.sh/cask/fmail3"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "font-mengshen-regular",
+      "name": "Mengshen Pinyin",
+      "changeType": "updated",
+      "currentVersion": "2.0.0,20260307-164439",
+      "previousVersion": "2.0.0,20250816-153246",
+      "packageUrl": "https://formulae.brew.sh/cask/font-mengshen-regular"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "font-miranda-sans",
+      "name": "Miranda Sans",
+      "changeType": "new",
+      "currentVersion": "latest",
+      "previousVersion": null,
+      "packageUrl": "https://formulae.brew.sh/cask/font-miranda-sans"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "font-simple-icons",
+      "name": "Simple Icons",
+      "changeType": "updated",
+      "currentVersion": "16.11.0",
+      "previousVersion": "16.10.0",
+      "packageUrl": "https://formulae.brew.sh/cask/font-simple-icons"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "freelens@nightly",
+      "name": "Freelens",
+      "changeType": "updated",
+      "currentVersion": "1.8.2-0-nightly-2026-03-08",
+      "previousVersion": "1.8.2-0-nightly-2026-03-06",
+      "packageUrl": "https://formulae.brew.sh/cask/freelens@nightly"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "ghdl",
+      "name": "ghdl",
+      "changeType": "updated",
+      "currentVersion": "6.0.0",
+      "previousVersion": "5.1.1",
+      "packageUrl": "https://formulae.brew.sh/cask/ghdl"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "ghostty@tip",
+      "name": "Ghostty",
+      "changeType": "updated",
+      "currentVersion": "15075,42d36359dbe3cb13adacf8e40ddf3c37c8a2e564",
+      "previousVersion": "15041,055ed28580e140f2a21b752946349750b963a7aa",
+      "packageUrl": "https://formulae.brew.sh/cask/ghostty@tip"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "gonhanh",
+      "name": "Gõ Nhanh",
+      "changeType": "updated",
+      "currentVersion": "1.0.131",
+      "previousVersion": "1.0.130",
+      "packageUrl": "https://formulae.brew.sh/cask/gonhanh"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "google-chrome@canary",
+      "name": "Google Chrome Canary",
+      "changeType": "updated",
+      "currentVersion": "147.0.7724.0",
+      "previousVersion": "147.0.7722.0",
+      "packageUrl": "https://formulae.brew.sh/cask/google-chrome@canary"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "hackolade",
+      "name": "Hackolade",
+      "changeType": "updated",
+      "currentVersion": "8.9.6",
+      "previousVersion": "8.9.5",
+      "packageUrl": "https://formulae.brew.sh/cask/hackolade"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "hiddenbar",
+      "name": "Hidden Bar",
+      "changeType": "updated",
+      "currentVersion": "1.10",
+      "previousVersion": "1.9",
+      "packageUrl": "https://formulae.brew.sh/cask/hiddenbar"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "iterm2@nightly",
+      "name": "iTerm2",
+      "changeType": "updated",
+      "currentVersion": "3_6_20260307",
+      "previousVersion": "3_6_20260306",
+      "packageUrl": "https://formulae.brew.sh/cask/iterm2@nightly"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "jamovi",
+      "name": "jamovi",
+      "changeType": "updated",
+      "currentVersion": "2.7.23.0",
+      "previousVersion": "2.7.22.0",
+      "packageUrl": "https://formulae.brew.sh/cask/jamovi"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "java@beta",
+      "name": "OpenJDK Early Access Java Development Kit",
+      "changeType": "updated",
+      "currentVersion": "27,12",
+      "previousVersion": "27,11",
+      "packageUrl": "https://formulae.brew.sh/cask/java@beta"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "jbrowse",
+      "name": "JBrowse",
+      "changeType": "updated",
+      "currentVersion": "4.1.14",
+      "previousVersion": "4.1.13",
+      "packageUrl": "https://formulae.brew.sh/cask/jbrowse"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "keepassxc@snapshot",
+      "name": "KeePassXC",
+      "changeType": "updated",
+      "currentVersion": "2.8.0,280954",
+      "previousVersion": "2.8.0,279189",
+      "packageUrl": "https://formulae.brew.sh/cask/keepassxc@snapshot"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "kogiqa",
+      "name": "kogiQA",
+      "changeType": "updated",
+      "currentVersion": "0.5.1029",
+      "previousVersion": "0.5.1006",
+      "packageUrl": "https://formulae.brew.sh/cask/kogiqa"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "linearmouse",
+      "name": "LinearMouse",
+      "changeType": "updated",
+      "currentVersion": "0.10.3",
+      "previousVersion": "0.10.2",
+      "packageUrl": "https://formulae.brew.sh/cask/linearmouse"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "linearmouse@beta",
+      "name": "LinearMouse",
+      "changeType": "updated",
+      "currentVersion": "0.10.3",
+      "previousVersion": "0.10.3-beta.2",
+      "packageUrl": "https://formulae.brew.sh/cask/linearmouse@beta"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "losslessswitcher",
+      "name": "LosslessSwitcher",
+      "changeType": "updated",
+      "currentVersion": "2.0,2",
+      "previousVersion": "1.1.0,1.1",
+      "packageUrl": "https://formulae.brew.sh/cask/losslessswitcher"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "lrtimelapse",
+      "name": "LRTimelapse",
+      "changeType": "updated",
+      "currentVersion": "7.5.1",
+      "previousVersion": "7.5.0",
+      "packageUrl": "https://formulae.brew.sh/cask/lrtimelapse"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "maa",
+      "name": "MAA",
+      "changeType": "updated",
+      "currentVersion": "6.4.0",
+      "previousVersion": "6.3.7",
+      "packageUrl": "https://formulae.brew.sh/cask/maa"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "macusb",
+      "name": "macUSB",
+      "changeType": "updated",
+      "currentVersion": "2.0.1",
+      "previousVersion": "2.0",
+      "packageUrl": "https://formulae.brew.sh/cask/macusb"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "maestro",
+      "name": "Maestro",
+      "changeType": "updated",
+      "currentVersion": "0.15.1",
+      "previousVersion": "0.14.5",
+      "packageUrl": "https://formulae.brew.sh/cask/maestro"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "masscode",
+      "name": "massCode",
+      "changeType": "updated",
+      "currentVersion": "4.6.0",
+      "previousVersion": "4.5.0",
+      "packageUrl": "https://formulae.brew.sh/cask/masscode"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "mattermost",
+      "name": "Mattermost",
+      "changeType": "updated",
+      "currentVersion": "6.1.0",
+      "previousVersion": "6.0.4",
+      "packageUrl": "https://formulae.brew.sh/cask/mattermost"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "mcbopomofo",
+      "name": "McBopomofo",
+      "changeType": "updated",
+      "currentVersion": "3.0",
+      "previousVersion": "2.9.5",
+      "packageUrl": "https://formulae.brew.sh/cask/mcbopomofo"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "meru",
+      "name": "Meru",
+      "changeType": "updated",
+      "currentVersion": "3.33.0",
+      "previousVersion": "3.32.1",
+      "packageUrl": "https://formulae.brew.sh/cask/meru"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "metasploit",
+      "name": "Metasploit Framework",
+      "changeType": "updated",
+      "currentVersion": "6.4.121,20260308055549",
+      "previousVersion": "6.4.120,20260306055601",
+      "packageUrl": "https://formulae.brew.sh/cask/metasploit"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "microsoft-edge@canary",
+      "name": "Microsoft Edge Canary",
+      "changeType": "updated",
+      "currentVersion": "147.0.3901.0,f82563b5-6741-4364-bab0-77bf35d0e270",
+      "previousVersion": "147.0.3898.0,20ffe50a-3881-49c3-a0bd-5d544522e8af",
+      "packageUrl": "https://formulae.brew.sh/cask/microsoft-edge@canary"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "mindwtr",
+      "name": "Mindwtr",
+      "changeType": "updated",
+      "currentVersion": "0.7.2",
+      "previousVersion": "0.7.1",
+      "packageUrl": "https://formulae.brew.sh/cask/mindwtr"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "miniconda",
+      "name": "Miniconda",
+      "changeType": "updated",
+      "currentVersion": "py313_26.1.1-1",
+      "previousVersion": "py313_25.11.1-1",
+      "packageUrl": "https://formulae.brew.sh/cask/miniconda"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "mochi-diffusion",
+      "name": "Mochi Diffusion",
+      "changeType": "updated",
+      "currentVersion": "6.0",
+      "previousVersion": "5.2",
+      "packageUrl": "https://formulae.brew.sh/cask/mochi-diffusion"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "modrinth",
+      "name": "Modrinth App",
+      "changeType": "updated",
+      "currentVersion": "0.11.3",
+      "previousVersion": "0.11.2",
+      "packageUrl": "https://formulae.brew.sh/cask/modrinth"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "mos",
+      "name": "Mos",
+      "changeType": "updated",
+      "currentVersion": "4.0.1,20260308.1",
+      "previousVersion": "4.0.0,20260220.1",
+      "packageUrl": "https://formulae.brew.sh/cask/mos"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "mucommander",
+      "name": "muCommander",
+      "changeType": "updated",
+      "currentVersion": "1.6.0-1",
+      "previousVersion": "1.5.2-1",
+      "packageUrl": "https://formulae.brew.sh/cask/mucommander"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "mx-power-gadget",
+      "name": "Mx Power Gadget",
+      "changeType": "updated",
+      "currentVersion": "1.6",
+      "previousVersion": "1.5.2",
+      "packageUrl": "https://formulae.brew.sh/cask/mx-power-gadget"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "nosqlbooster-for-mongodb",
+      "name": "NoSQLBooster for MongoDB",
+      "changeType": "updated",
+      "currentVersion": "10.1.4",
+      "previousVersion": "10.1.3",
+      "packageUrl": "https://formulae.brew.sh/cask/nosqlbooster-for-mongodb"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "nostalgiapp",
+      "name": "NostalgiApp",
+      "changeType": "updated",
+      "currentVersion": "1.0.7.2",
+      "previousVersion": "1.0.6.8",
+      "packageUrl": "https://formulae.brew.sh/cask/nostalgiapp"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "openclaw",
+      "name": "OpenClaw",
+      "changeType": "updated",
+      "currentVersion": "2026.3.7",
+      "previousVersion": "2026.3.2",
+      "packageUrl": "https://formulae.brew.sh/cask/openclaw"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "opencode-desktop",
+      "name": "OpenCode",
+      "changeType": "updated",
+      "currentVersion": "1.2.21",
+      "previousVersion": "1.2.20",
+      "packageUrl": "https://formulae.brew.sh/cask/opencode-desktop"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "openscad@snapshot",
+      "name": "OpenSCAD",
+      "changeType": "updated",
+      "currentVersion": "2026.03.07",
+      "previousVersion": "2026.03.01",
+      "packageUrl": "https://formulae.brew.sh/cask/openscad@snapshot"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "openthesaurus-deutsch",
+      "name": "OpenThesaurus Deutsch Dictionary plugin",
+      "changeType": "updated",
+      "currentVersion": "2026.03.07",
+      "previousVersion": "2026.01.06",
+      "packageUrl": "https://formulae.brew.sh/cask/openthesaurus-deutsch"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "osu@tachyon",
+      "name": "osu! (tachyon)",
+      "changeType": "updated",
+      "currentVersion": "2026.307.0-tachyon",
+      "previousVersion": "2026.305.0-lazer",
+      "packageUrl": "https://formulae.brew.sh/cask/osu@tachyon"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "paseo",
+      "name": "Paseo",
+      "changeType": "new",
+      "currentVersion": "0.1.18",
+      "previousVersion": null,
+      "packageUrl": "https://formulae.brew.sh/cask/paseo"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "passepartout",
+      "name": "Passepartout",
+      "changeType": "updated",
+      "currentVersion": "3.6.9",
+      "previousVersion": "3.6.8",
+      "packageUrl": "https://formulae.brew.sh/cask/passepartout"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "pencil2d",
+      "name": "Pencil2D",
+      "changeType": "updated",
+      "currentVersion": "0.7.1",
+      "previousVersion": "0.7.0",
+      "packageUrl": "https://formulae.brew.sh/cask/pencil2d"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "petrichor",
+      "name": "Petrichor",
+      "changeType": "updated",
+      "currentVersion": "1.4.1",
+      "previousVersion": "1.4.0",
+      "packageUrl": "https://formulae.brew.sh/cask/petrichor"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "picgo",
+      "name": "PicGo",
+      "changeType": "updated",
+      "currentVersion": "2.5.3",
+      "previousVersion": "2.5.3",
+      "packageUrl": "https://formulae.brew.sh/cask/picgo"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "pomotroid",
+      "name": "Pomotroid",
+      "changeType": "updated",
+      "currentVersion": "1.0.0",
+      "previousVersion": "0.13.0",
+      "packageUrl": "https://formulae.brew.sh/cask/pomotroid"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "postman",
+      "name": "Postman",
+      "changeType": "updated",
+      "currentVersion": "12.0.8",
+      "previousVersion": "12.0.6",
+      "packageUrl": "https://formulae.brew.sh/cask/postman"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "pritunl",
+      "name": "Pritunl",
+      "changeType": "updated",
+      "currentVersion": "1.3.4559.86",
+      "previousVersion": "1.3.4558.55",
+      "packageUrl": "https://formulae.brew.sh/cask/pritunl"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "protege",
+      "name": "Protégé",
+      "changeType": "updated",
+      "currentVersion": "5.6.9",
+      "previousVersion": "5.6.8",
+      "packageUrl": "https://formulae.brew.sh/cask/protege"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "qgis",
+      "name": "QGIS",
+      "changeType": "updated",
+      "currentVersion": "3.44.8",
+      "previousVersion": "3.44.7",
+      "packageUrl": "https://formulae.brew.sh/cask/qgis"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "reflect",
+      "name": "Reflect Notes",
+      "changeType": "updated",
+      "currentVersion": "3.2.0",
+      "previousVersion": "3.1.12",
+      "packageUrl": "https://formulae.brew.sh/cask/reflect"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "remnote",
+      "name": "RemNote",
+      "changeType": "updated",
+      "currentVersion": "1.24.0",
+      "previousVersion": "1.23.13",
+      "packageUrl": "https://formulae.brew.sh/cask/remnote"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "rstudio@daily",
+      "name": "RStudio Daily",
+      "changeType": "updated",
+      "currentVersion": "2026.04.0-daily-367",
+      "previousVersion": "2026.04.0-daily-347",
+      "packageUrl": "https://formulae.brew.sh/cask/rstudio@daily"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "scihubeva",
+      "name": "Sci-Hub EVA",
+      "changeType": "updated",
+      "currentVersion": "6.5.1",
+      "previousVersion": "6.4.1",
+      "packageUrl": "https://formulae.brew.sh/cask/scihubeva"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "servo",
+      "name": "Servo",
+      "changeType": "updated",
+      "currentVersion": "2026-03-07",
+      "previousVersion": "2026-03-04",
+      "packageUrl": "https://formulae.brew.sh/cask/servo"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "sfm",
+      "name": "SFM",
+      "changeType": "updated",
+      "currentVersion": "1.13.2",
+      "previousVersion": "1.13.1",
+      "packageUrl": "https://formulae.brew.sh/cask/sfm"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "socialstream",
+      "name": "Social Stream",
+      "changeType": "updated",
+      "currentVersion": "0.3.98",
+      "previousVersion": "0.3.95",
+      "packageUrl": "https://formulae.brew.sh/cask/socialstream"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "soundsource@test",
+      "name": "SoundSource",
+      "changeType": "updated",
+      "currentVersion": "6.0.5,3,20260306,1358,6057003",
+      "previousVersion": "6.0.5,1,20260303,1254,6057001",
+      "packageUrl": "https://formulae.brew.sh/cask/soundsource@test"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "super-productivity",
+      "name": "Super Productivity",
+      "changeType": "updated",
+      "currentVersion": "17.3.0",
+      "previousVersion": "17.2.4",
+      "packageUrl": "https://formulae.brew.sh/cask/super-productivity"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "superset",
+      "name": "Superset",
+      "changeType": "updated",
+      "currentVersion": "1.1.2",
+      "previousVersion": "1.0.7",
+      "packageUrl": "https://formulae.brew.sh/cask/superset"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "surge",
+      "name": "Surge",
+      "changeType": "updated",
+      "currentVersion": "6.4.4,10660,fab7cfc6bfb84df1424f90970adfcd6a",
+      "previousVersion": "6.4.3,10320,a70a06382543d5a6ae0c0296e4148569",
+      "packageUrl": "https://formulae.brew.sh/cask/surge"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "swiftformat-for-xcode",
+      "name": "SwiftFormat for Xcode",
+      "changeType": "updated",
+      "currentVersion": "0.60.1",
+      "previousVersion": "0.60.0",
+      "packageUrl": "https://formulae.brew.sh/cask/swiftformat-for-xcode"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "t3-code",
+      "name": "T3 Code",
+      "changeType": "new",
+      "currentVersion": "0.0.4",
+      "previousVersion": null,
+      "packageUrl": "https://formulae.brew.sh/cask/t3-code"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "tablepro",
+      "name": "TablePro",
+      "changeType": "new",
+      "currentVersion": "0.15.0",
+      "previousVersion": null,
+      "packageUrl": "https://formulae.brew.sh/cask/tablepro"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "thunderbird@daily",
+      "name": "Mozilla Thunderbird Daily",
+      "changeType": "updated",
+      "currentVersion": "150.0a1,2026-03-06-21-56-05",
+      "previousVersion": "150.0a1,2026-03-06-06-53-50",
+      "packageUrl": "https://formulae.brew.sh/cask/thunderbird@daily"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "ticktick",
+      "name": "TickTick",
+      "changeType": "updated",
+      "currentVersion": "8.0.21,463",
+      "previousVersion": "8.0.20,461",
+      "packageUrl": "https://formulae.brew.sh/cask/ticktick"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "tidal",
+      "name": "TIDAL",
+      "changeType": "updated",
+      "currentVersion": "2.40.0",
+      "previousVersion": "2.39.5",
+      "packageUrl": "https://formulae.brew.sh/cask/tidal"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "tinymediamanager",
+      "name": "tinyMediaManager",
+      "changeType": "updated",
+      "currentVersion": "5.2.8",
+      "previousVersion": "5.2.7.1",
+      "packageUrl": "https://formulae.brew.sh/cask/tinymediamanager"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "topaz-gigapixel",
+      "name": "Topaz Gigapixel",
+      "changeType": "updated",
+      "currentVersion": "1.1.3",
+      "previousVersion": "1.1.2",
+      "packageUrl": "https://formulae.brew.sh/cask/topaz-gigapixel"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "topaz-photo",
+      "name": "Topaz Photo",
+      "changeType": "updated",
+      "currentVersion": "1.3.1",
+      "previousVersion": "1.2.1",
+      "packageUrl": "https://formulae.brew.sh/cask/topaz-photo"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "treesheets",
+      "name": "TreeSheets",
+      "changeType": "updated",
+      "currentVersion": "3033",
+      "previousVersion": "3023",
+      "packageUrl": "https://formulae.brew.sh/cask/treesheets"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "trilium-notes",
+      "name": "TriliumNext Notes",
+      "changeType": "updated",
+      "currentVersion": "0.102.1",
+      "previousVersion": "0.102.0",
+      "packageUrl": "https://formulae.brew.sh/cask/trilium-notes"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "ultrastardeluxe",
+      "name": "UltraStar Deluxe",
+      "changeType": "updated",
+      "currentVersion": "2026.3.0",
+      "previousVersion": "2026.2.0",
+      "packageUrl": "https://formulae.brew.sh/cask/ultrastardeluxe"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "visual-studio-code",
+      "name": "Microsoft Visual Studio Code",
+      "changeType": "updated",
+      "currentVersion": "1.110.1",
+      "previousVersion": "1.110.0",
+      "packageUrl": "https://formulae.brew.sh/cask/visual-studio-code"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "visual-studio-code@insiders",
+      "name": "Microsoft Visual Studio Code Insiders",
+      "changeType": "updated",
+      "currentVersion": "1.111.0-insider,1772835039703,3d96350ed546b786ace7de5ff1d13ab7433073f6",
+      "previousVersion": "1.111.0-insider,1772796083034,5b38f1d5296b42ae51049d452362b673ff714dbe",
+      "packageUrl": "https://formulae.brew.sh/cask/visual-studio-code@insiders"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "vitalsource-bookshelf",
+      "name": "VitalSource Bookshelf",
+      "changeType": "updated",
+      "currentVersion": "11.3.0.3872",
+      "previousVersion": "11.2.1.3625",
+      "packageUrl": "https://formulae.brew.sh/cask/vitalsource-bookshelf"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "vscodium",
+      "name": "VSCodium",
+      "changeType": "updated",
+      "currentVersion": "1.110.11607",
+      "previousVersion": "1.110.01571",
+      "packageUrl": "https://formulae.brew.sh/cask/vscodium"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "warp@preview",
+      "name": "Warp Preview",
+      "changeType": "updated",
+      "currentVersion": "0.2026.03.04.08.22.preview_03",
+      "previousVersion": "0.2026.03.04.08.22.preview_02",
+      "packageUrl": "https://formulae.brew.sh/cask/warp@preview"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "wealthfolio",
+      "name": "Wealthfolio",
+      "changeType": "updated",
+      "currentVersion": "3.0.5",
+      "previousVersion": "3.0.4",
+      "packageUrl": "https://formulae.brew.sh/cask/wealthfolio"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "wine@devel",
+      "name": "WineHQ-devel",
+      "changeType": "updated",
+      "currentVersion": "11.4",
+      "previousVersion": "11.3",
+      "packageUrl": "https://formulae.brew.sh/cask/wine@devel"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "wins",
+      "name": "Wins",
+      "changeType": "updated",
+      "currentVersion": "3.2,48",
+      "previousVersion": "3.1.1,47",
+      "packageUrl": "https://formulae.brew.sh/cask/wins"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "wireless-workbench",
+      "name": "Wireless Workbench",
+      "changeType": "updated",
+      "currentVersion": "7.8.1,56",
+      "previousVersion": "7.8.0",
+      "packageUrl": "https://formulae.brew.sh/cask/wireless-workbench"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "xkey",
+      "name": "XKey",
+      "changeType": "updated",
+      "currentVersion": "1.2.20,20260307",
+      "previousVersion": "1.2.20,20260303",
+      "packageUrl": "https://formulae.brew.sh/cask/xkey"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "xpra",
+      "name": "Xpra",
+      "changeType": "updated",
+      "currentVersion": "6.4.3,0",
+      "previousVersion": "6.4.2,1",
+      "packageUrl": "https://formulae.brew.sh/cask/xpra"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "zen@twilight",
+      "name": "Zen Twilight",
+      "changeType": "updated",
+      "currentVersion": "1.20t,20260307110352",
+      "previousVersion": "1.20t,20260305114420",
+      "packageUrl": "https://formulae.brew.sh/cask/zen@twilight"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "zettlr",
+      "name": "Zettlr",
+      "changeType": "updated",
+      "currentVersion": "4.2.1",
+      "previousVersion": "4.2.0",
+      "packageUrl": "https://formulae.brew.sh/cask/zettlr"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "zo",
+      "name": "Zo",
+      "changeType": "updated",
+      "currentVersion": "1.2.2",
+      "previousVersion": "1.2.1",
+      "packageUrl": "https://formulae.brew.sh/cask/zo"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "cask",
+      "token": "zotero",
+      "name": "Zotero",
+      "changeType": "updated",
+      "currentVersion": "8.0.4",
+      "previousVersion": "8.0.3",
+      "packageUrl": "https://formulae.brew.sh/cask/zotero"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "airtable-mcp-server",
+      "name": "airtable-mcp-server",
+      "changeType": "updated",
+      "currentVersion": "1.13.0",
+      "previousVersion": "1.12.0",
+      "packageUrl": "https://formulae.brew.sh/formula/airtable-mcp-server"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "algol68g",
+      "name": "algol68g",
+      "changeType": "updated",
+      "currentVersion": "3.10.13",
+      "previousVersion": "3.10.12",
+      "packageUrl": "https://formulae.brew.sh/formula/algol68g"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "apibuilder-cli",
+      "name": "apibuilder-cli",
+      "changeType": "updated",
+      "currentVersion": "0.2.4",
+      "previousVersion": "0.2.3",
+      "packageUrl": "https://formulae.brew.sh/formula/apibuilder-cli"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "apkeep",
+      "name": "apkeep",
+      "changeType": "new",
+      "currentVersion": "0.18.0",
+      "previousVersion": null,
+      "packageUrl": "https://formulae.brew.sh/formula/apkeep"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "asc",
+      "name": "asc",
+      "changeType": "updated",
+      "currentVersion": "0.37.3",
+      "previousVersion": "0.37.1",
+      "packageUrl": "https://formulae.brew.sh/formula/asc"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "assh",
+      "name": "assh",
+      "changeType": "updated",
+      "currentVersion": "2.17.1",
+      "previousVersion": "2.17.0",
+      "packageUrl": "https://formulae.brew.sh/formula/assh"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "aws-sam-cli",
+      "name": "aws-sam-cli",
+      "changeType": "updated",
+      "currentVersion": "1.155.2",
+      "previousVersion": "1.154.0",
+      "packageUrl": "https://formulae.brew.sh/formula/aws-sam-cli"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "awscli",
+      "name": "awscli",
+      "changeType": "updated",
+      "currentVersion": "2.34.4_1",
+      "previousVersion": "2.34.3",
+      "packageUrl": "https://formulae.brew.sh/formula/awscli"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "azure-dev",
+      "name": "azure-dev",
+      "changeType": "updated",
+      "currentVersion": "1.23.8",
+      "previousVersion": "1.23.7",
+      "packageUrl": "https://formulae.brew.sh/formula/azure-dev"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "bkmr",
+      "name": "bkmr",
+      "changeType": "updated",
+      "currentVersion": "6.5.0",
+      "previousVersion": "6.5.0",
+      "packageUrl": "https://formulae.brew.sh/formula/bkmr"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "black",
+      "name": "black",
+      "changeType": "updated",
+      "currentVersion": "26.3.0_1",
+      "previousVersion": "26.1.0",
+      "packageUrl": "https://formulae.brew.sh/formula/black"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "bookokrat",
+      "name": "bookokrat",
+      "changeType": "updated",
+      "currentVersion": "0.3.7",
+      "previousVersion": "0.3.6",
+      "packageUrl": "https://formulae.brew.sh/formula/bookokrat"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "borgmatic",
+      "name": "borgmatic",
+      "changeType": "updated",
+      "currentVersion": "2.1.3",
+      "previousVersion": "2.1.2",
+      "packageUrl": "https://formulae.brew.sh/formula/borgmatic"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "brev",
+      "name": "brev",
+      "changeType": "updated",
+      "currentVersion": "0.6.318",
+      "previousVersion": "0.6.317",
+      "packageUrl": "https://formulae.brew.sh/formula/brev"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "cargo-binstall",
+      "name": "cargo-binstall",
+      "changeType": "updated",
+      "currentVersion": "1.17.7",
+      "previousVersion": "1.17.6",
+      "packageUrl": "https://formulae.brew.sh/formula/cargo-binstall"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "cargo-c",
+      "name": "cargo-c",
+      "changeType": "updated",
+      "currentVersion": "0.10.21",
+      "previousVersion": "0.10.20",
+      "packageUrl": "https://formulae.brew.sh/formula/cargo-c"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "cargo-msrv",
+      "name": "cargo-msrv",
+      "changeType": "updated",
+      "currentVersion": "0.19.2",
+      "previousVersion": "0.19.1",
+      "packageUrl": "https://formulae.brew.sh/formula/cargo-msrv"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "cdncheck",
+      "name": "cdncheck",
+      "changeType": "updated",
+      "currentVersion": "1.2.26",
+      "previousVersion": "1.2.25",
+      "packageUrl": "https://formulae.brew.sh/formula/cdncheck"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "cdxgen",
+      "name": "cdxgen",
+      "changeType": "updated",
+      "currentVersion": "12.1.2",
+      "previousVersion": "12.1.1",
+      "packageUrl": "https://formulae.brew.sh/formula/cdxgen"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "cf2tf",
+      "name": "cf2tf",
+      "changeType": "updated",
+      "currentVersion": "0.9.2",
+      "previousVersion": "0.9.1_2",
+      "packageUrl": "https://formulae.brew.sh/formula/cf2tf"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "code-cli",
+      "name": "code-cli",
+      "changeType": "updated",
+      "currentVersion": "1.110.1",
+      "previousVersion": "1.110",
+      "packageUrl": "https://formulae.brew.sh/formula/code-cli"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "codebook-lsp",
+      "name": "codebook-lsp",
+      "changeType": "updated",
+      "currentVersion": "0.3.32",
+      "previousVersion": "0.3.31",
+      "packageUrl": "https://formulae.brew.sh/formula/codebook-lsp"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "cookcli",
+      "name": "cookcli",
+      "changeType": "updated",
+      "currentVersion": "0.25.0",
+      "previousVersion": "0.24.0",
+      "packageUrl": "https://formulae.brew.sh/formula/cookcli"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "cpp-httplib",
+      "name": "cpp-httplib",
+      "changeType": "updated",
+      "currentVersion": "0.37.0",
+      "previousVersion": "0.36.0",
+      "packageUrl": "https://formulae.brew.sh/formula/cpp-httplib"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "dagu",
+      "name": "dagu",
+      "changeType": "updated",
+      "currentVersion": "2.2.0",
+      "previousVersion": "2.1.3",
+      "packageUrl": "https://formulae.brew.sh/formula/dagu"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "dash-mpd-cli",
+      "name": "dash-mpd-cli",
+      "changeType": "updated",
+      "currentVersion": "0.2.32",
+      "previousVersion": "0.2.31",
+      "packageUrl": "https://formulae.brew.sh/formula/dash-mpd-cli"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "diamond",
+      "name": "diamond",
+      "changeType": "updated",
+      "currentVersion": "2.1.24",
+      "previousVersion": "2.1.23",
+      "packageUrl": "https://formulae.brew.sh/formula/diamond"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "directx-headers",
+      "name": "directx-headers",
+      "changeType": "updated",
+      "currentVersion": "1.619.1_1",
+      "previousVersion": "1.619.0",
+      "packageUrl": "https://formulae.brew.sh/formula/directx-headers"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "dlpack",
+      "name": "dlpack",
+      "changeType": "new",
+      "currentVersion": "1.3",
+      "previousVersion": null,
+      "packageUrl": "https://formulae.brew.sh/formula/dlpack"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "dnscontrol",
+      "name": "dnscontrol",
+      "changeType": "updated",
+      "currentVersion": "4.36.1",
+      "previousVersion": "4.36.0",
+      "packageUrl": "https://formulae.brew.sh/formula/dnscontrol"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "docuum",
+      "name": "docuum",
+      "changeType": "updated",
+      "currentVersion": "0.26.1",
+      "previousVersion": "0.26.0",
+      "packageUrl": "https://formulae.brew.sh/formula/docuum"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "dolt",
+      "name": "dolt",
+      "changeType": "updated",
+      "currentVersion": "1.83.4_1",
+      "previousVersion": "1.83.3",
+      "packageUrl": "https://formulae.brew.sh/formula/dolt"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "dpkg",
+      "name": "dpkg",
+      "changeType": "updated",
+      "currentVersion": "1.23.7",
+      "previousVersion": "1.23.6",
+      "packageUrl": "https://formulae.brew.sh/formula/dpkg"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "dry",
+      "name": "dry",
+      "changeType": "updated",
+      "currentVersion": "0.12.2",
+      "previousVersion": "0.12.1",
+      "packageUrl": "https://formulae.brew.sh/formula/dry"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "e2fsprogs",
+      "name": "e2fsprogs",
+      "changeType": "updated",
+      "currentVersion": "1.47.4",
+      "previousVersion": "1.47.3",
+      "packageUrl": "https://formulae.brew.sh/formula/e2fsprogs"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "efm-langserver",
+      "name": "efm-langserver",
+      "changeType": "updated",
+      "currentVersion": "0.0.56",
+      "previousVersion": "0.0.55",
+      "packageUrl": "https://formulae.brew.sh/formula/efm-langserver"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "electric",
+      "name": "electric",
+      "changeType": "updated",
+      "currentVersion": "1.4.13",
+      "previousVersion": "1.4.12",
+      "packageUrl": "https://formulae.brew.sh/formula/electric"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "enzyme",
+      "name": "enzyme",
+      "changeType": "updated",
+      "currentVersion": "0.0.250",
+      "previousVersion": "0.0.249_1",
+      "packageUrl": "https://formulae.brew.sh/formula/enzyme"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "eslint",
+      "name": "eslint",
+      "changeType": "updated",
+      "currentVersion": "10.0.3",
+      "previousVersion": "10.0.2",
+      "packageUrl": "https://formulae.brew.sh/formula/eslint"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "fabric-ai",
+      "name": "fabric-ai",
+      "changeType": "updated",
+      "currentVersion": "1.4.433",
+      "previousVersion": "1.4.432",
+      "packageUrl": "https://formulae.brew.sh/formula/fabric-ai"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "fastfetch",
+      "name": "fastfetch",
+      "changeType": "updated",
+      "currentVersion": "2.60.0",
+      "previousVersion": "2.59.0",
+      "packageUrl": "https://formulae.brew.sh/formula/fastfetch"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "fd",
+      "name": "fd",
+      "changeType": "updated",
+      "currentVersion": "10.4.1",
+      "previousVersion": "10.3.0",
+      "packageUrl": "https://formulae.brew.sh/formula/fd"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "fgbio",
+      "name": "fgbio",
+      "changeType": "updated",
+      "currentVersion": "3.1.2",
+      "previousVersion": "3.1.1",
+      "packageUrl": "https://formulae.brew.sh/formula/fgbio"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "flix",
+      "name": "flix",
+      "changeType": "updated",
+      "currentVersion": "0.69.1",
+      "previousVersion": "0.68.0",
+      "packageUrl": "https://formulae.brew.sh/formula/flix"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "fnox",
+      "name": "fnox",
+      "changeType": "updated",
+      "currentVersion": "1.16.1",
+      "previousVersion": "1.15.1",
+      "packageUrl": "https://formulae.brew.sh/formula/fnox"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "gallery-dl",
+      "name": "gallery-dl",
+      "changeType": "updated",
+      "currentVersion": "1.31.9",
+      "previousVersion": "1.31.7",
+      "packageUrl": "https://formulae.brew.sh/formula/gallery-dl"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "gcli",
+      "name": "gcli",
+      "changeType": "updated",
+      "currentVersion": "2.10.0_1",
+      "previousVersion": "2.10.0",
+      "packageUrl": "https://formulae.brew.sh/formula/gcli"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "git-codereview",
+      "name": "git-codereview",
+      "changeType": "updated",
+      "currentVersion": "1.19.0",
+      "previousVersion": "1.18.0",
+      "packageUrl": "https://formulae.brew.sh/formula/git-codereview"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "git-machete",
+      "name": "git-machete",
+      "changeType": "updated",
+      "currentVersion": "3.39.1",
+      "previousVersion": "3.39.0",
+      "packageUrl": "https://formulae.brew.sh/formula/git-machete"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "git-pages",
+      "name": "git-pages",
+      "changeType": "updated",
+      "currentVersion": "0.6.1",
+      "previousVersion": "0.5.0",
+      "packageUrl": "https://formulae.brew.sh/formula/git-pages"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "gitbucket",
+      "name": "gitbucket",
+      "changeType": "updated",
+      "currentVersion": "4.46.0",
+      "previousVersion": "4.45.0",
+      "packageUrl": "https://formulae.brew.sh/formula/gitbucket"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "glances",
+      "name": "glances",
+      "changeType": "updated",
+      "currentVersion": "4.5.1",
+      "previousVersion": "4.5.0.5",
+      "packageUrl": "https://formulae.brew.sh/formula/glances"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "glaze",
+      "name": "glaze",
+      "changeType": "updated",
+      "currentVersion": "7.1.1",
+      "previousVersion": "7.1.0",
+      "packageUrl": "https://formulae.brew.sh/formula/glaze"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "gnome-papers",
+      "name": "gnome-papers",
+      "changeType": "updated",
+      "currentVersion": "49.5_1",
+      "previousVersion": "49.4",
+      "packageUrl": "https://formulae.brew.sh/formula/gnome-papers"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "go-parquet-tools",
+      "name": "go-parquet-tools",
+      "changeType": "updated",
+      "currentVersion": "1.47.7",
+      "previousVersion": "1.47.6",
+      "packageUrl": "https://formulae.brew.sh/formula/go-parquet-tools"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "go-task",
+      "name": "go-task",
+      "changeType": "updated",
+      "currentVersion": "3.49.0",
+      "previousVersion": "3.48.0",
+      "packageUrl": "https://formulae.brew.sh/formula/go-task"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "goat",
+      "name": "goat",
+      "changeType": "updated",
+      "currentVersion": "0.2.3",
+      "previousVersion": "0.2.2",
+      "packageUrl": "https://formulae.brew.sh/formula/goat"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "gobo",
+      "name": "gobo",
+      "changeType": "updated",
+      "currentVersion": "26.03",
+      "previousVersion": "26.01",
+      "packageUrl": "https://formulae.brew.sh/formula/gobo"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "golangci-lint",
+      "name": "golangci-lint",
+      "changeType": "updated",
+      "currentVersion": "2.11.2",
+      "previousVersion": "2.11.1",
+      "packageUrl": "https://formulae.brew.sh/formula/golangci-lint"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "googleworkspace-cli",
+      "name": "googleworkspace-cli",
+      "changeType": "updated",
+      "currentVersion": "0.8.0",
+      "previousVersion": "0.7.0",
+      "packageUrl": "https://formulae.brew.sh/formula/googleworkspace-cli"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "gopeed",
+      "name": "gopeed",
+      "changeType": "updated",
+      "currentVersion": "1.9.2",
+      "previousVersion": "1.9.1",
+      "packageUrl": "https://formulae.brew.sh/formula/gopeed"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "goreleaser",
+      "name": "goreleaser",
+      "changeType": "updated",
+      "currentVersion": "2.14.2",
+      "previousVersion": "2.14.1",
+      "packageUrl": "https://formulae.brew.sh/formula/goreleaser"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "goreman",
+      "name": "goreman",
+      "changeType": "updated",
+      "currentVersion": "0.3.17",
+      "previousVersion": "0.3.16",
+      "packageUrl": "https://formulae.brew.sh/formula/goreman"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "gperftools",
+      "name": "gperftools",
+      "changeType": "updated",
+      "currentVersion": "2.18.1",
+      "previousVersion": "2.18",
+      "packageUrl": "https://formulae.brew.sh/formula/gperftools"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "greenmask",
+      "name": "greenmask",
+      "changeType": "updated",
+      "currentVersion": "0.2.17",
+      "previousVersion": "0.2.16",
+      "packageUrl": "https://formulae.brew.sh/formula/greenmask"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "gtk4",
+      "name": "gtk4",
+      "changeType": "updated",
+      "currentVersion": "4.22.0_1",
+      "previousVersion": "4.20.3",
+      "packageUrl": "https://formulae.brew.sh/formula/gtk4"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "harfbuzz",
+      "name": "harfbuzz",
+      "changeType": "updated",
+      "currentVersion": "13.0.1",
+      "previousVersion": "13.0.0",
+      "packageUrl": "https://formulae.brew.sh/formula/harfbuzz"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "hk",
+      "name": "hk",
+      "changeType": "updated",
+      "currentVersion": "1.38.0",
+      "previousVersion": "1.37.0",
+      "packageUrl": "https://formulae.brew.sh/formula/hk"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "hpack",
+      "name": "hpack",
+      "changeType": "updated",
+      "currentVersion": "0.39.3",
+      "previousVersion": "0.39.1",
+      "packageUrl": "https://formulae.brew.sh/formula/hpack"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "iccdev",
+      "name": "iccdev",
+      "changeType": "updated",
+      "currentVersion": "2.3.1.5",
+      "previousVersion": "2.3.1.4_1",
+      "packageUrl": "https://formulae.brew.sh/formula/iccdev"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "imagemagick",
+      "name": "imagemagick",
+      "changeType": "updated",
+      "currentVersion": "7.1.2-16",
+      "previousVersion": "7.1.2-15_1",
+      "packageUrl": "https://formulae.brew.sh/formula/imagemagick"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "imagemagick-full",
+      "name": "imagemagick-full",
+      "changeType": "updated",
+      "currentVersion": "7.1.2-16",
+      "previousVersion": "7.1.2-15",
+      "packageUrl": "https://formulae.brew.sh/formula/imagemagick-full"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "imagemagick@6",
+      "name": "imagemagick@6",
+      "changeType": "updated",
+      "currentVersion": "6.9.13-41",
+      "previousVersion": "6.9.13-40",
+      "packageUrl": "https://formulae.brew.sh/formula/imagemagick@6"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "imapfilter",
+      "name": "imapfilter",
+      "changeType": "updated",
+      "currentVersion": "2.8.5",
+      "previousVersion": "2.8.3_1",
+      "packageUrl": "https://formulae.brew.sh/formula/imapfilter"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "ipget",
+      "name": "ipget",
+      "changeType": "updated",
+      "currentVersion": "0.13.0",
+      "previousVersion": "0.12.2",
+      "packageUrl": "https://formulae.brew.sh/formula/ipget"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "jabba",
+      "name": "jabba",
+      "changeType": "updated",
+      "currentVersion": "0.15.0",
+      "previousVersion": "0.14.0",
+      "packageUrl": "https://formulae.brew.sh/formula/jabba"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "jackett",
+      "name": "jackett",
+      "changeType": "updated",
+      "currentVersion": "0.24.1316",
+      "previousVersion": "0.24.1292",
+      "packageUrl": "https://formulae.brew.sh/formula/jackett"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "jvgrep",
+      "name": "jvgrep",
+      "changeType": "updated",
+      "currentVersion": "5.8.13",
+      "previousVersion": "5.8.12",
+      "packageUrl": "https://formulae.brew.sh/formula/jvgrep"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "kekkai",
+      "name": "kekkai",
+      "changeType": "updated",
+      "currentVersion": "0.2.4",
+      "previousVersion": "0.2.3",
+      "packageUrl": "https://formulae.brew.sh/formula/kekkai"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "killport",
+      "name": "killport",
+      "changeType": "updated",
+      "currentVersion": "2.0.0",
+      "previousVersion": "1.1.0",
+      "packageUrl": "https://formulae.brew.sh/formula/killport"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "kingfisher",
+      "name": "kingfisher",
+      "changeType": "updated",
+      "currentVersion": "1.86.0",
+      "previousVersion": "1.85.0",
+      "packageUrl": "https://formulae.brew.sh/formula/kingfisher"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "kubectl-tree",
+      "name": "kubectl-tree",
+      "changeType": "new",
+      "currentVersion": "0.4.6",
+      "previousVersion": null,
+      "packageUrl": "https://formulae.brew.sh/formula/kubectl-tree"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "lefthook",
+      "name": "lefthook",
+      "changeType": "updated",
+      "currentVersion": "2.1.3",
+      "previousVersion": "2.1.2",
+      "packageUrl": "https://formulae.brew.sh/formula/lefthook"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "libgsm",
+      "name": "libgsm",
+      "changeType": "updated",
+      "currentVersion": "1.0.24",
+      "previousVersion": "1.0.23",
+      "packageUrl": "https://formulae.brew.sh/formula/libgsm"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "libiconv",
+      "name": "libiconv",
+      "changeType": "updated",
+      "currentVersion": "1.19",
+      "previousVersion": "1.18",
+      "packageUrl": "https://formulae.brew.sh/formula/libiconv"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "libopenmpt",
+      "name": "libopenmpt",
+      "changeType": "updated",
+      "currentVersion": "0.8.4_1",
+      "previousVersion": "0.8.4",
+      "packageUrl": "https://formulae.brew.sh/formula/libopenmpt"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "libuv",
+      "name": "libuv",
+      "changeType": "updated",
+      "currentVersion": "1.52.1",
+      "previousVersion": "1.52.0",
+      "packageUrl": "https://formulae.brew.sh/formula/libuv"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "limine",
+      "name": "limine",
+      "changeType": "updated",
+      "currentVersion": "10.8.3",
+      "previousVersion": "10.8.2",
+      "packageUrl": "https://formulae.brew.sh/formula/limine"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "llama.cpp",
+      "name": "llama.cpp",
+      "changeType": "updated",
+      "currentVersion": "8230",
+      "previousVersion": "8210",
+      "packageUrl": "https://formulae.brew.sh/formula/llama.cpp"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "lowdown",
+      "name": "lowdown",
+      "changeType": "updated",
+      "currentVersion": "3.0.0",
+      "previousVersion": "2.0.4",
+      "packageUrl": "https://formulae.brew.sh/formula/lowdown"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "luau",
+      "name": "luau",
+      "changeType": "updated",
+      "currentVersion": "0.711",
+      "previousVersion": "0.710",
+      "packageUrl": "https://formulae.brew.sh/formula/luau"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "mage",
+      "name": "mage",
+      "changeType": "updated",
+      "currentVersion": "1.16.0",
+      "previousVersion": "1.15.0",
+      "packageUrl": "https://formulae.brew.sh/formula/mage"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "malcontent",
+      "name": "malcontent",
+      "changeType": "updated",
+      "currentVersion": "1.21.2",
+      "previousVersion": "1.21.1",
+      "packageUrl": "https://formulae.brew.sh/formula/malcontent"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "mcp-publisher",
+      "name": "mcp-publisher",
+      "changeType": "updated",
+      "currentVersion": "1.5.0",
+      "previousVersion": "1.4.1",
+      "packageUrl": "https://formulae.brew.sh/formula/mcp-publisher"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "mdserve",
+      "name": "mdserve",
+      "changeType": "updated",
+      "currentVersion": "1.1.0",
+      "previousVersion": "1.0.0",
+      "packageUrl": "https://formulae.brew.sh/formula/mdserve"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "memcached",
+      "name": "memcached",
+      "changeType": "updated",
+      "currentVersion": "1.6.41",
+      "previousVersion": "1.6.40",
+      "packageUrl": "https://formulae.brew.sh/formula/memcached"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "micasa",
+      "name": "micasa",
+      "changeType": "updated",
+      "currentVersion": "1.72.0",
+      "previousVersion": "1.65.0",
+      "packageUrl": "https://formulae.brew.sh/formula/micasa"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "mill",
+      "name": "mill",
+      "changeType": "updated",
+      "currentVersion": "1.1.3",
+      "previousVersion": "1.1.2",
+      "packageUrl": "https://formulae.brew.sh/formula/mill"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "mise",
+      "name": "mise",
+      "changeType": "updated",
+      "currentVersion": "2026.3.5",
+      "previousVersion": "2026.3.3",
+      "packageUrl": "https://formulae.brew.sh/formula/mise"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "mkbrr",
+      "name": "mkbrr",
+      "changeType": "new",
+      "currentVersion": "1.20.0",
+      "previousVersion": null,
+      "packageUrl": "https://formulae.brew.sh/formula/mkbrr"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "mlx-lm",
+      "name": "mlx-lm",
+      "changeType": "updated",
+      "currentVersion": "0.31.0",
+      "previousVersion": "0.30.7",
+      "packageUrl": "https://formulae.brew.sh/formula/mlx-lm"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "mole",
+      "name": "mole",
+      "changeType": "updated",
+      "currentVersion": "1.30.0",
+      "previousVersion": "1.29.0",
+      "packageUrl": "https://formulae.brew.sh/formula/mole"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "moor",
+      "name": "moor",
+      "changeType": "updated",
+      "currentVersion": "2.11.1",
+      "previousVersion": "2.11.0",
+      "packageUrl": "https://formulae.brew.sh/formula/moor"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "mx",
+      "name": "mx",
+      "changeType": "updated",
+      "currentVersion": "7.72.1",
+      "previousVersion": "7.72.0",
+      "packageUrl": "https://formulae.brew.sh/formula/mx"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "mycli",
+      "name": "mycli",
+      "changeType": "updated",
+      "currentVersion": "1.62.0",
+      "previousVersion": "1.60.0",
+      "packageUrl": "https://formulae.brew.sh/formula/mycli"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "n8n-mcp",
+      "name": "n8n-mcp",
+      "changeType": "updated",
+      "currentVersion": "2.36.1",
+      "previousVersion": "2.35.6",
+      "packageUrl": "https://formulae.brew.sh/formula/n8n-mcp"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "node@22",
+      "name": "node@22",
+      "changeType": "updated",
+      "currentVersion": "22.22.1_1",
+      "previousVersion": "22.22.1",
+      "packageUrl": "https://formulae.brew.sh/formula/node@22"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "ntfy",
+      "name": "ntfy",
+      "changeType": "updated",
+      "currentVersion": "2.18.0",
+      "previousVersion": "2.17.0",
+      "packageUrl": "https://formulae.brew.sh/formula/ntfy"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "nullclaw",
+      "name": "nullclaw",
+      "changeType": "updated",
+      "currentVersion": "2026.3.7",
+      "previousVersion": "2026.3.5",
+      "packageUrl": "https://formulae.brew.sh/formula/nullclaw"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "openclaw-cli",
+      "name": "openclaw-cli",
+      "changeType": "updated",
+      "currentVersion": "2026.3.7",
+      "previousVersion": "2026.3.2",
+      "packageUrl": "https://formulae.brew.sh/formula/openclaw-cli"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "openmotif",
+      "name": "openmotif",
+      "changeType": "updated",
+      "currentVersion": "2.3.8_4",
+      "previousVersion": "2.3.8_3",
+      "packageUrl": "https://formulae.brew.sh/formula/openmotif"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "openspec",
+      "name": "openspec",
+      "changeType": "new",
+      "currentVersion": "1.2.0",
+      "previousVersion": null,
+      "packageUrl": "https://formulae.brew.sh/formula/openspec"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "oxen",
+      "name": "oxen",
+      "changeType": "updated",
+      "currentVersion": "0.45.0",
+      "previousVersion": "0.44.2",
+      "packageUrl": "https://formulae.brew.sh/formula/oxen"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "parsedmarc",
+      "name": "parsedmarc",
+      "changeType": "updated",
+      "currentVersion": "9.1.2",
+      "previousVersion": "9.1.1",
+      "packageUrl": "https://formulae.brew.sh/formula/parsedmarc"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "pet",
+      "name": "pet",
+      "changeType": "new",
+      "currentVersion": "1.0.1",
+      "previousVersion": null,
+      "packageUrl": "https://formulae.brew.sh/formula/pet"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "pi-coding-agent",
+      "name": "pi-coding-agent",
+      "changeType": "updated",
+      "currentVersion": "0.57.1",
+      "previousVersion": "0.56.3",
+      "packageUrl": "https://formulae.brew.sh/formula/pi-coding-agent"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "pnpm",
+      "name": "pnpm",
+      "changeType": "updated",
+      "currentVersion": "10.31.0",
+      "previousVersion": "10.30.3",
+      "packageUrl": "https://formulae.brew.sh/formula/pnpm"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "psysh",
+      "name": "psysh",
+      "changeType": "updated",
+      "currentVersion": "0.12.21",
+      "previousVersion": "0.12.20",
+      "packageUrl": "https://formulae.brew.sh/formula/psysh"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "pv",
+      "name": "pv",
+      "changeType": "updated",
+      "currentVersion": "1.10.4",
+      "previousVersion": "1.10.3",
+      "packageUrl": "https://formulae.brew.sh/formula/pv"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "quill",
+      "name": "quill",
+      "changeType": "updated",
+      "currentVersion": "11.1.0",
+      "previousVersion": "11.0.2",
+      "packageUrl": "https://formulae.brew.sh/formula/quill"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "rclone",
+      "name": "rclone",
+      "changeType": "updated",
+      "currentVersion": "1.73.2",
+      "previousVersion": "1.73.1",
+      "packageUrl": "https://formulae.brew.sh/formula/rclone"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "redress",
+      "name": "redress",
+      "changeType": "updated",
+      "currentVersion": "1.2.58",
+      "previousVersion": "1.2.57",
+      "packageUrl": "https://formulae.brew.sh/formula/redress"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "rulesync",
+      "name": "rulesync",
+      "changeType": "updated",
+      "currentVersion": "7.15.2",
+      "previousVersion": "7.15.1",
+      "packageUrl": "https://formulae.brew.sh/formula/rulesync"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "rumdl",
+      "name": "rumdl",
+      "changeType": "updated",
+      "currentVersion": "0.1.43",
+      "previousVersion": "0.1.42",
+      "packageUrl": "https://formulae.brew.sh/formula/rumdl"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "rust",
+      "name": "rust",
+      "changeType": "updated",
+      "currentVersion": "1.94.0",
+      "previousVersion": "1.93.1_1",
+      "packageUrl": "https://formulae.brew.sh/formula/rust"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "shadcn",
+      "name": "shadcn",
+      "changeType": "updated",
+      "currentVersion": "4.0.2",
+      "previousVersion": "4.0.0",
+      "packageUrl": "https://formulae.brew.sh/formula/shadcn"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "simdutf",
+      "name": "simdutf",
+      "changeType": "updated",
+      "currentVersion": "8.1.0",
+      "previousVersion": "8.0.0",
+      "packageUrl": "https://formulae.brew.sh/formula/simdutf"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "sing-box",
+      "name": "sing-box",
+      "changeType": "updated",
+      "currentVersion": "1.13.2",
+      "previousVersion": "1.13.1",
+      "packageUrl": "https://formulae.brew.sh/formula/sing-box"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "spicedb",
+      "name": "spicedb",
+      "changeType": "new",
+      "currentVersion": "1.49.2",
+      "previousVersion": null,
+      "packageUrl": "https://formulae.brew.sh/formula/spicedb"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "spicetify-cli",
+      "name": "spicetify-cli",
+      "changeType": "updated",
+      "currentVersion": "2.42.14",
+      "previousVersion": "2.42.13",
+      "packageUrl": "https://formulae.brew.sh/formula/spicetify-cli"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "sqlpage",
+      "name": "sqlpage",
+      "changeType": "updated",
+      "currentVersion": "0.43.0",
+      "previousVersion": "0.42.0",
+      "packageUrl": "https://formulae.brew.sh/formula/sqlpage"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "storm",
+      "name": "storm",
+      "changeType": "updated",
+      "currentVersion": "2.8.4",
+      "previousVersion": "2.8.3",
+      "packageUrl": "https://formulae.brew.sh/formula/storm"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "stylua",
+      "name": "stylua",
+      "changeType": "updated",
+      "currentVersion": "2.4.0",
+      "previousVersion": "2.3.1",
+      "packageUrl": "https://formulae.brew.sh/formula/stylua"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "swiftformat",
+      "name": "swiftformat",
+      "changeType": "updated",
+      "currentVersion": "0.60.1",
+      "previousVersion": "0.60.0",
+      "packageUrl": "https://formulae.brew.sh/formula/swiftformat"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "tach",
+      "name": "tach",
+      "changeType": "updated",
+      "currentVersion": "0.34.0",
+      "previousVersion": "0.33.4",
+      "packageUrl": "https://formulae.brew.sh/formula/tach"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "taglib",
+      "name": "taglib",
+      "changeType": "updated",
+      "currentVersion": "2.2.1",
+      "previousVersion": "2.2",
+      "packageUrl": "https://formulae.brew.sh/formula/taglib"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "teku",
+      "name": "teku",
+      "changeType": "updated",
+      "currentVersion": "26.3.0",
+      "previousVersion": "26.2.0",
+      "packageUrl": "https://formulae.brew.sh/formula/teku"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "teleport",
+      "name": "teleport",
+      "changeType": "updated",
+      "currentVersion": "18.7.2",
+      "previousVersion": "18.7.1",
+      "packageUrl": "https://formulae.brew.sh/formula/teleport"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "tinyproxy",
+      "name": "tinyproxy",
+      "changeType": "updated",
+      "currentVersion": "1.11.3",
+      "previousVersion": "1.11.2",
+      "packageUrl": "https://formulae.brew.sh/formula/tinyproxy"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "tombi",
+      "name": "tombi",
+      "changeType": "updated",
+      "currentVersion": "0.9.3",
+      "previousVersion": "0.9.1",
+      "packageUrl": "https://formulae.brew.sh/formula/tombi"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "topgrade",
+      "name": "topgrade",
+      "changeType": "updated",
+      "currentVersion": "17.0.0",
+      "previousVersion": "16.9.0",
+      "packageUrl": "https://formulae.brew.sh/formula/topgrade"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "tox",
+      "name": "tox",
+      "changeType": "updated",
+      "currentVersion": "4.49.0",
+      "previousVersion": "4.48.1",
+      "packageUrl": "https://formulae.brew.sh/formula/tox"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "tronbyt-server",
+      "name": "tronbyt-server",
+      "changeType": "updated",
+      "currentVersion": "2.2.3",
+      "previousVersion": "2.2.2",
+      "packageUrl": "https://formulae.brew.sh/formula/tronbyt-server"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "ttdl",
+      "name": "ttdl",
+      "changeType": "updated",
+      "currentVersion": "4.25.0",
+      "previousVersion": "4.24.4",
+      "packageUrl": "https://formulae.brew.sh/formula/ttdl"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "unciv",
+      "name": "unciv",
+      "changeType": "updated",
+      "currentVersion": "4.19.17",
+      "previousVersion": "4.19.16",
+      "packageUrl": "https://formulae.brew.sh/formula/unciv"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "uv",
+      "name": "uv",
+      "changeType": "updated",
+      "currentVersion": "0.10.9",
+      "previousVersion": "0.10.8",
+      "packageUrl": "https://formulae.brew.sh/formula/uv"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "vapoursynth-bestsource",
+      "name": "vapoursynth-bestsource",
+      "changeType": "new",
+      "currentVersion": "16",
+      "previousVersion": null,
+      "packageUrl": "https://formulae.brew.sh/formula/vapoursynth-bestsource"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "video-compare",
+      "name": "video-compare",
+      "changeType": "updated",
+      "currentVersion": "20260308",
+      "previousVersion": "20260214",
+      "packageUrl": "https://formulae.brew.sh/formula/video-compare"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "vnu",
+      "name": "vnu",
+      "changeType": "updated",
+      "currentVersion": "26.3.8",
+      "previousVersion": "26.3.5",
+      "packageUrl": "https://formulae.brew.sh/formula/vnu"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "vte3",
+      "name": "vte3",
+      "changeType": "updated",
+      "currentVersion": "0.82.3_2",
+      "previousVersion": "0.82.3_1",
+      "packageUrl": "https://formulae.brew.sh/formula/vte3"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "vuls",
+      "name": "vuls",
+      "changeType": "new",
+      "currentVersion": "0.38.5",
+      "previousVersion": null,
+      "packageUrl": "https://formulae.brew.sh/formula/vuls"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "weechat",
+      "name": "weechat",
+      "changeType": "updated",
+      "currentVersion": "4.8.2",
+      "previousVersion": "4.8.1_3",
+      "packageUrl": "https://formulae.brew.sh/formula/weechat"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "wumpus",
+      "name": "wumpus",
+      "changeType": "updated",
+      "currentVersion": "1.11",
+      "previousVersion": "1.10",
+      "packageUrl": "https://formulae.brew.sh/formula/wumpus"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "x-cmd",
+      "name": "x-cmd",
+      "changeType": "updated",
+      "currentVersion": "0.8.5",
+      "previousVersion": "0.8.3",
+      "packageUrl": "https://formulae.brew.sh/formula/x-cmd"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "yoke",
+      "name": "yoke",
+      "changeType": "updated",
+      "currentVersion": "0.20.6",
+      "previousVersion": "0.20.5",
+      "packageUrl": "https://formulae.brew.sh/formula/yoke"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "zeptoclaw",
+      "name": "zeptoclaw",
+      "changeType": "updated",
+      "currentVersion": "0.7.1",
+      "previousVersion": "0.6.2",
+      "packageUrl": "https://formulae.brew.sh/formula/zeptoclaw"
+    },
+    {
+      "date": "2026-03-08",
+      "kind": "formula",
+      "token": "zizmor",
+      "name": "zizmor",
+      "changeType": "updated",
+      "currentVersion": "1.23.0",
+      "previousVersion": "1.22.0",
+      "packageUrl": "https://formulae.brew.sh/formula/zizmor"
+    }
+  ]
 }
