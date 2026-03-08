@@ -1,21 +1,28 @@
 ---
 import FeedCard from "./FeedCard.astro";
 import SiteLayout from "../layouts/SiteLayout.astro";
-import { createFeedBrowserModel, renderEmptyStateMarkup, renderResultsSummary } from "../lib/feed/browser";
+import {
+  createFeedBrowserModel,
+  formatFeedDate,
+  renderEmptyStateMarkup,
+  renderResultsSummary
+} from "../lib/feed/browser";
 import type { FeedData, FeedMeta, FeedWindow } from "../lib/feed/types";
 
 interface Props {
   feedData: FeedData;
-  metaData: FeedMeta;
+  metaData?: FeedMeta;
 }
 
 const { feedData, metaData } = Astro.props;
 const defaultModel = createFeedBrowserModel(feedData, {
-  search: ""
+  search: "",
+  metaData
 });
 const windowLabels: Record<FeedWindow, string> = {
   today: "Today",
-  week: "This Week",
+  last7: "Last 7 Days",
+  previous7: "Previous 7 Days",
   month: "This Month"
 };
 ---
@@ -29,9 +36,13 @@ const windowLabels: Record<FeedWindow, string> = {
       digging through raw JSON or commit logs.
     </p>
     <div class="snapshot-strip">
-      <span><strong>Latest snapshot:</strong> {metaData.latestSnapshotDate ?? "No snapshot yet"}</span>
-      <span><strong>Published items:</strong> {metaData.itemCount}</span>
-      <span><strong>Snapshots retained:</strong> {metaData.snapshotCount}</span>
+      <span><strong>Latest snapshot:</strong> {feedData.latestSnapshotDate ?? "No snapshot yet"}</span>
+      <span><strong>Published items:</strong> {feedData.items.length}</span>
+      {
+        defaultModel.viewMeta.trustedSnapshotCount !== null && (
+          <span><strong>Snapshots retained:</strong> {defaultModel.viewMeta.trustedSnapshotCount}</span>
+        )
+      }
     </div>
   </section>
 
@@ -39,13 +50,13 @@ const windowLabels: Record<FeedWindow, string> = {
     <div class="controls" data-feed-app>
       <div class="window-pills" data-window-controls>
         {
-          (["today", "week", "month"] as const).map((window) => (
+          (["today", "last7", "previous7", "month"] as const).map((window) => (
             <button
               class={`window-pill ${defaultModel.state.window === window ? "is-active" : ""}`}
               data-window={window}
               type="button"
             >
-              {windowLabels[window]} <span>{metaData.windowCounts[window]}</span>
+              {windowLabels[window]} <span>{defaultModel.viewMeta.windowCounts[window]}</span>
             </button>
           ))
         }
@@ -76,18 +87,23 @@ const windowLabels: Record<FeedWindow, string> = {
         {renderResultsSummary(
           defaultModel.visibleItems.length,
           defaultModel.state.window,
-          feedData.latestSnapshotDate
+          defaultModel.viewMeta.browseAnchorDate
         )}
       </p>
 
       <div class="feed-list" data-feed-list>
-        {
-          defaultModel.visibleItems.length > 0 ? (
-            defaultModel.visibleItems.map((item) => <FeedCard item={item} />)
-          ) : (
-            <Fragment set:html={renderEmptyStateMarkup(metaData)} />
-          )
-        }
+        {defaultModel.visibleGroups.length > 0 ? (
+          defaultModel.visibleGroups.map((group) => (
+            <section class="feed-group">
+              <h2 class="feed-group__heading">{formatFeedDate(group.date)}</h2>
+              <div class="feed-group__items">
+                {group.items.map((item) => <FeedCard item={item} />)}
+              </div>
+            </section>
+          ))
+        ) : (
+          <Fragment set:html={renderEmptyStateMarkup(defaultModel.viewMeta)} />
+        )}
       </div>
     </div>
   </section>

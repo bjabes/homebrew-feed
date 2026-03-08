@@ -1,14 +1,28 @@
-import { filterFeedItems } from "./core";
-import type { FeedBrowserModel, FeedBrowserState, FeedData, FeedMeta, FeedWindow } from "./types";
+import { deriveFeedMeta, filterFeedItems, groupFeedItemsByDate } from "./core";
+import type {
+  FeedBrowserState,
+  FeedData,
+  FeedItem,
+  FeedMeta,
+  FeedWindow
+} from "./types";
 
 const WINDOW_LABELS: Record<FeedWindow, string> = {
   today: "Today",
-  week: "This Week",
+  last7: "Last 7 Days",
+  previous7: "Previous 7 Days",
   month: "This Month"
 };
 
+interface FeedBrowserModel {
+  state: FeedBrowserState;
+  viewMeta: ReturnType<typeof deriveFeedMeta>;
+  visibleItems: FeedItem[];
+  visibleGroups: ReturnType<typeof groupFeedItemsByDate>;
+}
+
 function parseWindow(value: string | null): FeedWindow {
-  if (value === "week" || value === "month") {
+  if (value === "last7" || value === "previous7" || value === "month") {
     return value;
   }
 
@@ -33,7 +47,7 @@ function parseSearchParams(search: string): FeedBrowserState {
   };
 }
 
-function formatLongDate(date: string | null): string {
+export function formatFeedDate(date: string | null): string {
   if (!date) {
     return "No snapshot yet";
   }
@@ -75,18 +89,46 @@ function buildSearch(value: FeedBrowserState): string {
   return query ? `?${query}` : "";
 }
 
+function renderFeedCardMarkup(item: FeedItem): string {
+  return `
+    <article class="feed-card">
+      <div class="feed-card__meta">
+        <span class="chip chip--${item.kind}">${item.kind}</span>
+        <span class="chip chip--${item.changeType}">${item.changeType}</span>
+      </div>
+      <div class="feed-card__body">
+        <h3><a href="${escapeHtml(item.packageUrl)}">${escapeHtml(item.name)}</a></h3>
+        <p class="feed-card__token">${escapeHtml(item.token)}</p>
+        <p class="feed-card__version">
+          ${escapeHtml(item.previousVersion ?? "new")} &rarr; ${escapeHtml(item.currentVersion)}
+        </p>
+      </div>
+    </article>
+  `;
+}
+
+function buildModel(feedData: FeedData, state: FeedBrowserState, metaData?: FeedMeta | null): FeedBrowserModel {
+  const viewMeta = deriveFeedMeta(feedData, metaData);
+  const visibleItems = filterFeedItems(feedData.items, state, viewMeta.browseAnchorDate);
+
+  return {
+    state,
+    viewMeta,
+    visibleItems,
+    visibleGroups: groupFeedItemsByDate(visibleItems)
+  };
+}
+
 export function createFeedBrowserModel(
   feedData: FeedData,
   options: {
     search: string;
+    metaData?: FeedMeta | null;
   }
 ): FeedBrowserModel {
   const state = parseSearchParams(options.search);
 
-  return {
-    state,
-    visibleItems: filterFeedItems(feedData.items, state, feedData.latestSnapshotDate)
-  };
+  return buildModel(feedData, state, options.metaData);
 }
 
 export function renderResultsSummary(
@@ -94,11 +136,11 @@ export function renderResultsSummary(
   window: FeedWindow,
   latestSnapshotDate: string | null
 ): string {
-  return `${count} packages in ${WINDOW_LABELS[window]} ending ${formatLongDate(latestSnapshotDate)}`;
+  return `${count} packages in ${WINDOW_LABELS[window]} ending ${formatFeedDate(latestSnapshotDate)}`;
 }
 
-export function renderEmptyStateMarkup(metaData: FeedMeta): string {
-  if (metaData.snapshotCount < 2 && metaData.latestSnapshotDate) {
+export function renderEmptyStateMarkup(viewMeta: ReturnType<typeof deriveFeedMeta>): string {
+  if (viewMeta.trustedSnapshotCount === 1 && viewMeta.browseAnchorDate) {
     return `
       <div class="empty-state">
         <p>First snapshot captured. Changes will appear after the next daily refresh.</p>
@@ -113,28 +155,20 @@ export function renderEmptyStateMarkup(metaData: FeedMeta): string {
   `;
 }
 
-export function renderFeedListMarkup(model: FeedBrowserModel, metaData: FeedMeta): string {
-  if (model.visibleItems.length === 0) {
-    return renderEmptyStateMarkup(metaData);
+export function renderFeedListMarkup(model: FeedBrowserModel, _metaData?: FeedMeta | null): string {
+  if (model.visibleGroups.length === 0) {
+    return renderEmptyStateMarkup(model.viewMeta);
   }
 
-  return model.visibleItems
+  return model.visibleGroups
     .map(
-      (item) => `
-        <article class="feed-card">
-          <div class="feed-card__meta">
-            <span class="chip chip--${item.kind}">${item.kind}</span>
-            <span class="chip chip--${item.changeType}">${item.changeType}</span>
-            <span class="feed-card__date">${escapeHtml(item.date)}</span>
+      (group) => `
+        <section class="feed-group">
+          <h2 class="feed-group__heading">${escapeHtml(formatFeedDate(group.date))}</h2>
+          <div class="feed-group__items">
+            ${group.items.map((item) => renderFeedCardMarkup(item)).join("")}
           </div>
-          <div class="feed-card__body">
-            <h3><a href="${escapeHtml(item.packageUrl)}">${escapeHtml(item.name)}</a></h3>
-            <p class="feed-card__token">${escapeHtml(item.token)}</p>
-            <p class="feed-card__version">
-              ${escapeHtml(item.previousVersion ?? "new")} &rarr; ${escapeHtml(item.currentVersion)}
-            </p>
-          </div>
-        </article>
+        </section>
       `
     )
     .join("");
@@ -143,7 +177,7 @@ export function renderFeedListMarkup(model: FeedBrowserModel, metaData: FeedMeta
 export function hydrateFeedPage(
   doc: Document,
   feedData: FeedData,
-  metaData: FeedMeta,
+  metaData?: FeedMeta | null,
   options: {
     search?: string;
   } = {}
@@ -164,14 +198,11 @@ export function hydrateFeedPage(
   }).state;
 
   const render = () => {
-    const model = {
-      state,
-      visibleItems: filterFeedItems(feedData.items, state, feedData.latestSnapshotDate)
-    };
+    const model = buildModel(feedData, state, metaData);
 
-    windowControls.innerHTML = (["today", "week", "month"] as const)
+    windowControls.innerHTML = (["today", "last7", "previous7", "month"] as const)
       .map((window) => {
-        const count = metaData.windowCounts[window];
+        const count = model.viewMeta.windowCounts[window];
         const activeClass = state.window === window ? "is-active" : "";
 
         return `
@@ -196,9 +227,9 @@ export function hydrateFeedPage(
     resultsSummary.textContent = renderResultsSummary(
       model.visibleItems.length,
       state.window,
-      feedData.latestSnapshotDate
+      model.viewMeta.browseAnchorDate
     );
-    feedList.innerHTML = renderFeedListMarkup(model, metaData);
+    feedList.innerHTML = renderFeedListMarkup(model);
 
     const search = buildSearch(state);
     const history = doc.defaultView?.history;

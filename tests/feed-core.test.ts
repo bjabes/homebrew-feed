@@ -4,6 +4,7 @@ import {
   buildFeedData,
   buildSnapshot,
   diffSnapshots,
+  filterFeedItems,
   formatSnapshotVersion,
   normalizeCaskEntry,
   normalizeFormulaEntry
@@ -139,8 +140,118 @@ describe("feed core", () => {
     expect(artifacts.feed.items).toHaveLength(5);
     expect(artifacts.meta.windowCounts).toEqual({
       today: 3,
-      week: 5,
+      last7: 5,
+      previous7: 0,
       month: 5
     });
+  });
+
+  it("filters rolling windows without overlapping previous 7 days", () => {
+    const items = [
+      {
+        date: "2026-03-06",
+        kind: "formula",
+        token: "today-package",
+        name: "today-package",
+        changeType: "new",
+        currentVersion: "1.0.0",
+        previousVersion: null,
+        packageUrl: "https://formulae.brew.sh/formula/today-package"
+      },
+      {
+        date: "2026-03-01",
+        kind: "formula",
+        token: "last-seven-package",
+        name: "last-seven-package",
+        changeType: "new",
+        currentVersion: "1.0.0",
+        previousVersion: null,
+        packageUrl: "https://formulae.brew.sh/formula/last-seven-package"
+      },
+      {
+        date: "2026-02-28",
+        kind: "formula",
+        token: "last-seven-edge",
+        name: "last-seven-edge",
+        changeType: "new",
+        currentVersion: "1.0.0",
+        previousVersion: null,
+        packageUrl: "https://formulae.brew.sh/formula/last-seven-edge"
+      },
+      {
+        date: "2026-02-27",
+        kind: "cask",
+        token: "previous-seven-edge",
+        name: "previous-seven-edge",
+        changeType: "updated",
+        currentVersion: "2.0.0",
+        previousVersion: "1.0.0",
+        packageUrl: "https://formulae.brew.sh/cask/previous-seven-edge"
+      },
+      {
+        date: "2026-02-22",
+        kind: "cask",
+        token: "previous-seven-middle",
+        name: "previous-seven-middle",
+        changeType: "updated",
+        currentVersion: "2.0.0",
+        previousVersion: "1.0.0",
+        packageUrl: "https://formulae.brew.sh/cask/previous-seven-middle"
+      },
+      {
+        date: "2026-02-21",
+        kind: "cask",
+        token: "previous-seven-start",
+        name: "previous-seven-start",
+        changeType: "updated",
+        currentVersion: "2.0.0",
+        previousVersion: "1.0.0",
+        packageUrl: "https://formulae.brew.sh/cask/previous-seven-start"
+      }
+    ] as const;
+
+    expect(
+      filterFeedItems(items, { window: "last7", type: "all", q: "" }, "2026-03-06").map(
+        (item) => item.token
+      )
+    ).toEqual(["today-package", "last-seven-package", "last-seven-edge"]);
+
+    expect(
+      filterFeedItems(items, { window: "previous7", type: "all", q: "" }, "2026-03-06").map(
+        (item) => item.token
+      )
+    ).toEqual(["previous-seven-edge", "previous-seven-middle", "previous-seven-start"]);
+  });
+
+  it("falls back to the newest item date when feed metadata is missing", () => {
+    const items = [
+      {
+        date: "2026-03-06",
+        kind: "formula",
+        token: "ripgrep",
+        name: "ripgrep",
+        changeType: "new",
+        currentVersion: "14.1.1",
+        previousVersion: null,
+        packageUrl: "https://formulae.brew.sh/formula/ripgrep"
+      },
+      {
+        date: "2026-03-04",
+        kind: "cask",
+        token: "visual-studio-code",
+        name: "Visual Studio Code",
+        changeType: "updated",
+        currentVersion: "1.99.0",
+        previousVersion: "1.98.0",
+        packageUrl: "https://formulae.brew.sh/cask/visual-studio-code"
+      }
+    ] as const;
+
+    expect(
+      filterFeedItems(items, { window: "today", type: "all", q: "" }, null).map((item) => item.token)
+    ).toEqual(["ripgrep"]);
+    expect(
+      filterFeedItems(items, { window: "month", type: "all", q: "" }, null).map((item) => item.token)
+    ).toEqual(["ripgrep", "visual-studio-code"]);
   });
 });

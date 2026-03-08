@@ -10,7 +10,19 @@ import type {
 } from "./types";
 
 const RECENT_FEED_DAYS = 45;
-const WINDOW_ORDER: FeedWindow[] = ["today", "week", "month"];
+const WINDOW_ORDER: FeedWindow[] = ["today", "last7", "previous7", "month"];
+
+export interface FeedItemGroup {
+  date: string;
+  items: FeedItem[];
+}
+
+export interface FeedDerivedMeta {
+  browseAnchorDate: string | null;
+  itemCount: number;
+  trustedSnapshotCount: number | null;
+  windowCounts: Record<FeedWindow, number>;
+}
 
 function toIsoDate(value: Date): string {
   return value.toISOString().slice(0, 10);
@@ -24,12 +36,6 @@ function addUtcDays(date: Date, days: number): Date {
   const next = new Date(date);
   next.setUTCDate(next.getUTCDate() + days);
   return next;
-}
-
-function startOfWeek(date: Date): Date {
-  const day = date.getUTCDay();
-  const delta = day === 0 ? -6 : 1 - day;
-  return addUtcDays(date, delta);
 }
 
 function startOfMonth(date: Date): Date {
@@ -57,6 +63,16 @@ function createSignature(parts: Array<string | number | undefined>): string {
 }
 
 function compareEntries(left: SnapshotEntry, right: SnapshotEntry): number {
+  return `${left.kind}:${left.token}`.localeCompare(`${right.kind}:${right.token}`);
+}
+
+function compareFeedItems(left: FeedItem, right: FeedItem): number {
+  const dateComparison = right.date.localeCompare(left.date);
+
+  if (dateComparison !== 0) {
+    return dateComparison;
+  }
+
   return `${left.kind}:${left.token}`.localeCompare(`${right.kind}:${right.token}`);
 }
 
@@ -167,31 +183,69 @@ export function diffSnapshots(
   return items.sort((left, right) => `${left.kind}:${left.token}`.localeCompare(`${right.kind}:${right.token}`));
 }
 
-export function getWindowStart(date: string, window: FeedWindow): Date {
-  const latestDate = parseIsoDate(date);
+export function resolveFeedAnchorDate(
+  items: readonly FeedItem[],
+  latestSnapshotDate: string | null
+): string | null {
+  if (latestSnapshotDate) {
+    return latestSnapshotDate;
+  }
+
+  let newestItemDate: string | null = null;
+
+  for (const item of items) {
+    if (!newestItemDate || item.date > newestItemDate) {
+      newestItemDate = item.date;
+    }
+  }
+
+  return newestItemDate;
+}
+
+function getWindowBounds(anchorDate: string, window: FeedWindow): { startDate: Date; endDate: Date } {
+  const latestDate = parseIsoDate(anchorDate);
 
   if (window === "today") {
-    return latestDate;
+    return {
+      startDate: latestDate,
+      endDate: latestDate
+    };
   }
 
-  if (window === "week") {
-    return startOfWeek(latestDate);
+  if (window === "last7") {
+    return {
+      startDate: addUtcDays(latestDate, -6),
+      endDate: latestDate
+    };
   }
 
-  return startOfMonth(latestDate);
+  if (window === "previous7") {
+    const endDate = addUtcDays(latestDate, -7);
+
+    return {
+      startDate: addUtcDays(endDate, -6),
+      endDate
+    };
+  }
+
+  return {
+    startDate: startOfMonth(latestDate),
+    endDate: latestDate
+  };
 }
 
 export function filterFeedItems(
-  items: FeedItem[],
+  items: readonly FeedItem[],
   state: Pick<FeedBrowserState, "window" | "type" | "q">,
   latestSnapshotDate: string | null
 ): FeedItem[] {
-  if (!latestSnapshotDate) {
+  const anchorDate = resolveFeedAnchorDate(items, latestSnapshotDate);
+
+  if (!anchorDate) {
     return [];
   }
 
-  const startDate = getWindowStart(latestSnapshotDate, state.window);
-  const endDate = parseIsoDate(latestSnapshotDate);
+  const { startDate, endDate } = getWindowBounds(anchorDate, state.window);
   const query = state.q.trim().toLowerCase();
 
   return items
@@ -209,33 +263,65 @@ export function filterFeedItems(
       const haystack = `${item.name} ${item.token}`.toLowerCase();
       return haystack.includes(query);
     })
-    .sort((left, right) => {
-      const dateComparison = right.date.localeCompare(left.date);
-
-      if (dateComparison !== 0) {
-        return dateComparison;
-      }
-
-      return `${left.kind}:${left.token}`.localeCompare(`${right.kind}:${right.token}`);
-    });
+    .sort(compareFeedItems);
 }
 
-function buildWindowCounts(items: FeedItem[], latestSnapshotDate: string | null): Record<FeedWindow, number> {
+export function groupFeedItemsByDate(items: readonly FeedItem[]): FeedItemGroup[] {
+  const groups: FeedItemGroup[] = [];
+
+  for (const item of [...items].sort(compareFeedItems)) {
+    const currentGroup = groups.at(-1);
+
+    if (currentGroup?.date === item.date) {
+      currentGroup.items.push(item);
+      continue;
+    }
+
+    groups.push({
+      date: item.date,
+      items: [item]
+    });
+  }
+
+  return groups;
+}
+
+function buildWindowCounts(items: readonly FeedItem[], latestSnapshotDate: string | null): Record<FeedWindow, number> {
   const counts = {
     today: 0,
-    week: 0,
+    last7: 0,
+    previous7: 0,
     month: 0
   };
 
-  if (!latestSnapshotDate) {
+  const anchorDate = resolveFeedAnchorDate(items, latestSnapshotDate);
+
+  if (!anchorDate) {
     return counts;
   }
 
   for (const window of WINDOW_ORDER) {
-    counts[window] = filterFeedItems(items, { window, type: "all", q: "" }, latestSnapshotDate).length;
+    counts[window] = filterFeedItems(items, { window, type: "all", q: "" }, anchorDate).length;
   }
 
   return counts;
+}
+
+export function deriveFeedMeta(feedData: FeedData, metaData?: FeedMeta | null): FeedDerivedMeta {
+  const browseAnchorDate = resolveFeedAnchorDate(feedData.items, feedData.latestSnapshotDate);
+  const trustedSnapshotCount =
+    metaData &&
+    metaData.snapshotCount > 0 &&
+    metaData.latestSnapshotDate === browseAnchorDate
+      ? metaData.snapshotCount
+      : null;
+
+  return {
+    browseAnchorDate,
+    itemCount: feedData.items.length,
+    trustedSnapshotCount,
+    windowCounts: buildWindowCounts(feedData.items, browseAnchorDate)
+  };
 }
 
 export function buildFeedData(
@@ -259,15 +345,7 @@ export function buildFeedData(
   const recentItems =
     recentStartDate === null
       ? []
-      : allItems.filter((item) => item.date >= recentStartDate).sort((left, right) => {
-          const dateComparison = right.date.localeCompare(left.date);
-
-          if (dateComparison !== 0) {
-            return dateComparison;
-          }
-
-          return `${left.kind}:${left.token}`.localeCompare(`${right.kind}:${right.token}`);
-        });
+      : allItems.filter((item) => item.date >= recentStartDate).sort(compareFeedItems);
 
   return {
     feed: {
@@ -301,7 +379,8 @@ export function createEmptyFeedMeta(generatedAt = "1970-01-01T00:00:00.000Z"): F
     itemCount: 0,
     windowCounts: {
       today: 0,
-      week: 0,
+      last7: 0,
+      previous7: 0,
       month: 0
     }
   };

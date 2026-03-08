@@ -1,11 +1,14 @@
 import { readFile } from "node:fs/promises";
+import { join } from "node:path";
 
 import { createEmptyFeedData, createEmptyFeedMeta } from "./core";
 import type { FeedData, FeedMeta } from "./types";
 
-async function loadJson<T>(url: URL, fallback: T): Promise<T> {
+const PUBLIC_DATA_DIR = join(process.cwd(), "public", "data");
+
+async function loadJson<T>(filePath: string, fallback: T): Promise<T> {
   try {
-    const contents = await readFile(url, "utf8");
+    const contents = await readFile(filePath, "utf8");
     return JSON.parse(contents) as T;
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code === "ENOENT") {
@@ -17,9 +20,9 @@ async function loadJson<T>(url: URL, fallback: T): Promise<T> {
 }
 
 export async function loadFeedData(): Promise<FeedData> {
-  return loadJson(new URL("../../../public/data/feed.json", import.meta.url), createEmptyFeedData());
+  return loadJson(join(PUBLIC_DATA_DIR, "feed.json"), createEmptyFeedData());
 }
 
 export async function loadFeedMeta(): Promise<FeedMeta> {
-  return loadJson(new URL("../../../public/data/meta.json", import.meta.url), createEmptyFeedMeta());
+  return loadJson(join(PUBLIC_DATA_DIR, "meta.json"), createEmptyFeedMeta());
 }

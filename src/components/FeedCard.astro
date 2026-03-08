@@ -12,7 +12,6 @@ const { item } = Astro.props;
   <div class="feed-card__meta">
     <span class={`chip chip--${item.kind}`}>{item.kind}</span>
     <span class={`chip chip--${item.changeType}`}>{item.changeType}</span>
-    <span class="feed-card__date">{item.date}</span>
   </div>
   <div class="feed-card__body">
     <h3>

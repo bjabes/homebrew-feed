@@ -1,6 +1,6 @@
 export type PackageKind = "formula" | "cask";
 export type ChangeType = "new" | "updated";
-export type FeedWindow = "today" | "week" | "month";
+export type FeedWindow = "today" | "last7" | "previous7" | "month";
 export type FeedFilterKind = "all" | PackageKind;
 
 export interface SnapshotEntry {

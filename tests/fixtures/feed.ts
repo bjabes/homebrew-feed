@@ -119,7 +119,8 @@ export const sampleMetaData = {
   itemCount: 4,
   windowCounts: {
     today: 2,
-    week: 3,
-    month: 4
+    last7: 3,
+    previous7: 0,
+    month: 3
   }
 };

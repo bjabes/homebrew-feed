@@ -5,7 +5,8 @@
   "itemCount": 476,
   "windowCounts": {
     "today": 198,
-    "week": 198,
+    "last7": 476,
+    "previous7": 0,
     "month": 476
   }
 }

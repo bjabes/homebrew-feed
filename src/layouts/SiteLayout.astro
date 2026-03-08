@@ -196,6 +196,24 @@ const { title } = Astro.props;
 
       .feed-list {
         display: grid;
+        gap: 1.2rem;
+      }
+
+      .feed-group {
+        display: grid;
+        gap: 0.75rem;
+      }
+
+      .feed-group__heading {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.9rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .feed-group__items {
+        display: grid;
         gap: 0.9rem;
       }
 
@@ -244,7 +262,6 @@ const { title } = Astro.props;
         color: var(--new);
       }
 
-      .feed-card__date,
       .feed-card__token {
         color: var(--muted);
         font-size: 0.92rem;
