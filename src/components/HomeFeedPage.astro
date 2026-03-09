@@ -14,11 +14,20 @@ interface Props {
   metaData?: FeedMeta;
 }
 
+function serializeJsonForScript(value: unknown): string {
+  return JSON.stringify(value)
+    .replaceAll("<", "\\u003c")
+    .replaceAll("\u2028", "\\u2028")
+    .replaceAll("\u2029", "\\u2029");
+}
+
 const { feedData, metaData } = Astro.props;
 const defaultModel = createFeedBrowserModel(feedData, {
   search: "",
   metaData
 });
+const serializedFeedData = serializeJsonForScript(feedData);
+const serializedMetaData = serializeJsonForScript(metaData ?? null);
 const windowLabels: Record<FeedWindow, string> = {
   today: "Today",
   last7: "Last 7 Days",
@@ -108,9 +117,9 @@ const windowLabels: Record<FeedWindow, string> = {
     </div>
   </section>
 
-  <script type="module" define:vars={{ feedData, metaData }}>
-    import { hydrateFeedPage } from "../lib/feed/browser";
-
-    hydrateFeedPage(document, feedData, metaData);
+  <script type="application/json" id="feed-data" set:html={serializedFeedData}></script>
+  <script type="application/json" id="feed-meta" set:html={serializedMetaData}></script>
+  <script>
+    import "../lib/feed/client";
   </script>
 </SiteLayout>
