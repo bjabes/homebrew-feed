@@ -1,7 +1,13 @@
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 
-import { buildFeedData, buildSnapshot, createEmptyFeedData, createEmptyFeedMeta } from "./core";
+import {
+  buildDescriptionLookup,
+  buildFeedData,
+  buildSnapshot,
+  createEmptyFeedData,
+  createEmptyFeedMeta
+} from "./core";
 import type { DailySnapshot, FeedData, FeedMeta } from "./types";
 
 const FORMULA_API_URL = "https://formulae.brew.sh/api/formula.json";
@@ -115,6 +121,16 @@ function pickRecentArtifacts(snapshots: DailySnapshot[], generatedAt: string): {
   return buildFeedData(snapshots, generatedAt);
 }
 
+function enrichFeedWithDescriptions(feed: FeedData, descriptions: ReadonlyMap<string, string>): FeedData {
+  return {
+    ...feed,
+    items: feed.items.map((item) => ({
+      ...item,
+      description: descriptions.get(`${item.kind}:${item.token}`)
+    }))
+  };
+}
+
 export async function runFeedUpdate(options: FeedUpdateOptions): Promise<{
   changed: boolean;
   snapshotPath: string;
@@ -122,6 +138,7 @@ export async function runFeedUpdate(options: FeedUpdateOptions): Promise<{
 }> {
   const fetchCollections = options.fetchCollections ?? defaultFetchCollections;
   const { formulae, casks } = await fetchCollections();
+  const descriptions = buildDescriptionLookup(formulae, casks);
 
   const snapshot: DailySnapshot = {
     date: options.date,
@@ -134,16 +151,17 @@ export async function runFeedUpdate(options: FeedUpdateOptions): Promise<{
   );
   const snapshots = [...priorSnapshots, snapshot].sort((left, right) => left.date.localeCompare(right.date));
   const artifacts = pickRecentArtifacts(snapshots, options.generatedAt);
+  const feed = enrichFeedWithDescriptions(artifacts.feed, descriptions);
 
   await ensureDirectory(options.publicDataDir);
 
   const snapshotChanged = await writeJsonIfChanged(snapshotPath, snapshot);
-  const feedChanged = await writeJsonIfChanged(join(options.publicDataDir, "feed.json"), artifacts.feed);
+  const feedChanged = await writeJsonIfChanged(join(options.publicDataDir, "feed.json"), feed);
   const metaChanged = await writeJsonIfChanged(join(options.publicDataDir, "meta.json"), artifacts.meta);
 
   return {
     changed: snapshotChanged || feedChanged || metaChanged,
     snapshotPath,
-    latestSnapshotDate: artifacts.feed.latestSnapshotDate
+    latestSnapshotDate: feed.latestSnapshotDate
   };
 }

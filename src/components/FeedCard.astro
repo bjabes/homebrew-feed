@@ -17,7 +17,7 @@ const { item } = Astro.props;
     <h3>
       <a href={item.packageUrl}>{item.name}</a>
     </h3>
-    <p class="feed-card__token">{item.token}</p>
+    <p class="feed-card__token">{item.description ?? item.token}</p>
     <p class="feed-card__version">
       {item.previousVersion ?? "new"} → {item.currentVersion}
     </p>

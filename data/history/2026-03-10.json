@@ -1,6 +1,6 @@
 {
   "date": "2026-03-10",
-  "generatedAt": "2026-03-10T14:20:57.542Z",
+  "generatedAt": "2026-03-10T21:13:12.077Z",
   "entries": [
     {
       "kind": "cask",
@@ -52,9 +52,9 @@
       "token": "1password",
       "name": "1Password",
       "packageUrl": "https://formulae.brew.sh/cask/1password",
-      "version": "8.12.5",
-      "sha256": "1b820e5717da132ce17bbe1efc86cdb764d23c080d705d70ae2fcf6e2e17afb2",
-      "signature": "cask::1password::8.12.5::1b820e5717da132ce17bbe1efc86cdb764d23c080d705d70ae2fcf6e2e17afb2"
+      "version": "8.12.6",
+      "sha256": "d4de5b28c152bb26792875e198b7af7b0b022d9be3ba759339b070e5031f6dc6",
+      "signature": "cask::1password::8.12.6::d4de5b28c152bb26792875e198b7af7b0b022d9be3ba759339b070e5031f6dc6"
     },
     {
       "kind": "cask",
@@ -1159,9 +1159,9 @@
       "token": "aldente",
       "name": "AlDente",
       "packageUrl": "https://formulae.brew.sh/cask/aldente",
-      "version": "1.36.3",
-      "sha256": "44b5892ba2b44433822bea10134944c1e33215df7698304c5e116103780d83d7",
-      "signature": "cask::aldente::1.36.3::44b5892ba2b44433822bea10134944c1e33215df7698304c5e116103780d83d7"
+      "version": "1.37",
+      "sha256": "9e4c09978c4c85b76874146dc321b621c98395326712b3af13272371d00c3f6a",
+      "signature": "cask::aldente::1.37::9e4c09978c4c85b76874146dc321b621c98395326712b3af13272371d00c3f6a"
     },
     {
       "kind": "cask",
@@ -1321,9 +1321,9 @@
       "token": "alma",
       "name": "Alma",
       "packageUrl": "https://formulae.brew.sh/cask/alma",
-      "version": "0.0.675",
-      "sha256": "ce57bf987e0836d742f92571c097d4385df32a0a8d03ac2429cb1a151ec49a00",
-      "signature": "cask::alma::0.0.675::ce57bf987e0836d742f92571c097d4385df32a0a8d03ac2429cb1a151ec49a00"
+      "version": "0.0.690",
+      "sha256": "d4be1df6b0a9775f27f45a8022d4dba5dd46cf516380d10016ed92bf0c584736",
+      "signature": "cask::alma::0.0.690::d4be1df6b0a9775f27f45a8022d4dba5dd46cf516380d10016ed92bf0c584736"
     },
     {
       "kind": "cask",
@@ -3481,9 +3481,9 @@
       "token": "bdash",
       "name": "Bdash",
       "packageUrl": "https://formulae.brew.sh/cask/bdash",
-      "version": "1.32.0",
-      "sha256": "5ef33147ff54414ea877683ec6cd3d83de8434d255a5f3290368a8d6bb9f8130",
-      "signature": "cask::bdash::1.32.0::5ef33147ff54414ea877683ec6cd3d83de8434d255a5f3290368a8d6bb9f8130"
+      "version": "1.33.0",
+      "sha256": "dc1a9ea9761decd3dfc7f3c18c65af429e4f5644b404b75694f87674618394b1",
+      "signature": "cask::bdash::1.33.0::dc1a9ea9761decd3dfc7f3c18c65af429e4f5644b404b75694f87674618394b1"
     },
     {
       "kind": "cask",
@@ -5551,9 +5551,9 @@
       "token": "captains-deck",
       "name": "Captain's Deck",
       "packageUrl": "https://formulae.brew.sh/cask/captains-deck",
-      "version": "1.3.3",
-      "sha256": "df33a2f4f0859e176d59b1384abf187041e7b28d1a8af97a42f6da4a190291b2",
-      "signature": "cask::captains-deck::1.3.3::df33a2f4f0859e176d59b1384abf187041e7b28d1a8af97a42f6da4a190291b2"
+      "version": "1.3.3.1",
+      "sha256": "43faac48628bc2d93c6bb4309ccf855c71a01304b2ba7af6f408ccb059db84c0",
+      "signature": "cask::captains-deck::1.3.3.1::43faac48628bc2d93c6bb4309ccf855c71a01304b2ba7af6f408ccb059db84c0"
     },
     {
       "kind": "cask",
@@ -6820,9 +6820,9 @@
       "token": "cloudflare-warp@beta",
       "name": "Cloudflare WARP",
       "packageUrl": "https://formulae.brew.sh/cask/cloudflare-warp@beta",
-      "version": "2026.1.89.1",
-      "sha256": "00bfebd1db36bf9b8def7c45ff40dd34cf17dc980ac93ef36912a5fa5439a04c",
-      "signature": "cask::cloudflare-warp@beta::2026.1.89.1::00bfebd1db36bf9b8def7c45ff40dd34cf17dc980ac93ef36912a5fa5439a04c"
+      "version": "2026.3.566.1",
+      "sha256": "227a8e5ed52e24b72f062a65199bf044e5e61e526ff3d5adfaaeb3d19d2dc3e8",
+      "signature": "cask::cloudflare-warp@beta::2026.3.566.1::227a8e5ed52e24b72f062a65199bf044e5e61e526ff3d5adfaaeb3d19d2dc3e8"
     },
     {
       "kind": "cask",
@@ -7171,9 +7171,9 @@
       "token": "codexmonitor",
       "name": "CodexMonitor",
       "packageUrl": "https://formulae.brew.sh/cask/codexmonitor",
-      "version": "0.7.60",
-      "sha256": "0530eaf867707d8fdadb5e6536cecce6709dc69fb6e590f9c5dd49e99a4af0a7",
-      "signature": "cask::codexmonitor::0.7.60::0530eaf867707d8fdadb5e6536cecce6709dc69fb6e590f9c5dd49e99a4af0a7"
+      "version": "0.7.62",
+      "sha256": "d320d7c1117bfe84482d6b172155cb8c59025a40d907357edcbc84bc0a6e0068",
+      "signature": "cask::codexmonitor::0.7.62::d320d7c1117bfe84482d6b172155cb8c59025a40d907357edcbc84bc0a6e0068"
     },
     {
       "kind": "cask",
@@ -7693,9 +7693,9 @@
       "token": "copilot-cli@prerelease",
       "name": "GitHub Copilot CLI",
       "packageUrl": "https://formulae.brew.sh/cask/copilot-cli@prerelease",
-      "version": "1.0.3-2",
-      "sha256": "0b57f7890121c033f7cdcc174e56d3d303d1e91019b3ba3cb1f18a934003dbc1",
-      "signature": "cask::copilot-cli@prerelease::1.0.3-2::0b57f7890121c033f7cdcc174e56d3d303d1e91019b3ba3cb1f18a934003dbc1"
+      "version": "1.0.4-0",
+      "sha256": "a6ce784cc10213d731a6349be89e4189a6292525ffd92325f7ee7f349592aacf",
+      "signature": "cask::copilot-cli@prerelease::1.0.4-0::a6ce784cc10213d731a6349be89e4189a6292525ffd92325f7ee7f349592aacf"
     },
     {
       "kind": "cask",
@@ -8215,9 +8215,9 @@
       "token": "cursor",
       "name": "Cursor",
       "packageUrl": "https://formulae.brew.sh/cask/cursor",
-      "version": "2.6.14,eb1c4e0702d201d1226d2a7afb25c501c2e56088",
-      "sha256": "36b95b291f5b3dbcb13b2ae38e82cdd2f8c189337eb1895b9258284281a0af35",
-      "signature": "cask::cursor::2.6.14,eb1c4e0702d201d1226d2a7afb25c501c2e56088::36b95b291f5b3dbcb13b2ae38e82cdd2f8c189337eb1895b9258284281a0af35"
+      "version": "2.6.18,68fbec5aed9da587d1c6a64172792f505bafa252",
+      "sha256": "eda9717b7ababe5ef714c675513e64b8686b7c7dbe1e4b31d04cd655104fb552",
+      "signature": "cask::cursor::2.6.18,68fbec5aed9da587d1c6a64172792f505bafa252::eda9717b7ababe5ef714c675513e64b8686b7c7dbe1e4b31d04cd655104fb552"
     },
     {
       "kind": "cask",
@@ -8305,9 +8305,9 @@
       "token": "cycling74-max",
       "name": "Cycling ‘74 Max",
       "packageUrl": "https://formulae.brew.sh/cask/cycling74-max",
-      "version": "9.1.2,251218",
-      "sha256": "11b7e3c460eaf5a9399c4f3aa206bfd3c775cdf8181f005da03668de483e4e32",
-      "signature": "cask::cycling74-max::9.1.2,251218::11b7e3c460eaf5a9399c4f3aa206bfd3c775cdf8181f005da03668de483e4e32"
+      "version": "9.1.3,260310",
+      "sha256": "f1503fe3e2958701fcb516e3cf3162a3c0a2b5c11c9b157cbab3b7b5e615d115",
+      "signature": "cask::cycling74-max::9.1.3,260310::f1503fe3e2958701fcb516e3cf3162a3c0a2b5c11c9b157cbab3b7b5e615d115"
     },
     {
       "kind": "cask",
@@ -9655,9 +9655,9 @@
       "token": "ditto",
       "name": "Ditto",
       "packageUrl": "https://formulae.brew.sh/cask/ditto",
-      "version": "1.11.8",
-      "sha256": "c9f22f136df2354d259b54359289bb539226fec16176821e7c9106b4bd745d80",
-      "signature": "cask::ditto::1.11.8::c9f22f136df2354d259b54359289bb539226fec16176821e7c9106b4bd745d80"
+      "version": "1.11.9",
+      "sha256": "27fcad6aa285a21c23eca05938bcab5f0123b20228c2049382080c8fc8c0d6f5",
+      "signature": "cask::ditto::1.11.9::27fcad6aa285a21c23eca05938bcab5f0123b20228c2049382080c8fc8c0d6f5"
     },
     {
       "kind": "cask",
@@ -10015,27 +10015,27 @@
       "token": "dotnet-runtime",
       "name": ".Net Runtime",
       "packageUrl": "https://formulae.brew.sh/cask/dotnet-runtime",
-      "version": "10.0.3",
-      "sha256": "6ba4b86156668860fab6c37b0163a4e2beee2a66ef63dfb648931be320748b68",
-      "signature": "cask::dotnet-runtime::10.0.3::6ba4b86156668860fab6c37b0163a4e2beee2a66ef63dfb648931be320748b68"
+      "version": "10.0.4",
+      "sha256": "001d12611eb7cdf06434a7e1155979839aa818deace63d35f1838f3906704f73",
+      "signature": "cask::dotnet-runtime::10.0.4::001d12611eb7cdf06434a7e1155979839aa818deace63d35f1838f3906704f73"
     },
     {
       "kind": "cask",
       "token": "dotnet-runtime@preview",
       "name": ".Net Runtime",
       "packageUrl": "https://formulae.brew.sh/cask/dotnet-runtime@preview",
-      "version": "10.0.3",
-      "sha256": "6ba4b86156668860fab6c37b0163a4e2beee2a66ef63dfb648931be320748b68",
-      "signature": "cask::dotnet-runtime@preview::10.0.3::6ba4b86156668860fab6c37b0163a4e2beee2a66ef63dfb648931be320748b68"
+      "version": "10.0.4",
+      "sha256": "001d12611eb7cdf06434a7e1155979839aa818deace63d35f1838f3906704f73",
+      "signature": "cask::dotnet-runtime@preview::10.0.4::001d12611eb7cdf06434a7e1155979839aa818deace63d35f1838f3906704f73"
     },
     {
       "kind": "cask",
       "token": "dotnet-sdk",
       "name": ".NET SDK",
       "packageUrl": "https://formulae.brew.sh/cask/dotnet-sdk",
-      "version": "10.0.103",
-      "sha256": "b0ffba0c7bd785e79f5c22ede3d77322188c15a7403eb53bd7a394f7c7b250d1",
-      "signature": "cask::dotnet-sdk::10.0.103::b0ffba0c7bd785e79f5c22ede3d77322188c15a7403eb53bd7a394f7c7b250d1"
+      "version": "10.0.200",
+      "sha256": "2a102faf4c3e653e693fc7146ef1652dc179fe64295aab8c013b3eaaf586ae98",
+      "signature": "cask::dotnet-sdk::10.0.200::2a102faf4c3e653e693fc7146ef1652dc179fe64295aab8c013b3eaaf586ae98"
     },
     {
       "kind": "cask",
@@ -10051,18 +10051,18 @@
       "token": "dotnet-sdk@9",
       "name": ".NET SDK",
       "packageUrl": "https://formulae.brew.sh/cask/dotnet-sdk@9",
-      "version": "9.0.311",
-      "sha256": "69cf1a672b1b37ce62a8f770e88543961b554bfc296fa02ec07adf5f3c1399ae",
-      "signature": "cask::dotnet-sdk@9::9.0.311::69cf1a672b1b37ce62a8f770e88543961b554bfc296fa02ec07adf5f3c1399ae"
+      "version": "9.0.312",
+      "sha256": "96de3de59f06ebdad748a97930bbf7d0b7a4e17a74845bd2b1244b2c8df9250e",
+      "signature": "cask::dotnet-sdk@9::9.0.312::96de3de59f06ebdad748a97930bbf7d0b7a4e17a74845bd2b1244b2c8df9250e"
     },
     {
       "kind": "cask",
       "token": "dotnet-sdk@preview",
       "name": ".NET SDK",
       "packageUrl": "https://formulae.brew.sh/cask/dotnet-sdk@preview",
-      "version": "10.0.103",
-      "sha256": "b0ffba0c7bd785e79f5c22ede3d77322188c15a7403eb53bd7a394f7c7b250d1",
-      "signature": "cask::dotnet-sdk@preview::10.0.103::b0ffba0c7bd785e79f5c22ede3d77322188c15a7403eb53bd7a394f7c7b250d1"
+      "version": "10.0.200",
+      "sha256": "2a102faf4c3e653e693fc7146ef1652dc179fe64295aab8c013b3eaaf586ae98",
+      "signature": "cask::dotnet-sdk@preview::10.0.200::2a102faf4c3e653e693fc7146ef1652dc179fe64295aab8c013b3eaaf586ae98"
     },
     {
       "kind": "cask",
@@ -10294,9 +10294,9 @@
       "token": "dropbox@beta",
       "name": "Dropbox",
       "packageUrl": "https://formulae.brew.sh/cask/dropbox@beta",
-      "version": "244.3.6510",
-      "sha256": "979ceb9c62e902bdf4a6b801219bfde01014bd86a86a8e038a7b2a994beb458d",
-      "signature": "cask::dropbox@beta::244.3.6510::979ceb9c62e902bdf4a6b801219bfde01014bd86a86a8e038a7b2a994beb458d"
+      "version": "244.3.6525",
+      "sha256": "08f02d3a4fb453de5c9b1e367f85d0203b1ac550025299730ceba88e194d817f",
+      "signature": "cask::dropbox@beta::244.3.6525::08f02d3a4fb453de5c9b1e367f85d0203b1ac550025299730ceba88e194d817f"
     },
     {
       "kind": "cask",
@@ -11050,9 +11050,9 @@
       "token": "element",
       "name": "Element",
       "packageUrl": "https://formulae.brew.sh/cask/element",
-      "version": "1.12.11",
-      "sha256": "d1eba214e97b6e6865d43c86ae4f0b10699b2eb4de4e3a15b8283ef5d718f60e",
-      "signature": "cask::element::1.12.11::d1eba214e97b6e6865d43c86ae4f0b10699b2eb4de4e3a15b8283ef5d718f60e"
+      "version": "1.12.12",
+      "sha256": "d4d8ae5473e1a78f4b728e4ca78097f7408a786940d441e0d0371d14cb69bdd1",
+      "signature": "cask::element::1.12.12::d4d8ae5473e1a78f4b728e4ca78097f7408a786940d441e0d0371d14cb69bdd1"
     },
     {
       "kind": "cask",
@@ -11293,9 +11293,9 @@
       "token": "emdash",
       "name": "Emdash",
       "packageUrl": "https://formulae.brew.sh/cask/emdash",
-      "version": "0.4.27",
-      "sha256": "114c3ea75fea74da573d6622ac86df4bba15e5bf7aa32592f06f5f583ef2c6f1",
-      "signature": "cask::emdash::0.4.27::114c3ea75fea74da573d6622ac86df4bba15e5bf7aa32592f06f5f583ef2c6f1"
+      "version": "0.4.29",
+      "sha256": "63c1b16034608dfbe99bd1f4220b43d0c3b93ce71fc4431bb25294b2185a67e4",
+      "signature": "cask::emdash::0.4.29::63c1b16034608dfbe99bd1f4220b43d0c3b93ce71fc4431bb25294b2185a67e4"
     },
     {
       "kind": "cask",
@@ -12625,9 +12625,9 @@
       "token": "firefox",
       "name": "Mozilla Firefox",
       "packageUrl": "https://formulae.brew.sh/cask/firefox",
-      "version": "148.0",
-      "sha256": "ec50d7ed2337441d92272617f510cd4c11e44d68699349d466d62211b767e0a2",
-      "signature": "cask::firefox::148.0::ec50d7ed2337441d92272617f510cd4c11e44d68699349d466d62211b767e0a2"
+      "version": "148.0.2",
+      "sha256": "87dc90f09c92bdcdc9978d362fc43fcc5d8bb727f49f13f2e3793ae7008da132",
+      "signature": "cask::firefox::148.0.2::87dc90f09c92bdcdc9978d362fc43fcc5d8bb727f49f13f2e3793ae7008da132"
     },
     {
       "kind": "cask",
@@ -12670,9 +12670,9 @@
       "token": "firefox@nightly",
       "name": "Mozilla Firefox Nightly",
       "packageUrl": "https://formulae.brew.sh/cask/firefox@nightly",
-      "version": "150.0a1,2026-03-09-21-41-49",
-      "sha256": "590fef78817707900716a8acd29aa9ed539aedc2149eb5464349d3b4d233eee6",
-      "signature": "cask::firefox@nightly::150.0a1,2026-03-09-21-41-49::590fef78817707900716a8acd29aa9ed539aedc2149eb5464349d3b4d233eee6"
+      "version": "150.0a1,2026-03-10-09-45-46",
+      "sha256": "2d1631598c957d0fb560971ded4d48bfd6b0412566e4e546ac7c75afe82b5e1f",
+      "signature": "cask::firefox@nightly::150.0a1,2026-03-10-09-45-46::2d1631598c957d0fb560971ded4d48bfd6b0412566e4e546ac7c75afe82b5e1f"
     },
     {
       "kind": "cask",
@@ -12985,9 +12985,9 @@
       "token": "flutterflow",
       "name": "FlutterFlow",
       "packageUrl": "https://formulae.brew.sh/cask/flutterflow",
-      "version": "6.5.43",
-      "sha256": "73c9159e042cbec10026b3d5a33ce87663f66ab5681ee3b65cd203202e7d696f",
-      "signature": "cask::flutterflow::6.5.43::73c9159e042cbec10026b3d5a33ce87663f66ab5681ee3b65cd203202e7d696f"
+      "version": "6.6.3",
+      "sha256": "9de4f1a6ccdfb71202b35217d1b09d03771d57f58026d65c8633ed4df6cba2da",
+      "signature": "cask::flutterflow::6.6.3::9de4f1a6ccdfb71202b35217d1b09d03771d57f58026d65c8633ed4df6cba2da"
     },
     {
       "kind": "cask",
@@ -36439,9 +36439,9 @@
       "token": "fork@dev",
       "name": "Fork",
       "packageUrl": "https://formulae.brew.sh/cask/fork@dev",
-      "version": "2.64.0",
-      "sha256": "67b11227f53f78f88a4e061487869b6780adc5a59553c4e91b5632e776b23328",
-      "signature": "cask::fork@dev::2.64.0::67b11227f53f78f88a4e061487869b6780adc5a59553c4e91b5632e776b23328"
+      "version": "2.64.1",
+      "sha256": "90f626b319a94457db0b79060a2ed6215173f558c920dbec1be0ae87b3501854",
+      "signature": "cask::fork@dev::2.64.1::90f626b319a94457db0b79060a2ed6215173f558c920dbec1be0ae87b3501854"
     },
     {
       "kind": "cask",
@@ -36457,9 +36457,9 @@
       "token": "forklift",
       "name": "ForkLift",
       "packageUrl": "https://formulae.brew.sh/cask/forklift",
-      "version": "4.5",
-      "sha256": "c61222c98f47cdbea3c9fde50a4b2bf067bbc715397068c579339f970e019585",
-      "signature": "cask::forklift::4.5::c61222c98f47cdbea3c9fde50a4b2bf067bbc715397068c579339f970e019585"
+      "version": "4.5.1",
+      "sha256": "c2bbd390cf7571956d29118352f44064774d281e56c49040b468625c42c8b5c9",
+      "signature": "cask::forklift::4.5.1::c2bbd390cf7571956d29118352f44064774d281e56c49040b468625c42c8b5c9"
     },
     {
       "kind": "cask",
@@ -36772,9 +36772,9 @@
       "token": "freeshow@beta",
       "name": "FreeShow",
       "packageUrl": "https://formulae.brew.sh/cask/freeshow@beta",
-      "version": "1.5.9",
-      "sha256": "4a3316ee0b9fa9ff1b452c54eed215729666a298d723636b133bac91a01a933a",
-      "signature": "cask::freeshow@beta::1.5.9::4a3316ee0b9fa9ff1b452c54eed215729666a298d723636b133bac91a01a933a"
+      "version": "1.6.0-beta.1",
+      "sha256": "9896adcb697141a1c9f8a98866a70059e39c04f60ec50dbfc20ab73e7507e2c9",
+      "signature": "cask::freeshow@beta::1.6.0-beta.1::9896adcb697141a1c9f8a98866a70059e39c04f60ec50dbfc20ab73e7507e2c9"
     },
     {
       "kind": "cask",
@@ -37249,9 +37249,9 @@
       "token": "gcloud-cli",
       "name": "Google Cloud CLI",
       "packageUrl": "https://formulae.brew.sh/cask/gcloud-cli",
-      "version": "559.0.0",
-      "sha256": "4ce6a1d03a2cd20f855d473c79d17cf2e2fcfafc7bee73e7328c64237fcf0323",
-      "signature": "cask::gcloud-cli::559.0.0::4ce6a1d03a2cd20f855d473c79d17cf2e2fcfafc7bee73e7328c64237fcf0323"
+      "version": "560.0.0",
+      "sha256": "5374eea1b294eb2455ef849b797003a96190fbd688e2262e1a8fbf7046250d1f",
+      "signature": "cask::gcloud-cli::560.0.0::5374eea1b294eb2455ef849b797003a96190fbd688e2262e1a8fbf7046250d1f"
     },
     {
       "kind": "cask",
@@ -37591,9 +37591,9 @@
       "token": "ghostty@tip",
       "name": "Ghostty",
       "packageUrl": "https://formulae.brew.sh/cask/ghostty@tip",
-      "version": "15112,703d11c642a96af9e54b55b04f131bf3888948a9",
-      "sha256": "069f57cfcc510056c2426b6222c889ae83ab3c040bbbb70ae9648495f04524bd",
-      "signature": "cask::ghostty@tip::15112,703d11c642a96af9e54b55b04f131bf3888948a9::069f57cfcc510056c2426b6222c889ae83ab3c040bbbb70ae9648495f04524bd"
+      "version": "15124,3782d118e1123c839eaff139bceb268ba5892bc7",
+      "sha256": "fed450fd7d8f34770f9b4cd88b6e3ea7f0438b69b5fffea2e93490c956ac9d91",
+      "signature": "cask::ghostty@tip::15124,3782d118e1123c839eaff139bceb268ba5892bc7::fed450fd7d8f34770f9b4cd88b6e3ea7f0438b69b5fffea2e93490c956ac9d91"
     },
     {
       "kind": "cask",
@@ -38509,9 +38509,9 @@
       "token": "granola",
       "name": "Granola",
       "packageUrl": "https://formulae.brew.sh/cask/granola",
-      "version": "7.54.0",
-      "sha256": "ee0c0cee0aded12b8066831d9092370ebde124e5d6f90e7af197a16da38f971c",
-      "signature": "cask::granola::7.54.0::ee0c0cee0aded12b8066831d9092370ebde124e5d6f90e7af197a16da38f971c"
+      "version": "7.57.0",
+      "sha256": "8d52ff17b30f1848431e268c94aa59f8c0de03dceac2b24b4149d147d69f9a4b",
+      "signature": "cask::granola::7.57.0::8d52ff17b30f1848431e268c94aa59f8c0de03dceac2b24b4149d147d69f9a4b"
     },
     {
       "kind": "cask",
@@ -39382,9 +39382,9 @@
       "token": "hopper-disassembler",
       "name": "Hopper Disassembler",
       "packageUrl": "https://formulae.brew.sh/cask/hopper-disassembler",
-      "version": "6.1.0",
-      "sha256": "984a8f6615c09368ec9a6028f8bff9c6b9f9dc3d3551f07d4372a2bd33eb0f71",
-      "signature": "cask::hopper-disassembler::6.1.0::984a8f6615c09368ec9a6028f8bff9c6b9f9dc3d3551f07d4372a2bd33eb0f71"
+      "version": "6.2.0",
+      "sha256": "b9f6a652a83e78cd64f79bf6f976493d7c6c1a12737012b6e94981c01d4e9adf",
+      "signature": "cask::hopper-disassembler::6.2.0::b9f6a652a83e78cd64f79bf6f976493d7c6c1a12737012b6e94981c01d4e9adf"
     },
     {
       "kind": "cask",
@@ -41201,8 +41201,8 @@
       "name": "JASP",
       "packageUrl": "https://formulae.brew.sh/cask/jasp",
       "version": "0.96.0.0",
-      "sha256": "00e60bf3be6d86f410b4f5c1b606132b23185f0234e94d36753393ea06ba5c3b",
-      "signature": "cask::jasp::0.96.0.0::00e60bf3be6d86f410b4f5c1b606132b23185f0234e94d36753393ea06ba5c3b"
+      "sha256": "3e7f6b2a1cb8805030e35fea9c365877cc7d44aea6dcebf7d614b55729271c7a",
+      "signature": "cask::jasp::0.96.0.0::3e7f6b2a1cb8805030e35fea9c365877cc7d44aea6dcebf7d614b55729271c7a"
     },
     {
       "kind": "cask",
@@ -41686,9 +41686,9 @@
       "token": "julia-app@lts",
       "name": "Julia",
       "packageUrl": "https://formulae.brew.sh/cask/julia-app@lts",
-      "version": "1.10.10",
-      "sha256": "c315ed82ff6bb0d8817616a2e0393827ba67f24f4b5f44af429d2cf48b69550f",
-      "signature": "cask::julia-app@lts::1.10.10::c315ed82ff6bb0d8817616a2e0393827ba67f24f4b5f44af429d2cf48b69550f"
+      "version": "1.10.11",
+      "sha256": "18c0daffdc4504116d2e29e96b0b81ad98d20c88196d48d377ccffb71ab0ca73",
+      "signature": "cask::julia-app@lts::1.10.11::18c0daffdc4504116d2e29e96b0b81ad98d20c88196d48d377ccffb71ab0ca73"
     },
     {
       "kind": "cask",
@@ -41794,9 +41794,9 @@
       "token": "k6-studio",
       "name": "k6 Studio",
       "packageUrl": "https://formulae.brew.sh/cask/k6-studio",
-      "version": "1.11.0",
-      "sha256": "26ad80549e3464f56567bf8ba7e2e75dbc8059498e900146dea42195871f144f",
-      "signature": "cask::k6-studio::1.11.0::26ad80549e3464f56567bf8ba7e2e75dbc8059498e900146dea42195871f144f"
+      "version": "1.11.1",
+      "sha256": "0d5258b3932edf0b3fe923db7d52381855883490f6144168295d26b97559139c",
+      "signature": "cask::k6-studio::1.11.1::0d5258b3932edf0b3fe923db7d52381855883490f6144168295d26b97559139c"
     },
     {
       "kind": "cask",
@@ -42046,9 +42046,9 @@
       "token": "keepassxc@beta",
       "name": "KeePassXC",
       "packageUrl": "https://formulae.brew.sh/cask/keepassxc@beta",
-      "version": "2.7.11",
-      "sha256": "eac316a1dce12c0b1f3bfec957ca58d828fa1cd2b1eebfcd4ff9361926675b37",
-      "signature": "cask::keepassxc@beta::2.7.11::eac316a1dce12c0b1f3bfec957ca58d828fa1cd2b1eebfcd4ff9361926675b37"
+      "version": "2.7.12",
+      "sha256": "65f4f63607180c0a15794b4a4068f85e99ed5391c87c1fb9312648f1b36fed40",
+      "signature": "cask::keepassxc@beta::2.7.12::65f4f63607180c0a15794b4a4068f85e99ed5391c87c1fb9312648f1b36fed40"
     },
     {
       "kind": "cask",
@@ -42442,9 +42442,9 @@
       "token": "kiro-cli",
       "name": "Kiro CLI",
       "packageUrl": "https://formulae.brew.sh/cask/kiro-cli",
-      "version": "1.27.1",
-      "sha256": "f6fcd133ced01e991f6ec14a2e6129ac45e903acdcce80c3327e558d8111571b",
-      "signature": "cask::kiro-cli::1.27.1::f6fcd133ced01e991f6ec14a2e6129ac45e903acdcce80c3327e558d8111571b"
+      "version": "1.27.2",
+      "sha256": "814d1c5d38db2141e1d1df397b01290b9edc92272a7dd840d6723f23b5008d93",
+      "signature": "cask::kiro-cli::1.27.2::814d1c5d38db2141e1d1df397b01290b9edc92272a7dd840d6723f23b5008d93"
     },
     {
       "kind": "cask",
@@ -42640,9 +42640,9 @@
       "token": "kogiqa",
       "name": "kogiQA",
       "packageUrl": "https://formulae.brew.sh/cask/kogiqa",
-      "version": "0.5.1029",
-      "sha256": "64d0ef4410942b50be99fbaf91788fb71285989bd257510753564cd3f32452d9",
-      "signature": "cask::kogiqa::0.5.1029::64d0ef4410942b50be99fbaf91788fb71285989bd257510753564cd3f32452d9"
+      "version": "0.5.1041",
+      "sha256": "2f1ef4c4ae7d5b002b2a3a555cda0f4a33cda406c089a04eec141e405aaeceaa",
+      "signature": "cask::kogiqa::0.5.1041::2f1ef4c4ae7d5b002b2a3a555cda0f4a33cda406c089a04eec141e405aaeceaa"
     },
     {
       "kind": "cask",
@@ -44026,9 +44026,9 @@
       "token": "logos",
       "name": "Logos",
       "packageUrl": "https://formulae.brew.sh/cask/logos",
-      "version": "48.0.0.0238",
-      "sha256": "ea767b5451de2ee18047d77fb218b03f3fc15c09e6cfdc3406f3c8c4f7bc4973",
-      "signature": "cask::logos::48.0.0.0238::ea767b5451de2ee18047d77fb218b03f3fc15c09e6cfdc3406f3c8c4f7bc4973"
+      "version": "49.0.0.0144",
+      "sha256": "5775ff1ca8648287b415ae917b5c807477fa38407a5ad7d59a389888c3bad607",
+      "signature": "cask::logos::49.0.0.0144::5775ff1ca8648287b415ae917b5c807477fa38407a5ad7d59a389888c3bad607"
     },
     {
       "kind": "cask",
@@ -44098,9 +44098,9 @@
       "token": "loom",
       "name": "Loom",
       "packageUrl": "https://formulae.brew.sh/cask/loom",
-      "version": "0.336.5",
-      "sha256": "3fa1908ab80d9dab3d8e8c6f28ae4f76116eeb3ad7873112e8bf1def1622b1e3",
-      "signature": "cask::loom::0.336.5::3fa1908ab80d9dab3d8e8c6f28ae4f76116eeb3ad7873112e8bf1def1622b1e3"
+      "version": "0.337.3",
+      "sha256": "378894d72e18f7f8e64474b66b264d5edde8214308a5cc6a8fe3f43cfaa9caf8",
+      "signature": "cask::loom::0.337.3::378894d72e18f7f8e64474b66b264d5edde8214308a5cc6a8fe3f43cfaa9caf8"
     },
     {
       "kind": "cask",
@@ -46006,9 +46006,9 @@
       "token": "meru",
       "name": "Meru",
       "packageUrl": "https://formulae.brew.sh/cask/meru",
-      "version": "3.34.1",
-      "sha256": "9ae656fe286c6832c3401714a93b5d50418a8a0ec48cf134d41ff7efa08e14ae",
-      "signature": "cask::meru::3.34.1::9ae656fe286c6832c3401714a93b5d50418a8a0ec48cf134d41ff7efa08e14ae"
+      "version": "3.35.0",
+      "sha256": "6a6fafd6a9ec321f19f412823c637ef79a82ccb62382cc51a23a8adef7dfca56",
+      "signature": "cask::meru::3.35.0::6a6fafd6a9ec321f19f412823c637ef79a82ccb62382cc51a23a8adef7dfca56"
     },
     {
       "kind": "cask",
@@ -46285,9 +46285,9 @@
       "token": "microsoft-edge@canary",
       "name": "Microsoft Edge Canary",
       "packageUrl": "https://formulae.brew.sh/cask/microsoft-edge@canary",
-      "version": "147.0.3906.0,e3ea65ea-c0ce-4d38-bbdb-06f05490a967",
-      "sha256": "674152758a2f2fa1604928d09569255620aef49793ef5528a0d3a91c27043018",
-      "signature": "cask::microsoft-edge@canary::147.0.3906.0,e3ea65ea-c0ce-4d38-bbdb-06f05490a967::674152758a2f2fa1604928d09569255620aef49793ef5528a0d3a91c27043018"
+      "version": "147.0.3908.0,ee1b0939-4931-4899-a6d9-8ed848090a0e",
+      "sha256": "4f8ef802b9238863929da69cf994fcc1a4bfdaea40b3c814a4122c1a6389a1a8",
+      "signature": "cask::microsoft-edge@canary::147.0.3908.0,ee1b0939-4931-4899-a6d9-8ed848090a0e::4f8ef802b9238863929da69cf994fcc1a4bfdaea40b3c814a4122c1a6389a1a8"
     },
     {
       "kind": "cask",
@@ -46897,9 +46897,9 @@
       "token": "mixxx@snapshot",
       "name": "Mixxx",
       "packageUrl": "https://formulae.brew.sh/cask/mixxx@snapshot",
-      "version": "2.7-alpha-204-gf3a86d757b",
-      "sha256": "dd9b36118ac28bb3dfaff55d4040b89313ee08acca45722c3da96979314d8440",
-      "signature": "cask::mixxx@snapshot::2.7-alpha-204-gf3a86d757b::dd9b36118ac28bb3dfaff55d4040b89313ee08acca45722c3da96979314d8440"
+      "version": "2.7-alpha-205-g7045f61c0e",
+      "sha256": "782ddc344e5c289db1d43a641443ad0dcf0d05cb8f4262dd058333457d6cb112",
+      "signature": "cask::mixxx@snapshot::2.7-alpha-205-g7045f61c0e::782ddc344e5c289db1d43a641443ad0dcf0d05cb8f4262dd058333457d6cb112"
     },
     {
       "kind": "cask",
@@ -47077,9 +47077,9 @@
       "token": "modrinth",
       "name": "Modrinth App",
       "packageUrl": "https://formulae.brew.sh/cask/modrinth",
-      "version": "0.11.3",
-      "sha256": "fff9b62284df2eccf6f4a012c17ec8c2c6b9182d438ff672874237b313706b69",
-      "signature": "cask::modrinth::0.11.3::fff9b62284df2eccf6f4a012c17ec8c2c6b9182d438ff672874237b313706b69"
+      "version": "0.11.4",
+      "sha256": "b8ab1713026ef0f0e9c33678eeb93e8fd4b5f3155baf5a32ecf68bda1d75e50a",
+      "signature": "cask::modrinth::0.11.4::b8ab1713026ef0f0e9c33678eeb93e8fd4b5f3155baf5a32ecf68bda1d75e50a"
     },
     {
       "kind": "cask",
@@ -48022,9 +48022,9 @@
       "token": "music-widget",
       "name": "Music Widget",
       "packageUrl": "https://formulae.brew.sh/cask/music-widget",
-      "version": "1.29.2",
+      "version": "1.29.3",
       "sha256": "no_check",
-      "signature": "cask::music-widget::1.29.2::no_check"
+      "signature": "cask::music-widget::1.29.3::no_check"
     },
     {
       "kind": "cask",
@@ -48778,9 +48778,9 @@
       "token": "ngrok",
       "name": "ngrok",
       "packageUrl": "https://formulae.brew.sh/cask/ngrok",
-      "version": "3.37.1,43g4rYQwAMz,a",
-      "sha256": "e8aac64346e27b95dbcc1a523c2629787a9040aabc1a3703088dcfba437baeb1",
-      "signature": "cask::ngrok::3.37.1,43g4rYQwAMz,a::e8aac64346e27b95dbcc1a523c2629787a9040aabc1a3703088dcfba437baeb1"
+      "version": "3.37.2,nboc9dCtERa,a",
+      "sha256": "a2cd877d3f48aca144f03d0ccb707b2c219a6d41af3f0b35139473d61686b4c8",
+      "signature": "cask::ngrok::3.37.2,nboc9dCtERa,a::a2cd877d3f48aca144f03d0ccb707b2c219a6d41af3f0b35139473d61686b4c8"
     },
     {
       "kind": "cask",
@@ -49579,9 +49579,9 @@
       "token": "obscura-vpn",
       "name": "Obscura VPN",
       "packageUrl": "https://formulae.brew.sh/cask/obscura-vpn",
-      "version": "1.152",
-      "sha256": "7cde5fd61ca4bc6fc47b5df3191b35f439d02e4f38c974620b3644557739b10f",
-      "signature": "cask::obscura-vpn::1.152::7cde5fd61ca4bc6fc47b5df3191b35f439d02e4f38c974620b3644557739b10f"
+      "version": "1.156",
+      "sha256": "77016a1671d6748cbea758b3a15fc022215c2785e115021e1b4caf00bf4bdfcf",
+      "signature": "cask::obscura-vpn::1.156::77016a1671d6748cbea758b3a15fc022215c2785e115021e1b4caf00bf4bdfcf"
     },
     {
       "kind": "cask",
@@ -49615,9 +49615,9 @@
       "token": "octarine",
       "name": "Octarine",
       "packageUrl": "https://formulae.brew.sh/cask/octarine",
-      "version": "0.37.2",
-      "sha256": "fc04992ed467a88dd5dd9ac8857ebb609242b6b877ec5d45d021d5c06d7448af",
-      "signature": "cask::octarine::0.37.2::fc04992ed467a88dd5dd9ac8857ebb609242b6b877ec5d45d021d5c06d7448af"
+      "version": "0.37.3",
+      "sha256": "ce8e84704e999821d09ae1bb5d7bb95deaa78ef16afd3887d56879163142060b",
+      "signature": "cask::octarine::0.37.3::ce8e84704e999821d09ae1bb5d7bb95deaa78ef16afd3887d56879163142060b"
     },
     {
       "kind": "cask",
@@ -50182,9 +50182,9 @@
       "token": "openforis-collect",
       "name": "Open Foris Collect",
       "packageUrl": "https://formulae.brew.sh/cask/openforis-collect",
-      "version": "4.0.103",
-      "sha256": "35adf4eabd8ce10fa0fc7054b50bd005c5b985cc2d41715a0a23f51d83ef783c",
-      "signature": "cask::openforis-collect::4.0.103::35adf4eabd8ce10fa0fc7054b50bd005c5b985cc2d41715a0a23f51d83ef783c"
+      "version": "4.0.104",
+      "sha256": "f2decc0b82296c2ad0bbbaf58dd0e3689a2c5ad2f695b0cd6664bf80b025e45c",
+      "signature": "cask::openforis-collect::4.0.104::f2decc0b82296c2ad0bbbaf58dd0e3689a2c5ad2f695b0cd6664bf80b025e45c"
     },
     {
       "kind": "cask",
@@ -50947,9 +50947,9 @@
       "token": "osu@tachyon",
       "name": "osu! (tachyon)",
       "packageUrl": "https://formulae.brew.sh/cask/osu@tachyon",
-      "version": "2026.307.0-tachyon",
-      "sha256": "acd4fedff0fbde7c37cc47b98f8e2231d6aa18ee93aebc01ed95d68a362024ff",
-      "signature": "cask::osu@tachyon::2026.307.0-tachyon::acd4fedff0fbde7c37cc47b98f8e2231d6aa18ee93aebc01ed95d68a362024ff"
+      "version": "2026.311.0-tachyon",
+      "sha256": "09b0097ca2071d4fe95c3ba8f719d978fc9940fefe30c93e9a6a39983c7dec12",
+      "signature": "cask::osu@tachyon::2026.311.0-tachyon::09b0097ca2071d4fe95c3ba8f719d978fc9940fefe30c93e9a6a39983c7dec12"
     },
     {
       "kind": "cask",
@@ -51613,9 +51613,9 @@
       "token": "paseo",
       "name": "Paseo",
       "packageUrl": "https://formulae.brew.sh/cask/paseo",
-      "version": "0.1.18",
-      "sha256": "acded7f3eaf3f99c94332ef96e15beabe11d7dce2c018cb87c7bbde7f1c49075",
-      "signature": "cask::paseo::0.1.18::acded7f3eaf3f99c94332ef96e15beabe11d7dce2c018cb87c7bbde7f1c49075"
+      "version": "0.1.24",
+      "sha256": "0f23928db64c635b40b9fe49a9e16bb8d588bfc8970ea6641409b974bd8b0df2",
+      "signature": "cask::paseo::0.1.24::0f23928db64c635b40b9fe49a9e16bb8d588bfc8970ea6641409b974bd8b0df2"
     },
     {
       "kind": "cask",
@@ -52963,9 +52963,9 @@
       "token": "polypane",
       "name": "Polypane",
       "packageUrl": "https://formulae.brew.sh/cask/polypane",
-      "version": "28.0.2",
-      "sha256": "470e765a5fd7bf1cc823bd8217637592fd726cc172e9744245113adbeeaf9fa8",
-      "signature": "cask::polypane::28.0.2::470e765a5fd7bf1cc823bd8217637592fd726cc172e9744245113adbeeaf9fa8"
+      "version": "28.0.3",
+      "sha256": "8617e98d946680ae3b3f523c8c560338b47c0aa68cfa56c75416b416ea90ed08",
+      "signature": "cask::polypane::28.0.3::8617e98d946680ae3b3f523c8c560338b47c0aa68cfa56c75416b416ea90ed08"
     },
     {
       "kind": "cask",
@@ -53314,9 +53314,9 @@
       "token": "ppsspp-emulator",
       "name": "PPSSPP",
       "packageUrl": "https://formulae.brew.sh/cask/ppsspp-emulator",
-      "version": "1.20",
-      "sha256": "d32009facb49f372358bb52a0079e08cff32ac2ef3258eeeb9a964c840772ce4",
-      "signature": "cask::ppsspp-emulator::1.20::d32009facb49f372358bb52a0079e08cff32ac2ef3258eeeb9a964c840772ce4"
+      "version": "1.20.2",
+      "sha256": "efc337a0d3575184f8b29d757ecc6a204456349cbefe2b3c5a70616af8630837",
+      "signature": "cask::ppsspp-emulator::1.20.2::efc337a0d3575184f8b29d757ecc6a204456349cbefe2b3c5a70616af8630837"
     },
     {
       "kind": "cask",
@@ -53503,9 +53503,9 @@
       "token": "pritunl",
       "name": "Pritunl",
       "packageUrl": "https://formulae.brew.sh/cask/pritunl",
-      "version": "1.3.4559.86",
-      "sha256": "894f102fdf06da73e1664b7f4585b87ce9ddc1528ffe51b758e07d62a6841d51",
-      "signature": "cask::pritunl::1.3.4559.86::894f102fdf06da73e1664b7f4585b87ce9ddc1528ffe51b758e07d62a6841d51"
+      "version": "1.3.4562.57",
+      "sha256": "75c00a49c271034e128edfecd10b5cbeee9cc0cd62fb0a99a6a4edaa9d4838b2",
+      "signature": "cask::pritunl::1.3.4562.57::75c00a49c271034e128edfecd10b5cbeee9cc0cd62fb0a99a6a4edaa9d4838b2"
     },
     {
       "kind": "cask",
@@ -53728,9 +53728,9 @@
       "token": "propresenter@beta",
       "name": "ProPresenter",
       "packageUrl": "https://formulae.brew.sh/cask/propresenter@beta",
-      "version": "21.3,352518169",
-      "sha256": "87d9fdc2b639cfaf56f01ecdd0a9e17963cb64ec568071064c1f3c1f724b132a",
-      "signature": "cask::propresenter@beta::21.3,352518169::87d9fdc2b639cfaf56f01ecdd0a9e17963cb64ec568071064c1f3c1f724b132a"
+      "version": "21.3,352518171",
+      "sha256": "0dcfe75ae85e8bb7206e8705e890c5e24311c2af122ac32d589277a93eb8a127",
+      "signature": "cask::propresenter@beta::21.3,352518171::0dcfe75ae85e8bb7206e8705e890c5e24311c2af122ac32d589277a93eb8a127"
     },
     {
       "kind": "cask",
@@ -55078,9 +55078,9 @@
       "token": "ransomwhere",
       "name": "RansomWhere",
       "packageUrl": "https://formulae.brew.sh/cask/ransomwhere",
-      "version": "2.0.1",
-      "sha256": "27369063695d4c483c0124f0150fb250ca26371ac4f2714cb99030289d4e98dc",
-      "signature": "cask::ransomwhere::2.0.1::27369063695d4c483c0124f0150fb250ca26371ac4f2714cb99030289d4e98dc"
+      "version": "2.1.0",
+      "sha256": "9261364a09db070fe7094b4cc3470dd85f9a5e24d90d91167eea874acf3f1b05",
+      "signature": "cask::ransomwhere::2.1.0::9261364a09db070fe7094b4cc3470dd85f9a5e24d90d91167eea874acf3f1b05"
     },
     {
       "kind": "cask",
@@ -55582,9 +55582,9 @@
       "token": "remote-buddy",
       "name": "Remote Buddy",
       "packageUrl": "https://formulae.brew.sh/cask/remote-buddy",
-      "version": "2.7.2",
+      "version": "2.7.3",
       "sha256": "no_check",
-      "signature": "cask::remote-buddy::2.7.2::no_check"
+      "signature": "cask::remote-buddy::2.7.3::no_check"
     },
     {
       "kind": "cask",
@@ -55717,9 +55717,9 @@
       "token": "repo-prompt",
       "name": "Repo Prompt",
       "packageUrl": "https://formulae.brew.sh/cask/repo-prompt",
-      "version": "2.0.16",
-      "sha256": "941ab2ca1a613ce42197768f8a6ebeb237fd7c4f1356439bbb32314ec0efe6ee",
-      "signature": "cask::repo-prompt::2.0.16::941ab2ca1a613ce42197768f8a6ebeb237fd7c4f1356439bbb32314ec0efe6ee"
+      "version": "2.0.17",
+      "sha256": "c0c8a8c4fb110c71d526e2685228cb4dfec50d0a1c8c07b2a64dbd9055c4c29d",
+      "signature": "cask::repo-prompt::2.0.17::c0c8a8c4fb110c71d526e2685228cb4dfec50d0a1c8c07b2a64dbd9055c4c29d"
     },
     {
       "kind": "cask",
@@ -58345,9 +58345,9 @@
       "token": "sketchup",
       "name": "SketchUp",
       "packageUrl": "https://formulae.brew.sh/cask/sketchup",
-      "version": "2026.1.188.46",
-      "sha256": "02cb9ebb719a25f851e26162b49614dfbf42c64ecea16bc4f606d48596e49362",
-      "signature": "cask::sketchup::2026.1.188.46::02cb9ebb719a25f851e26162b49614dfbf42c64ecea16bc4f606d48596e49362"
+      "version": "2026.1.253.80",
+      "sha256": "594522000d9a5b3f1f49ed5180604a8aab5a3fcd7fc0954739d91756eb73355d",
+      "signature": "cask::sketchup::2026.1.253.80::594522000d9a5b3f1f49ed5180604a8aab5a3fcd7fc0954739d91756eb73355d"
     },
     {
       "kind": "cask",
@@ -59999,11 +59999,11 @@
     {
       "kind": "cask",
       "token": "steelseries-gg",
-      "name": "SteelSeries GG 105",
+      "name": "SteelSeries GG 106",
       "packageUrl": "https://formulae.brew.sh/cask/steelseries-gg",
-      "version": "105.0.0",
-      "sha256": "c9d0feca85b0e18deb042cae6382b809a93fbe4324781cae62dc40a6b33a1494",
-      "signature": "cask::steelseries-gg::105.0.0::c9d0feca85b0e18deb042cae6382b809a93fbe4324781cae62dc40a6b33a1494"
+      "version": "106.0.0",
+      "sha256": "aae77c5e2588e396d32443a67662d63d42480c11add7ca9a5159560b8a711dc3",
+      "signature": "cask::steelseries-gg::106.0.0::aae77c5e2588e396d32443a67662d63d42480c11add7ca9a5159560b8a711dc3"
     },
     {
       "kind": "cask",
@@ -62242,9 +62242,9 @@
       "token": "threema",
       "name": "Threema",
       "packageUrl": "https://formulae.brew.sh/cask/threema",
-      "version": "1.2.49",
+      "version": "1.2.50",
       "sha256": "no_check",
-      "signature": "cask::threema::1.2.49::no_check"
+      "signature": "cask::threema::1.2.50::no_check"
     },
     {
       "kind": "cask",
@@ -62314,9 +62314,9 @@
       "token": "thunderbird",
       "name": "Mozilla Thunderbird",
       "packageUrl": "https://formulae.brew.sh/cask/thunderbird",
-      "version": "148.0",
-      "sha256": "57b23b7ec529f64f337d8b81b72d51c8a2bf4bd81e9abe2a10289f2c44cb2fcb",
-      "signature": "cask::thunderbird::148.0::57b23b7ec529f64f337d8b81b72d51c8a2bf4bd81e9abe2a10289f2c44cb2fcb"
+      "version": "148.0.1",
+      "sha256": "45d07933d5d4a21e8d02186fa540039ce69fba14b6c026e07358a8e96da6d547",
+      "signature": "cask::thunderbird::148.0.1::45d07933d5d4a21e8d02186fa540039ce69fba14b6c026e07358a8e96da6d547"
     },
     {
       "kind": "cask",
@@ -62332,18 +62332,18 @@
       "token": "thunderbird@daily",
       "name": "Mozilla Thunderbird Daily",
       "packageUrl": "https://formulae.brew.sh/cask/thunderbird@daily",
-      "version": "150.0a1,2026-03-09-10-14-57",
-      "sha256": "fcceb780e7308bf3ab4eadc6fb6c37c4c62c2dc1038924920bc00c74b4ed4680",
-      "signature": "cask::thunderbird@daily::150.0a1,2026-03-09-10-14-57::fcceb780e7308bf3ab4eadc6fb6c37c4c62c2dc1038924920bc00c74b4ed4680"
+      "version": "150.0a1,2026-03-10-10-05-27",
+      "sha256": "ecbf4343a29146f5ea26a8e217ceeb642664cc7e38bd663f701c74934d5e3d20",
+      "signature": "cask::thunderbird@daily::150.0a1,2026-03-10-10-05-27::ecbf4343a29146f5ea26a8e217ceeb642664cc7e38bd663f701c74934d5e3d20"
     },
     {
       "kind": "cask",
       "token": "thunderbird@esr",
       "name": "Mozilla Thunderbird ESR",
       "packageUrl": "https://formulae.brew.sh/cask/thunderbird@esr",
-      "version": "140.8.0esr",
-      "sha256": "ec99771f1eedb53781f4f5d8c359c50a9bd988fc242a0b54ab783475adccf90d",
-      "signature": "cask::thunderbird@esr::140.8.0esr::ec99771f1eedb53781f4f5d8c359c50a9bd988fc242a0b54ab783475adccf90d"
+      "version": "140.8.1esr",
+      "sha256": "41eee241cdb2405ead4feb5e676917eb40e54446e3e5db4d090a75d80465c805",
+      "signature": "cask::thunderbird@esr::140.8.1esr::41eee241cdb2405ead4feb5e676917eb40e54446e3e5db4d090a75d80465c805"
     },
     {
       "kind": "cask",
@@ -63511,9 +63511,9 @@
       "token": "tuist",
       "name": "Tuist",
       "packageUrl": "https://formulae.brew.sh/cask/tuist",
-      "version": "4.155.5",
-      "sha256": "cb6406cc0ecc85042247326f16a36cc4dd7b804111e2a32d76c9b4b9d06a0ebf",
-      "signature": "cask::tuist::4.155.5::cb6406cc0ecc85042247326f16a36cc4dd7b804111e2a32d76c9b4b9d06a0ebf"
+      "version": "4.155.6",
+      "sha256": "9805f9799843e01f5ff57d2533d79eed17671c6d2dc8bdca09569837f4a2e074",
+      "signature": "cask::tuist::4.155.6::9805f9799843e01f5ff57d2533d79eed17671c6d2dc8bdca09569837f4a2e074"
     },
     {
       "kind": "cask",
@@ -63619,9 +63619,9 @@
       "token": "tuta-mail",
       "name": "Tuta Mail",
       "packageUrl": "https://formulae.brew.sh/cask/tuta-mail",
-      "version": "335.260306.0",
+      "version": "335.260310.0",
       "sha256": "no_check",
-      "signature": "cask::tuta-mail::335.260306.0::no_check"
+      "signature": "cask::tuta-mail::335.260310.0::no_check"
     },
     {
       "kind": "cask",
@@ -63799,9 +63799,9 @@
       "token": "typinator",
       "name": "Typinator",
       "packageUrl": "https://formulae.brew.sh/cask/typinator",
-      "version": "9.2",
-      "sha256": "2558efab1afa701b4760ebf83a5f97960603b08a6ce5a3bc68be0f386c79fd64",
-      "signature": "cask::typinator::9.2::2558efab1afa701b4760ebf83a5f97960603b08a6ce5a3bc68be0f386c79fd64"
+      "version": "10.0",
+      "sha256": "dc01024d8b36bbb5770b63336eaf1873ba0620265554ba6a973f96650065e6d8",
+      "signature": "cask::typinator::10.0::dc01024d8b36bbb5770b63336eaf1873ba0620265554ba6a973f96650065e6d8"
     },
     {
       "kind": "cask",
@@ -65203,9 +65203,9 @@
       "token": "visual-studio-code@insiders",
       "name": "Microsoft Visual Studio Code Insiders",
       "packageUrl": "https://formulae.brew.sh/cask/visual-studio-code@insiders",
-      "version": "1.112.0-insider,1773138124956,11246017b66d444e6aa5e3a2535e161498182b51",
-      "sha256": "0a9e7f69346dcc17e6d8de46aa4b7983c139218f26deb68fa633fa728e684e9c",
-      "signature": "cask::visual-studio-code@insiders::1.112.0-insider,1773138124956,11246017b66d444e6aa5e3a2535e161498182b51::0a9e7f69346dcc17e6d8de46aa4b7983c139218f26deb68fa633fa728e684e9c"
+      "version": "1.112.0-insider,1773162237171,c2da2674e13adf7ed0c0ac1a74919a474f303fb2",
+      "sha256": "f4eb1bc50f8690c2d80e8fa2bf13d18a1c2e121acefd8267a4352bbf1c0bb003",
+      "signature": "cask::visual-studio-code@insiders::1.112.0-insider,1773162237171,c2da2674e13adf7ed0c0ac1a74919a474f303fb2::f4eb1bc50f8690c2d80e8fa2bf13d18a1c2e121acefd8267a4352bbf1c0bb003"
     },
     {
       "kind": "cask",
@@ -65446,9 +65446,9 @@
       "token": "voiden",
       "name": "Voiden",
       "packageUrl": "https://formulae.brew.sh/cask/voiden",
-      "version": "1.2.1",
-      "sha256": "cee79fda3743cd094ec5d65f0f780ecd01f143ed231d85ff45bfc4ad4df3a8d0",
-      "signature": "cask::voiden::1.2.1::cee79fda3743cd094ec5d65f0f780ecd01f143ed231d85ff45bfc4ad4df3a8d0"
+      "version": "1.3.1",
+      "sha256": "62d90c86ef9ee60816ab9c4efd10de627cab8d931a30275efe23bd1896cfd646",
+      "signature": "cask::voiden::1.3.1::62d90c86ef9ee60816ab9c4efd10de627cab8d931a30275efe23bd1896cfd646"
     },
     {
       "kind": "cask",
@@ -65779,9 +65779,9 @@
       "token": "warcraft-logs-uploader",
       "name": "Warcraft Logs Uploader",
       "packageUrl": "https://formulae.brew.sh/cask/warcraft-logs-uploader",
-      "version": "8.20.60",
-      "sha256": "3985bb89c084064fb740f473ba3aa7420bfe667727c47de3b872e81aff99a047",
-      "signature": "cask::warcraft-logs-uploader::8.20.60::3985bb89c084064fb740f473ba3aa7420bfe667727c47de3b872e81aff99a047"
+      "version": "8.20.113",
+      "sha256": "2c9a1887db2a4e8e6c10af0af797d716e6578a59c56911a0d887600b36e7e336",
+      "signature": "cask::warcraft-logs-uploader::8.20.113::2c9a1887db2a4e8e6c10af0af797d716e6578a59c56911a0d887600b36e7e336"
     },
     {
       "kind": "cask",
@@ -66202,18 +66202,18 @@
       "token": "whatsapp",
       "name": "WhatsApp",
       "packageUrl": "https://formulae.brew.sh/cask/whatsapp",
-      "version": "2.26.10.16",
-      "sha256": "9d73d90b555a02ba108ac906d9586265e43aa7040b175483813c767c6479a6c9",
-      "signature": "cask::whatsapp::2.26.10.16::9d73d90b555a02ba108ac906d9586265e43aa7040b175483813c767c6479a6c9"
+      "version": "2.26.10.18",
+      "sha256": "ae46f4bf7669f003acff98342b3906a1297397c72738db253612b25611ab2f79",
+      "signature": "cask::whatsapp::2.26.10.18::ae46f4bf7669f003acff98342b3906a1297397c72738db253612b25611ab2f79"
     },
     {
       "kind": "cask",
       "token": "whatsapp@beta",
       "name": "WhatsApp Beta",
       "packageUrl": "https://formulae.brew.sh/cask/whatsapp@beta",
-      "version": "2.26.10.16",
-      "sha256": "00af60ec40287039e86414c9c82ca2a8b9b8bf7aecf2592570dbbb79a3f6810a",
-      "signature": "cask::whatsapp@beta::2.26.10.16::00af60ec40287039e86414c9c82ca2a8b9b8bf7aecf2592570dbbb79a3f6810a"
+      "version": "2.26.10.18",
+      "sha256": "271ba7f9a4c374875da8ff5b765fb7a3bd6b1f583c481d9b9f9423bfde79e167",
+      "signature": "cask::whatsapp@beta::2.26.10.18::271ba7f9a4c374875da8ff5b765fb7a3bd6b1f583c481d9b9f9423bfde79e167"
     },
     {
       "kind": "cask",
@@ -66472,9 +66472,9 @@
       "token": "wing-personal",
       "name": "Wing Personal",
       "packageUrl": "https://formulae.brew.sh/cask/wing-personal",
-      "version": "11.0.7.0",
-      "sha256": "5a3ccecf870b9dba36609263b135ef4e987992f48eb9d1c4739bd71878aeea48",
-      "signature": "cask::wing-personal::11.0.7.0::5a3ccecf870b9dba36609263b135ef4e987992f48eb9d1c4739bd71878aeea48"
+      "version": "11.1.0.0",
+      "sha256": "cda18237fc627aa12bc8247c2c16be5650e82e90ac8d675ab657c537a9452303",
+      "signature": "cask::wing-personal::11.1.0.0::cda18237fc627aa12bc8247c2c16be5650e82e90ac8d675ab657c537a9452303"
     },
     {
       "kind": "cask",
@@ -66805,9 +66805,9 @@
       "token": "workflowy",
       "name": "WorkFlowy",
       "packageUrl": "https://formulae.brew.sh/cask/workflowy",
-      "version": "4.3.2603051020",
-      "sha256": "c06c9521d52e6b9f7efaad3d42737361e7fa420e2d0de916dffd6ce9fab38747",
-      "signature": "cask::workflowy::4.3.2603051020::c06c9521d52e6b9f7efaad3d42737361e7fa420e2d0de916dffd6ce9fab38747"
+      "version": "4.3.2603101120",
+      "sha256": "a8e3366596ade53d975220ed05cbc418f21e10e1767d7343427e440e49466de4",
+      "signature": "cask::workflowy::4.3.2603101120::a8e3366596ade53d975220ed05cbc418f21e10e1767d7343427e440e49466de4"
     },
     {
       "kind": "cask",
@@ -67444,9 +67444,9 @@
       "token": "yandex",
       "name": "Yandex.Browser",
       "packageUrl": "https://formulae.brew.sh/cask/yandex",
-      "version": "25.12.3.1140,100653",
-      "sha256": "0c1e7dd0475adbab5aef436afe6eb4438d435285c464468518d8c57e11df7d52",
-      "signature": "cask::yandex::25.12.3.1140,100653::0c1e7dd0475adbab5aef436afe6eb4438d435285c464468518d8c57e11df7d52"
+      "version": "26.3.0.2111,102260",
+      "sha256": "d79f22709b3df764bce5cfe80eb8c476e3a912f43c08e23c91e802f027bfbad8",
+      "signature": "cask::yandex::26.3.0.2111,102260::d79f22709b3df764bce5cfe80eb8c476e3a912f43c08e23c91e802f027bfbad8"
     },
     {
       "kind": "cask",
@@ -68083,9 +68083,9 @@
       "token": "zotero@beta",
       "name": "Zotero Beta",
       "packageUrl": "https://formulae.brew.sh/cask/zotero@beta",
-      "version": "9.0-beta.9,f130e3b3e",
-      "sha256": "11adcf6c1be074ae93545b397ad1d5f2b064fa4277c5d77f27bed15f7c7beeec",
-      "signature": "cask::zotero@beta::9.0-beta.9,f130e3b3e::11adcf6c1be074ae93545b397ad1d5f2b064fa4277c5d77f27bed15f7c7beeec"
+      "version": "9.0-beta.10,be1373dd3",
+      "sha256": "a1ad9fa3b71e0b387f409991e6d2554a30966da207297c153e973602fc02330f",
+      "signature": "cask::zotero@beta::9.0-beta.10,be1373dd3::a1ad9fa3b71e0b387f409991e6d2554a30966da207297c153e973602fc02330f"
     },
     {
       "kind": "cask",
@@ -68705,10 +68705,10 @@
       "token": "addons-linter",
       "name": "addons-linter",
       "packageUrl": "https://formulae.brew.sh/formula/addons-linter",
-      "version": "9.9.1",
+      "version": "10.0.0",
       "revision": 0,
-      "sha256": "268237869aae0adbdd0ce18755644b7324a6c4484d6da6afcd6da594a7e5c25f",
-      "signature": "formula::addons-linter::9.9.1::0::268237869aae0adbdd0ce18755644b7324a6c4484d6da6afcd6da594a7e5c25f"
+      "sha256": "31f2f3249164e1171733dcc6a9edee5f97768ba54eb780d916e19fde3339ba3d",
+      "signature": "formula::addons-linter::10.0.0::0::31f2f3249164e1171733dcc6a9edee5f97768ba54eb780d916e19fde3339ba3d"
     },
     {
       "kind": "formula",
@@ -69951,10 +69951,10 @@
       "token": "aoe",
       "name": "aoe",
       "packageUrl": "https://formulae.brew.sh/formula/aoe",
-      "version": "0.14.0",
+      "version": "0.15.0",
       "revision": 0,
-      "sha256": "c120760ca4c6e7a4aede550bfa4264394ea81c608e5b80b7447bfd16ddc9b218",
-      "signature": "formula::aoe::0.14.0::0::c120760ca4c6e7a4aede550bfa4264394ea81c608e5b80b7447bfd16ddc9b218"
+      "sha256": "fc059440c76bfe8c811d374a8111d0d8b23031523832ed5a8cec20f479489fe4",
+      "signature": "formula::aoe::0.15.0::0::fc059440c76bfe8c811d374a8111d0d8b23031523832ed5a8cec20f479489fe4"
     },
     {
       "kind": "formula",
@@ -70230,10 +70230,10 @@
       "token": "apko",
       "name": "apko",
       "packageUrl": "https://formulae.brew.sh/formula/apko",
-      "version": "1.1.13",
+      "version": "1.1.14",
       "revision": 0,
-      "sha256": "a753c94f98dd86aa74f4ab11d6f18f8b8b39260ed18409c0835449da86b67e1a",
-      "signature": "formula::apko::1.1.13::0::a753c94f98dd86aa74f4ab11d6f18f8b8b39260ed18409c0835449da86b67e1a"
+      "sha256": "60e7d222ee33e6c481c8d7071c395c49e161a1a967d04911bc3b4550f694b182",
+      "signature": "formula::apko::1.1.14::0::60e7d222ee33e6c481c8d7071c395c49e161a1a967d04911bc3b4550f694b182"
     },
     {
       "kind": "formula",
@@ -70925,10 +70925,10 @@
       "token": "asc",
       "name": "asc",
       "packageUrl": "https://formulae.brew.sh/formula/asc",
-      "version": "0.38.1",
+      "version": "0.38.2",
       "revision": 0,
-      "sha256": "95bb7cdfcf61705d0856c65d2747b897c951674fbd7eeaff55d26d08e18b877a",
-      "signature": "formula::asc::0.38.1::0::95bb7cdfcf61705d0856c65d2747b897c951674fbd7eeaff55d26d08e18b877a"
+      "sha256": "1b476f9fcc06224463d08cc5a80523d2835267fa45761ff56cf316b462b5c8ac",
+      "signature": "formula::asc::0.38.2::0::1b476f9fcc06224463d08cc5a80523d2835267fa45761ff56cf316b462b5c8ac"
     },
     {
       "kind": "formula",
@@ -71195,10 +71195,10 @@
       "token": "ast-grep",
       "name": "ast-grep",
       "packageUrl": "https://formulae.brew.sh/formula/ast-grep",
-      "version": "0.41.0",
+      "version": "0.41.1",
       "revision": 0,
-      "sha256": "0fd7cc46ea74b2d93fcf733fd1842796ea1f2d1d35c0f2f98a20de5d1a21f629",
-      "signature": "formula::ast-grep::0.41.0::0::0fd7cc46ea74b2d93fcf733fd1842796ea1f2d1d35c0f2f98a20de5d1a21f629"
+      "sha256": "f153b9ebf0d3266f767542e0502c1bb393b13c673823d927292d4f6c193db08f",
+      "signature": "formula::ast-grep::0.41.1::0::f153b9ebf0d3266f767542e0502c1bb393b13c673823d927292d4f6c193db08f"
     },
     {
       "kind": "formula",
@@ -72612,10 +72612,10 @@
       "token": "babl",
       "name": "babl",
       "packageUrl": "https://formulae.brew.sh/formula/babl",
-      "version": "0.1.122",
+      "version": "0.1.124",
       "revision": 0,
-      "sha256": "6851f705cda38f2df08a4ba8618279ce30d0a46f957fe6aa325b7b7de297bed2",
-      "signature": "formula::babl::0.1.122::0::6851f705cda38f2df08a4ba8618279ce30d0a46f957fe6aa325b7b7de297bed2"
+      "sha256": "1b0d544ab6f409f2b1b5f677226272d1e8c6d373f2f453ee870bfc7e5dd4f1b1",
+      "signature": "formula::babl::0.1.124::0::1b0d544ab6f409f2b1b5f677226272d1e8c6d373f2f453ee870bfc7e5dd4f1b1"
     },
     {
       "kind": "formula",
@@ -73180,10 +73180,10 @@
       "token": "bazel-diff",
       "name": "bazel-diff",
       "packageUrl": "https://formulae.brew.sh/formula/bazel-diff",
-      "version": "17.1.4",
+      "version": "17.1.5",
       "revision": 0,
-      "sha256": "45489bb4a1ffd05335366726f0646aeb41f216010c62f999b58b9c04aee53290",
-      "signature": "formula::bazel-diff::17.1.4::0::45489bb4a1ffd05335366726f0646aeb41f216010c62f999b58b9c04aee53290"
+      "sha256": "ff8c98497ffce4e3df564e8dc0bdc954bf8b242755f8c24f4d99b2fce756050f",
+      "signature": "formula::bazel-diff::17.1.5::0::ff8c98497ffce4e3df564e8dc0bdc954bf8b242755f8c24f4d99b2fce756050f"
     },
     {
       "kind": "formula",
@@ -76533,10 +76533,10 @@
       "token": "cargo-shear",
       "name": "cargo-shear",
       "packageUrl": "https://formulae.brew.sh/formula/cargo-shear",
-      "version": "1.9.1",
+      "version": "1.10.0",
       "revision": 0,
-      "sha256": "1a7e3b00b6103c2c7ccca0bfba48001ef98c80e9b72be7cf5ddc99953ee8b686",
-      "signature": "formula::cargo-shear::1.9.1::0::1a7e3b00b6103c2c7ccca0bfba48001ef98c80e9b72be7cf5ddc99953ee8b686"
+      "sha256": "4dc06e93219b36fced1bb8b8b9da2b948d05cce31a92e777ff81fc6980a43558",
+      "signature": "formula::cargo-shear::1.10.0::0::4dc06e93219b36fced1bb8b8b9da2b948d05cce31a92e777ff81fc6980a43558"
     },
     {
       "kind": "formula",
@@ -77667,10 +77667,10 @@
       "token": "chainloop-cli",
       "name": "chainloop-cli",
       "packageUrl": "https://formulae.brew.sh/formula/chainloop-cli",
-      "version": "1.81.1",
+      "version": "1.81.2",
       "revision": 0,
-      "sha256": "070dd1f7ade31a8887d6e7360120b4a9b1944673914d585d9f2c439a3f06239e",
-      "signature": "formula::chainloop-cli::1.81.1::0::070dd1f7ade31a8887d6e7360120b4a9b1944673914d585d9f2c439a3f06239e"
+      "sha256": "c5bc4c34f10d37c04309d27eb8facd5bb9f2d64d273cc15a86de7489672135e3",
+      "signature": "formula::chainloop-cli::1.81.2::0::c5bc4c34f10d37c04309d27eb8facd5bb9f2d64d273cc15a86de7489672135e3"
     },
     {
       "kind": "formula",
@@ -80032,10 +80032,10 @@
       "token": "comrak",
       "name": "comrak",
       "packageUrl": "https://formulae.brew.sh/formula/comrak",
-      "version": "0.50.0",
+      "version": "0.51.0",
       "revision": 0,
-      "sha256": "68adc783055136d7012d8a9f0f2ef1e876f92c8f8708f22977f89a6a1fe7e185",
-      "signature": "formula::comrak::0.50.0::0::68adc783055136d7012d8a9f0f2ef1e876f92c8f8708f22977f89a6a1fe7e185"
+      "sha256": "44c150168c031b031c0a96f4c45844a6338c54518239affc6885b6afff76c5b7",
+      "signature": "formula::comrak::0.51.0::0::44c150168c031b031c0a96f4c45844a6338c54518239affc6885b6afff76c5b7"
     },
     {
       "kind": "formula",
@@ -80322,10 +80322,10 @@
       "token": "context7-mcp",
       "name": "context7-mcp",
       "packageUrl": "https://formulae.brew.sh/formula/context7-mcp",
-      "version": "2.1.3",
+      "version": "2.1.4",
       "revision": 0,
-      "sha256": "d917833a70da39c0585a437924eb16bab0f0d8a3e6a35a16714f0dc654bbd7b0",
-      "signature": "formula::context7-mcp::2.1.3::0::d917833a70da39c0585a437924eb16bab0f0d8a3e6a35a16714f0dc654bbd7b0"
+      "sha256": "1b766b9d43f44149e0afcbc366aff75284a5b38957d34f9a434bd475e046bc0d",
+      "signature": "formula::context7-mcp::2.1.4::0::1b766b9d43f44149e0afcbc366aff75284a5b38957d34f9a434bd475e046bc0d"
     },
     {
       "kind": "formula",
@@ -82187,10 +82187,10 @@
       "token": "dagu",
       "name": "dagu",
       "packageUrl": "https://formulae.brew.sh/formula/dagu",
-      "version": "2.2.3",
+      "version": "2.2.4",
       "revision": 0,
-      "sha256": "1e0d5abfe09ee6a56a2dac7f8880cce8b9efc0cc8265fdc8117764e5b3be6606",
-      "signature": "formula::dagu::2.2.3::0::1e0d5abfe09ee6a56a2dac7f8880cce8b9efc0cc8265fdc8117764e5b3be6606"
+      "sha256": "74653eb29aaaa45a555f416bef0caaa80c59cf9bb7ee82a1081d75641c3f252b",
+      "signature": "formula::dagu::2.2.4::0::74653eb29aaaa45a555f416bef0caaa80c59cf9bb7ee82a1081d75641c3f252b"
     },
     {
       "kind": "formula",
@@ -82327,10 +82327,10 @@
       "token": "dart-sdk",
       "name": "dart-sdk",
       "packageUrl": "https://formulae.brew.sh/formula/dart-sdk",
-      "version": "3.11.1",
+      "version": "3.11.2",
       "revision": 0,
-      "sha256": "b7ba1476aa4d3930eb81a3ac9a86dd0c23d2963142addfbca80c505165824a71",
-      "signature": "formula::dart-sdk::3.11.1::0::b7ba1476aa4d3930eb81a3ac9a86dd0c23d2963142addfbca80c505165824a71"
+      "sha256": "570097d227e9bb48aa71a81df9d6613a53ee26051bddb33784b01fe13aa5c46c",
+      "signature": "formula::dart-sdk::3.11.2::0::570097d227e9bb48aa71a81df9d6613a53ee26051bddb33784b01fe13aa5c46c"
     },
     {
       "kind": "formula",
@@ -82407,10 +82407,10 @@
       "token": "datadog-static-analyzer",
       "name": "datadog-static-analyzer",
       "packageUrl": "https://formulae.brew.sh/formula/datadog-static-analyzer",
-      "version": "0.7.7",
+      "version": "0.7.8",
       "revision": 0,
-      "sha256": "7f9064739bcaa7dc1db932bb72aaf83ff50847fe31ea96bf44b3e804386719b4",
-      "signature": "formula::datadog-static-analyzer::0.7.7::0::7f9064739bcaa7dc1db932bb72aaf83ff50847fe31ea96bf44b3e804386719b4"
+      "sha256": "1664164435f8c01708c63c2f3f97421eae73fbe99dca1dec1efc78077fd35e4e",
+      "signature": "formula::datadog-static-analyzer::0.7.8::0::1664164435f8c01708c63c2f3f97421eae73fbe99dca1dec1efc78077fd35e4e"
     },
     {
       "kind": "formula",
@@ -83025,10 +83025,10 @@
       "token": "depot",
       "name": "depot",
       "packageUrl": "https://formulae.brew.sh/formula/depot",
-      "version": "2.101.14",
+      "version": "2.101.15",
       "revision": 0,
-      "sha256": "a4bdf4627062ab6e626a7f40203f8296fecfc62d4300fe8c1c43d942b2ea116e",
-      "signature": "formula::depot::2.101.14::0::a4bdf4627062ab6e626a7f40203f8296fecfc62d4300fe8c1c43d942b2ea116e"
+      "sha256": "08992c0a11f241566d548cbc89f1b10f83fa8ed0eb16627f9d2585355cd2e755",
+      "signature": "formula::depot::2.101.15::0::08992c0a11f241566d548cbc89f1b10f83fa8ed0eb16627f9d2585355cd2e755"
     },
     {
       "kind": "formula",
@@ -83065,10 +83065,10 @@
       "token": "descope",
       "name": "descope",
       "packageUrl": "https://formulae.brew.sh/formula/descope",
-      "version": "0.8.13",
+      "version": "0.8.14",
       "revision": 0,
-      "sha256": "0f2aea0e65687db859563206c421567c4a5b664b5975fc621b4c2bada17ac6e5",
-      "signature": "formula::descope::0.8.13::0::0f2aea0e65687db859563206c421567c4a5b664b5975fc621b4c2bada17ac6e5"
+      "sha256": "12bdf378ca812ae85ac3b482e7067ede9c576e27aed672fd1027a8cc130e132b",
+      "signature": "formula::descope::0.8.14::0::12bdf378ca812ae85ac3b482e7067ede9c576e27aed672fd1027a8cc130e132b"
     },
     {
       "kind": "formula",
@@ -86114,10 +86114,10 @@
       "token": "edencommon",
       "name": "edencommon",
       "packageUrl": "https://formulae.brew.sh/formula/edencommon",
-      "version": "2026.03.02.00",
+      "version": "2026.03.09.00",
       "revision": 0,
-      "sha256": "9d8a1cee7f5e95b11f67b7b553940b9e578eb699a33c5a75427b45b8172f8f4c",
-      "signature": "formula::edencommon::2026.03.02.00::0::9d8a1cee7f5e95b11f67b7b553940b9e578eb699a33c5a75427b45b8172f8f4c"
+      "sha256": "e90d7d94d06e4f7a87cfddd0ebf747c5b4a20112e7798c72873c583b282d15d7",
+      "signature": "formula::edencommon::2026.03.09.00::0::e90d7d94d06e4f7a87cfddd0ebf747c5b4a20112e7798c72873c583b282d15d7"
     },
     {
       "kind": "formula",
@@ -87908,10 +87908,10 @@
       "token": "fast_float",
       "name": "fast_float",
       "packageUrl": "https://formulae.brew.sh/formula/fast_float",
-      "version": "8.2.3",
+      "version": "8.2.4",
       "revision": 0,
-      "sha256": "fa811076bad7b7151ce826005a7213971c879b192ee4505a7016c8413038c2d0",
-      "signature": "formula::fast_float::8.2.3::0::fa811076bad7b7151ce826005a7213971c879b192ee4505a7016c8413038c2d0"
+      "sha256": "b90b3a415e4410822f50c70bd4485cf2c5e6962c2b05cf0dc88045d8af959ccc",
+      "signature": "formula::fast_float::8.2.4::0::b90b3a415e4410822f50c70bd4485cf2c5e6962c2b05cf0dc88045d8af959ccc"
     },
     {
       "kind": "formula",
@@ -88208,10 +88208,10 @@
       "token": "fb303",
       "name": "fb303",
       "packageUrl": "https://formulae.brew.sh/formula/fb303",
-      "version": "2026.03.02.00",
+      "version": "2026.03.09.00",
       "revision": 0,
-      "sha256": "194c458684b68cc51aec63b44fd7bd41f3260390fa181cc35ece07988a4d37f4",
-      "signature": "formula::fb303::2026.03.02.00::0::194c458684b68cc51aec63b44fd7bd41f3260390fa181cc35ece07988a4d37f4"
+      "sha256": "181667e31f10171053da03ea568e40f5cf90582c153b29e6d7cda62d527a1624",
+      "signature": "formula::fb303::2026.03.09.00::0::181667e31f10171053da03ea568e40f5cf90582c153b29e6d7cda62d527a1624"
     },
     {
       "kind": "formula",
@@ -88228,10 +88228,10 @@
       "token": "fbthrift",
       "name": "fbthrift",
       "packageUrl": "https://formulae.brew.sh/formula/fbthrift",
-      "version": "2026.03.02.00",
+      "version": "2026.03.09.00",
       "revision": 0,
-      "sha256": "666184a82c151b373e313de5d9a673de40ff0dc02ed2018f48cd1d68762771b7",
-      "signature": "formula::fbthrift::2026.03.02.00::0::666184a82c151b373e313de5d9a673de40ff0dc02ed2018f48cd1d68762771b7"
+      "sha256": "39130cd57f90f14276479b8389f2431f12a6363d07c07743dd6889aec57dce53",
+      "signature": "formula::fbthrift::2026.03.09.00::0::39130cd57f90f14276479b8389f2431f12a6363d07c07743dd6889aec57dce53"
     },
     {
       "kind": "formula",
@@ -89045,10 +89045,10 @@
       "token": "fizz",
       "name": "fizz",
       "packageUrl": "https://formulae.brew.sh/formula/fizz",
-      "version": "2026.03.02.00",
+      "version": "2026.03.09.00",
       "revision": 0,
-      "sha256": "f5756c8a869ecbff50cc720816bb6c7f99b61b0581edcef0fad7f0b0cb98c3d8",
-      "signature": "formula::fizz::2026.03.02.00::0::f5756c8a869ecbff50cc720816bb6c7f99b61b0581edcef0fad7f0b0cb98c3d8"
+      "sha256": "1859e710fa26e3ea9fb190f3f7c770c13614378e19bafaa22776958749f7b02f",
+      "signature": "formula::fizz::2026.03.09.00::0::1859e710fa26e3ea9fb190f3f7c770c13614378e19bafaa22776958749f7b02f"
     },
     {
       "kind": "formula",
@@ -89681,10 +89681,10 @@
       "token": "folly",
       "name": "folly",
       "packageUrl": "https://formulae.brew.sh/formula/folly",
-      "version": "2026.03.02.00",
+      "version": "2026.03.09.00",
       "revision": 0,
-      "sha256": "f2a9bbd4bd36256d4554f9917fcefa9ec356cec637d2a743e01a6a1d569224dc",
-      "signature": "formula::folly::2026.03.02.00::0::f2a9bbd4bd36256d4554f9917fcefa9ec356cec637d2a743e01a6a1d569224dc"
+      "sha256": "126b10954c75f5f10f7c061c56ae066d55d3a587455e9650e869d24691dc8226",
+      "signature": "formula::folly::2026.03.09.00::0::126b10954c75f5f10f7c061c56ae066d55d3a587455e9650e869d24691dc8226"
     },
     {
       "kind": "formula",
@@ -91957,10 +91957,10 @@
       "token": "gh",
       "name": "gh",
       "packageUrl": "https://formulae.brew.sh/formula/gh",
-      "version": "2.87.3",
+      "version": "2.88.0",
       "revision": 0,
-      "sha256": "8aa3458df7204c8b788e3d05c1363fefd899f8a53de22b067d924f24a8ae75ea",
-      "signature": "formula::gh::2.87.3::0::8aa3458df7204c8b788e3d05c1363fefd899f8a53de22b067d924f24a8ae75ea"
+      "sha256": "f26b30659630254b9ec19e4a8f50a3b1315cdacde63e57e7f2c1292758c92c89",
+      "signature": "formula::gh::2.88.0::0::f26b30659630254b9ec19e4a8f50a3b1315cdacde63e57e7f2c1292758c92c89"
     },
     {
       "kind": "formula",
@@ -97886,6 +97886,16 @@
     },
     {
       "kind": "formula",
+      "token": "hf",
+      "name": "hf",
+      "packageUrl": "https://formulae.brew.sh/formula/hf",
+      "version": "1.6.0",
+      "revision": 0,
+      "sha256": "d931ddad8ba8dfc1e816bf254810eb6f38e5c32f60d4184b5885662a3b167325",
+      "signature": "formula::hf::1.6.0::0::d931ddad8ba8dfc1e816bf254810eb6f38e5c32f60d4184b5885662a3b167325"
+    },
+    {
+      "kind": "formula",
       "token": "hf-mcp-server",
       "name": "hf-mcp-server",
       "packageUrl": "https://formulae.brew.sh/formula/hf-mcp-server",
@@ -98743,16 +98753,6 @@
     },
     {
       "kind": "formula",
-      "token": "huggingface-cli",
-      "name": "huggingface-cli",
-      "packageUrl": "https://formulae.brew.sh/formula/huggingface-cli",
-      "version": "1.6.0",
-      "revision": 0,
-      "sha256": "d931ddad8ba8dfc1e816bf254810eb6f38e5c32f60d4184b5885662a3b167325",
-      "signature": "formula::huggingface-cli::1.6.0::0::d931ddad8ba8dfc1e816bf254810eb6f38e5c32f60d4184b5885662a3b167325"
-    },
-    {
-      "kind": "formula",
       "token": "hugo",
       "name": "hugo",
       "packageUrl": "https://formulae.brew.sh/formula/hugo",
@@ -98856,10 +98856,10 @@
       "token": "hyper-mcp",
       "name": "hyper-mcp",
       "packageUrl": "https://formulae.brew.sh/formula/hyper-mcp",
-      "version": "0.4.6",
+      "version": "0.4.7",
       "revision": 0,
-      "sha256": "6787effb2a7573cb134748cd30831c56e335b455701f3e6d045510ceaec0bf2b",
-      "signature": "formula::hyper-mcp::0.4.6::0::6787effb2a7573cb134748cd30831c56e335b455701f3e6d045510ceaec0bf2b"
+      "sha256": "ebd2d4b4737fffdce87ad2bdd57717569ed580cbc416beb6ca8eae8f7cb5f995",
+      "signature": "formula::hyper-mcp::0.4.7::0::ebd2d4b4737fffdce87ad2bdd57717569ed580cbc416beb6ca8eae8f7cb5f995"
     },
     {
       "kind": "formula",
@@ -100502,10 +100502,10 @@
       "token": "ipsw",
       "name": "ipsw",
       "packageUrl": "https://formulae.brew.sh/formula/ipsw",
-      "version": "3.1.660",
+      "version": "3.1.661",
       "revision": 0,
-      "sha256": "6dc194b51ca4fa0362dffce2773da734139dd913745e1cab1ade9921c3b4a17f",
-      "signature": "formula::ipsw::3.1.660::0::6dc194b51ca4fa0362dffce2773da734139dd913745e1cab1ade9921c3b4a17f"
+      "sha256": "03857031aeeb9f451176b16f86b2ecff3497efd1fe3ccff73bf11971c4abdba2",
+      "signature": "formula::ipsw::3.1.661::0::03857031aeeb9f451176b16f86b2ecff3497efd1fe3ccff73bf11971c4abdba2"
     },
     {
       "kind": "formula",
@@ -100612,10 +100612,10 @@
       "token": "ironclaw",
       "name": "ironclaw",
       "packageUrl": "https://formulae.brew.sh/formula/ironclaw",
-      "version": "0.16.1",
+      "version": "0.17.0",
       "revision": 0,
-      "sha256": "d69678e95ad4f447f6ffcdf88175783c77ebb11b8c0c3806e279b41e3aca8e60",
-      "signature": "formula::ironclaw::0.16.1::0::d69678e95ad4f447f6ffcdf88175783c77ebb11b8c0c3806e279b41e3aca8e60"
+      "sha256": "26b78c98f3faad3fdd35fe34924cf6b253341f5278cdc89320b8ba66de953a4e",
+      "signature": "formula::ironclaw::0.17.0::0::26b78c98f3faad3fdd35fe34924cf6b253341f5278cdc89320b8ba66de953a4e"
     },
     {
       "kind": "formula",
@@ -101500,10 +101500,10 @@
       "token": "joern",
       "name": "joern",
       "packageUrl": "https://formulae.brew.sh/formula/joern",
-      "version": "4.0.490",
+      "version": "4.0.500",
       "revision": 0,
-      "sha256": "43cc39f976c5f9712fc63742ea9b2367ac35f10da335ea365fca795840a049f2",
-      "signature": "formula::joern::4.0.490::0::43cc39f976c5f9712fc63742ea9b2367ac35f10da335ea365fca795840a049f2"
+      "sha256": "94a363c1f2230f4b1e2c156e5ede8726b10030abeb35985899d83d1aab731e37",
+      "signature": "formula::joern::4.0.500::0::94a363c1f2230f4b1e2c156e5ede8726b10030abeb35985899d83d1aab731e37"
     },
     {
       "kind": "formula",
@@ -102696,10 +102696,10 @@
       "token": "katana",
       "name": "katana",
       "packageUrl": "https://formulae.brew.sh/formula/katana",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "revision": 0,
-      "sha256": "707d355be6a288a96262197a2ed28f041d789f4cda8463637954e4a9fb0830ce",
-      "signature": "formula::katana::1.4.0::0::707d355be6a288a96262197a2ed28f041d789f4cda8463637954e4a9fb0830ce"
+      "sha256": "ee18fd5d0bf3e8f6c73fdc77c7b874dfa993d0e4b5f8d4e475eaea2ce62d8bdb",
+      "signature": "formula::katana::1.5.0::0::ee18fd5d0bf3e8f6c73fdc77c7b874dfa993d0e4b5f8d4e475eaea2ce62d8bdb"
     },
     {
       "kind": "formula",
@@ -102864,10 +102864,10 @@
       "token": "keploy",
       "name": "keploy",
       "packageUrl": "https://formulae.brew.sh/formula/keploy",
-      "version": "3.3.38",
+      "version": "3.3.39",
       "revision": 0,
-      "sha256": "7cf13b5090558e28cfe55922f0ac382439349766de79776915c034d2d0849bea",
-      "signature": "formula::keploy::3.3.38::0::7cf13b5090558e28cfe55922f0ac382439349766de79776915c034d2d0849bea"
+      "sha256": "316878f4512e3dc47e12a3b5cd8eca323540c4e930ea776302fba5a579ae0776",
+      "signature": "formula::keploy::3.3.39::0::316878f4512e3dc47e12a3b5cd8eca323540c4e930ea776302fba5a579ae0776"
     },
     {
       "kind": "formula",
@@ -103688,10 +103688,10 @@
       "token": "kube-linter",
       "name": "kube-linter",
       "packageUrl": "https://formulae.brew.sh/formula/kube-linter",
-      "version": "0.8.2",
+      "version": "0.8.3",
       "revision": 0,
-      "sha256": "412a2951851c8a3f279fb99b7d1aebd0b3a6483d1d4a6a2194e24d4859b93c6b",
-      "signature": "formula::kube-linter::0.8.2::0::412a2951851c8a3f279fb99b7d1aebd0b3a6483d1d4a6a2194e24d4859b93c6b"
+      "sha256": "e548670732ec47e34308abc96755c2cffeeaa1d942222167669709d612caa7d1",
+      "signature": "formula::kube-linter::0.8.3::0::e548670732ec47e34308abc96755c2cffeeaa1d942222167669709d612caa7d1"
     },
     {
       "kind": "formula",
@@ -109787,10 +109787,10 @@
       "token": "libupnp",
       "name": "libupnp",
       "packageUrl": "https://formulae.brew.sh/formula/libupnp",
-      "version": "1.18.1",
+      "version": "1.18.2",
       "revision": 0,
-      "sha256": "140b8044d403c01a223efa096642b140698d3a3f28d25bb7a8f26bf42b0e4ef0",
-      "signature": "formula::libupnp::1.18.1::0::140b8044d403c01a223efa096642b140698d3a3f28d25bb7a8f26bf42b0e4ef0"
+      "sha256": "2d0efa0008940de31c139192564db1ec6ddaa4b4638a5bc4424f12901cc7e1d4",
+      "signature": "formula::libupnp::1.18.2::0::2d0efa0008940de31c139192564db1ec6ddaa4b4638a5bc4424f12901cc7e1d4"
     },
     {
       "kind": "formula",
@@ -111222,9 +111222,9 @@
       "token": "llama.cpp",
       "name": "llama.cpp",
       "packageUrl": "https://formulae.brew.sh/formula/llama.cpp",
-      "version": "8250",
+      "version": "8260",
       "revision": 0,
-      "signature": "formula::llama.cpp::8250::0::"
+      "signature": "formula::llama.cpp::8260::0::"
     },
     {
       "kind": "formula",
@@ -113392,9 +113392,9 @@
       "token": "mas",
       "name": "mas",
       "packageUrl": "https://formulae.brew.sh/formula/mas",
-      "version": "6.0.0",
+      "version": "6.0.1",
       "revision": 0,
-      "signature": "formula::mas::6.0.0::0::"
+      "signature": "formula::mas::6.0.1::0::"
     },
     {
       "kind": "formula",
@@ -114238,10 +114238,10 @@
       "token": "melange",
       "name": "melange",
       "packageUrl": "https://formulae.brew.sh/formula/melange",
-      "version": "0.45.1",
+      "version": "0.45.2",
       "revision": 0,
-      "sha256": "fbf8316cf9f11c3e4e681e24c9372cad0be6fbac5fc4747d583adabffba30ddf",
-      "signature": "formula::melange::0.45.1::0::fbf8316cf9f11c3e4e681e24c9372cad0be6fbac5fc4747d583adabffba30ddf"
+      "sha256": "04d1ddc658a8e7acc928ae08252ba753e886e1bbf5dc2fc495eb83d2a366dfa0",
+      "signature": "formula::melange::0.45.2::0::04d1ddc658a8e7acc928ae08252ba753e886e1bbf5dc2fc495eb83d2a366dfa0"
     },
     {
       "kind": "formula",
@@ -114666,10 +114666,10 @@
       "token": "micasa",
       "name": "micasa",
       "packageUrl": "https://formulae.brew.sh/formula/micasa",
-      "version": "1.79.0",
+      "version": "1.80.0",
       "revision": 0,
-      "sha256": "1312b4deb0708e0a4e1ae8257402bf4ed67df9c0185d98a5420933d605e586a8",
-      "signature": "formula::micasa::1.79.0::0::1312b4deb0708e0a4e1ae8257402bf4ed67df9c0185d98a5420933d605e586a8"
+      "sha256": "d58e2d0a4ed5e83e01d1a736b00d263d44ce7ac673504e2f1068f059d57a1e95",
+      "signature": "formula::micasa::1.80.0::0::d58e2d0a4ed5e83e01d1a736b00d263d44ce7ac673504e2f1068f059d57a1e95"
     },
     {
       "kind": "formula",
@@ -115220,10 +115220,10 @@
       "token": "mistral-vibe",
       "name": "mistral-vibe",
       "packageUrl": "https://formulae.brew.sh/formula/mistral-vibe",
-      "version": "2.4.0",
+      "version": "2.4.1",
       "revision": 0,
-      "sha256": "8f19b513dd8c4934f4290b1966e5a6e16d6f62357f621794880e0a9cba4b280b",
-      "signature": "formula::mistral-vibe::2.4.0::0::8f19b513dd8c4934f4290b1966e5a6e16d6f62357f621794880e0a9cba4b280b"
+      "sha256": "3a8bd62ad5a8a2bfb549abaa1e164fb43b6b18a4733d901ee57cfdb097e4637f",
+      "signature": "formula::mistral-vibe::2.4.1::0::3a8bd62ad5a8a2bfb549abaa1e164fb43b6b18a4733d901ee57cfdb097e4637f"
     },
     {
       "kind": "formula",
@@ -115350,10 +115350,10 @@
       "token": "mkdocs-material",
       "name": "mkdocs-material",
       "packageUrl": "https://formulae.brew.sh/formula/mkdocs-material",
-      "version": "9.7.4",
+      "version": "9.7.5",
       "revision": 0,
-      "sha256": "711b0ee63aca9a8c7124d4c73e83a25aa996e27e814767c3a3967df1b9e56f32",
-      "signature": "formula::mkdocs-material::9.7.4::0::711b0ee63aca9a8c7124d4c73e83a25aa996e27e814767c3a3967df1b9e56f32"
+      "sha256": "f76bdab532bad1d9c57ca7187b37eccf64dd12e1586909307f8856db3be384ea",
+      "signature": "formula::mkdocs-material::9.7.5::0::f76bdab532bad1d9c57ca7187b37eccf64dd12e1586909307f8856db3be384ea"
     },
     {
       "kind": "formula",
@@ -117099,10 +117099,10 @@
       "token": "mvfst",
       "name": "mvfst",
       "packageUrl": "https://formulae.brew.sh/formula/mvfst",
-      "version": "2026.03.02.00",
+      "version": "2026.03.09.00",
       "revision": 0,
-      "sha256": "29ca852391e280a56c4a83cae76b9bad6e265bc1eba4ffa06e898fe3d9193e59",
-      "signature": "formula::mvfst::2026.03.02.00::0::29ca852391e280a56c4a83cae76b9bad6e265bc1eba4ffa06e898fe3d9193e59"
+      "sha256": "0fbdf46b742a76f32ca2c2bfcd9c6e9246f8bf9bb6921dbef65e087253af8970",
+      "signature": "formula::mvfst::2026.03.09.00::0::0fbdf46b742a76f32ca2c2bfcd9c6e9246f8bf9bb6921dbef65e087253af8970"
     },
     {
       "kind": "formula",
@@ -117129,10 +117129,10 @@
       "token": "mx",
       "name": "mx",
       "packageUrl": "https://formulae.brew.sh/formula/mx",
-      "version": "7.73.0",
+      "version": "7.74.0",
       "revision": 0,
-      "sha256": "d58087ccd31c5c1a6019e8cc1bfeeb69ac88f6978848e8f47589fb16e2e1ba49",
-      "signature": "formula::mx::7.73.0::0::d58087ccd31c5c1a6019e8cc1bfeeb69ac88f6978848e8f47589fb16e2e1ba49"
+      "sha256": "7d3a8c3c12a13adc5bb1c3d6a10823d75c108d8ae482607e8215e677e675b8aa",
+      "signature": "formula::mx::7.74.0::0::7d3a8c3c12a13adc5bb1c3d6a10823d75c108d8ae482607e8215e677e675b8aa"
     },
     {
       "kind": "formula",
@@ -117918,10 +117918,10 @@
       "token": "nelm",
       "name": "nelm",
       "packageUrl": "https://formulae.brew.sh/formula/nelm",
-      "version": "1.19.1",
+      "version": "1.20.1",
       "revision": 0,
-      "sha256": "ee9ec58db1a6e273a06eef39419ee2bc8c6dfdee32edab3bf3093522d3d0c86a",
-      "signature": "formula::nelm::1.19.1::0::ee9ec58db1a6e273a06eef39419ee2bc8c6dfdee32edab3bf3093522d3d0c86a"
+      "sha256": "20f4d2348befc987809f692e2d10e1c99a281061cec56edd5f459a3cf0016bea",
+      "signature": "formula::nelm::1.20.1::0::20f4d2348befc987809f692e2d10e1c99a281061cec56edd5f459a3cf0016bea"
     },
     {
       "kind": "formula",
@@ -118407,10 +118407,10 @@
       "token": "newrelic-cli",
       "name": "newrelic-cli",
       "packageUrl": "https://formulae.brew.sh/formula/newrelic-cli",
-      "version": "0.108.0",
+      "version": "0.108.1",
       "revision": 0,
-      "sha256": "3bdbc892396f62b8e4094759f20cb3dc4fb105b5a1ddf2854823f5188b9e1d92",
-      "signature": "formula::newrelic-cli::0.108.0::0::3bdbc892396f62b8e4094759f20cb3dc4fb105b5a1ddf2854823f5188b9e1d92"
+      "sha256": "a9197bf0595c018bb28d5a26854ff306cec2a3f3bc2ade9b138bf8132a3a74d8",
+      "signature": "formula::newrelic-cli::0.108.1::0::a9197bf0595c018bb28d5a26854ff306cec2a3f3bc2ade9b138bf8132a3a74d8"
     },
     {
       "kind": "formula",
@@ -118499,6 +118499,16 @@
       "revision": 1,
       "sha256": "dea258774bd08c8b7ff65e9bed2a449b24ed8736326b1bb83610248e697c7f1b",
       "signature": "formula::nfcutils::0.3.2::1::dea258774bd08c8b7ff65e9bed2a449b24ed8736326b1bb83610248e697c7f1b"
+    },
+    {
+      "kind": "formula",
+      "token": "nfd2nfc",
+      "name": "nfd2nfc",
+      "packageUrl": "https://formulae.brew.sh/formula/nfd2nfc",
+      "version": "2.0.7",
+      "revision": 0,
+      "sha256": "ea53755802bbd85aa52e4d56d251c20bbf490bce39c28551852b2f7f02e042cf",
+      "signature": "formula::nfd2nfc::2.0.7::0::ea53755802bbd85aa52e4d56d251c20bbf490bce39c28551852b2f7f02e042cf"
     },
     {
       "kind": "formula",
@@ -119052,6 +119062,16 @@
     },
     {
       "kind": "formula",
+      "token": "nono",
+      "name": "nono",
+      "packageUrl": "https://formulae.brew.sh/formula/nono",
+      "version": "0.15.0",
+      "revision": 0,
+      "sha256": "5f48d630a4a61f96297166d9711af1aa128e16b02452370bd3196c54bcafa12a",
+      "signature": "formula::nono::0.15.0::0::5f48d630a4a61f96297166d9711af1aa128e16b02452370bd3196c54bcafa12a"
+    },
+    {
+      "kind": "formula",
       "token": "nopoll",
       "name": "nopoll",
       "packageUrl": "https://formulae.brew.sh/formula/nopoll",
@@ -119575,10 +119595,10 @@
       "token": "numpy",
       "name": "numpy",
       "packageUrl": "https://formulae.brew.sh/formula/numpy",
-      "version": "2.4.2",
+      "version": "2.4.3",
       "revision": 0,
-      "sha256": "659a6107e31a83c4e33f763942275fd278b21d095094044eb35569e86a21ddae",
-      "signature": "formula::numpy::2.4.2::0::659a6107e31a83c4e33f763942275fd278b21d095094044eb35569e86a21ddae"
+      "sha256": "483a201202b73495f00dbc83796c6ae63137a9bdade074f7648b3e32613412dd",
+      "signature": "formula::numpy::2.4.3::0::483a201202b73495f00dbc83796c6ae63137a9bdade074f7648b3e32613412dd"
     },
     {
       "kind": "formula",
@@ -120015,10 +120035,10 @@
       "token": "oci-cli",
       "name": "oci-cli",
       "packageUrl": "https://formulae.brew.sh/formula/oci-cli",
-      "version": "3.75.0",
+      "version": "3.76.0",
       "revision": 0,
-      "sha256": "cf340f1ff48fe509dfcfadedcc2eb132eab88a62f4fc047f25ff075f9c775577",
-      "signature": "formula::oci-cli::3.75.0::0::cf340f1ff48fe509dfcfadedcc2eb132eab88a62f4fc047f25ff075f9c775577"
+      "sha256": "b7c14fc960865f6f309bd40bab16f65f18c3a41ceb9b80fc8badb62c006d8c03",
+      "signature": "formula::oci-cli::3.76.0::0::b7c14fc960865f6f309bd40bab16f65f18c3a41ceb9b80fc8badb62c006d8c03"
     },
     {
       "kind": "formula",
@@ -120273,10 +120293,10 @@
       "token": "oh-my-posh",
       "name": "oh-my-posh",
       "packageUrl": "https://formulae.brew.sh/formula/oh-my-posh",
-      "version": "29.7.1",
+      "version": "29.8.0",
       "revision": 0,
-      "sha256": "bbad9d58bcbda69cef1562b3d433861d31ca31cab67ba555c0805fd73fb73c87",
-      "signature": "formula::oh-my-posh::29.7.1::0::bbad9d58bcbda69cef1562b3d433861d31ca31cab67ba555c0805fd73fb73c87"
+      "sha256": "ffac245e9a5d2aa3545faee704159ea201ec35afbb27377ed11e12cac35fe3a2",
+      "signature": "formula::oh-my-posh::29.8.0::0::ffac245e9a5d2aa3545faee704159ea201ec35afbb27377ed11e12cac35fe3a2"
     },
     {
       "kind": "formula",
@@ -121436,10 +121456,10 @@
       "token": "openshift-cli",
       "name": "openshift-cli",
       "packageUrl": "https://formulae.brew.sh/formula/openshift-cli",
-      "version": "4.21.3",
+      "version": "4.21.4",
       "revision": 0,
-      "sha256": "06e5172491145153c51b2ab40df040c49e608afca08d7cc0e29ad81f34a26141",
-      "signature": "formula::openshift-cli::4.21.3::0::06e5172491145153c51b2ab40df040c49e608afca08d7cc0e29ad81f34a26141"
+      "sha256": "2f6565d1fcf4ea0b9de1b91a3054062a11d00cfd6fec68c455e174088dfc0d5c",
+      "signature": "formula::openshift-cli::4.21.4::0::2f6565d1fcf4ea0b9de1b91a3054062a11d00cfd6fec68c455e174088dfc0d5c"
     },
     {
       "kind": "formula",
@@ -122911,10 +122931,10 @@
       "token": "parsedmarc",
       "name": "parsedmarc",
       "packageUrl": "https://formulae.brew.sh/formula/parsedmarc",
-      "version": "9.1.2",
+      "version": "9.2.0",
       "revision": 0,
-      "sha256": "6a52c4c66d8d544309dc97a72606277aa9c04a80b9d3b326d5976dc4b12c1aa8",
-      "signature": "formula::parsedmarc::9.1.2::0::6a52c4c66d8d544309dc97a72606277aa9c04a80b9d3b326d5976dc4b12c1aa8"
+      "sha256": "5b4be61b6996219600e86e375c6055d390a4c2c148a8f5f6452898bd3e7ccec7",
+      "signature": "formula::parsedmarc::9.2.0::0::5b4be61b6996219600e86e375c6055d390a4c2c148a8f5f6452898bd3e7ccec7"
     },
     {
       "kind": "formula",
@@ -123769,10 +123789,10 @@
       "token": "permify",
       "name": "permify",
       "packageUrl": "https://formulae.brew.sh/formula/permify",
-      "version": "1.6.4",
+      "version": "1.6.5",
       "revision": 0,
-      "sha256": "601781e7c64a57aee8a243de54aabf4d86d1136636c793963668b7630e3f68be",
-      "signature": "formula::permify::1.6.4::0::601781e7c64a57aee8a243de54aabf4d86d1136636c793963668b7630e3f68be"
+      "sha256": "e98e516629183b6b00150a28b582304bd7b14ff76bebb4dc11db503540db3c38",
+      "signature": "formula::permify::1.6.5::0::e98e516629183b6b00150a28b582304bd7b14ff76bebb4dc11db503540db3c38"
     },
     {
       "kind": "formula",
@@ -124439,10 +124459,10 @@
       "token": "picoclaw",
       "name": "picoclaw",
       "packageUrl": "https://formulae.brew.sh/formula/picoclaw",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "revision": 0,
-      "sha256": "2b24db59ee2798d07ee9ad931826e9f7550f6bb8b0e0fd48dec20730e37d51d3",
-      "signature": "formula::picoclaw::0.2.0::0::2b24db59ee2798d07ee9ad931826e9f7550f6bb8b0e0fd48dec20730e37d51d3"
+      "sha256": "cfacbfbdde3dcf732cd588162af7ceab504464ff2988c8811a6bcc5d6e00d23a",
+      "signature": "formula::picoclaw::0.2.1::0::cfacbfbdde3dcf732cd588162af7ceab504464ff2988c8811a6bcc5d6e00d23a"
     },
     {
       "kind": "formula",
@@ -125227,10 +125247,10 @@
       "token": "pluto",
       "name": "pluto",
       "packageUrl": "https://formulae.brew.sh/formula/pluto",
-      "version": "5.23.1",
+      "version": "5.23.3",
       "revision": 0,
-      "sha256": "d9f512a9bf4c0bf55b446a180eb728afab7b76ea4827dd33f2bc3f2d221a1aed",
-      "signature": "formula::pluto::5.23.1::0::d9f512a9bf4c0bf55b446a180eb728afab7b76ea4827dd33f2bc3f2d221a1aed"
+      "sha256": "5d1aa6e09862d86aa86564e2f9635f1f0afd48a332ab831bd530b47a4c7e6be9",
+      "signature": "formula::pluto::5.23.3::0::5d1aa6e09862d86aa86564e2f9635f1f0afd48a332ab831bd530b47a4c7e6be9"
     },
     {
       "kind": "formula",
@@ -126154,10 +126174,10 @@
       "token": "ppsspp",
       "name": "ppsspp",
       "packageUrl": "https://formulae.brew.sh/formula/ppsspp",
-      "version": "1.20.1",
+      "version": "1.20.2",
       "revision": 0,
-      "sha256": "063b224adc25c2b28e01c36033fff9b96e9e2b8d1004c6bb5db3d6f1b83b2e20",
-      "signature": "formula::ppsspp::1.20.1::0::063b224adc25c2b28e01c36033fff9b96e9e2b8d1004c6bb5db3d6f1b83b2e20"
+      "sha256": "c0d3088d2e3241deb16014d47e6c37b48075643e22eb7e596699b8d0e7533590",
+      "signature": "formula::ppsspp::1.20.2::0::c0d3088d2e3241deb16014d47e6c37b48075643e22eb7e596699b8d0e7533590"
     },
     {
       "kind": "formula",
@@ -126864,10 +126884,10 @@
       "token": "proxygen",
       "name": "proxygen",
       "packageUrl": "https://formulae.brew.sh/formula/proxygen",
-      "version": "2026.03.02.00",
+      "version": "2026.03.09.00",
       "revision": 0,
-      "sha256": "9a6bfc54ad2adebd7dd2d1a9afc6c659601425a9abcbab0727fa22112b235106",
-      "signature": "formula::proxygen::2026.03.02.00::0::9a6bfc54ad2adebd7dd2d1a9afc6c659601425a9abcbab0727fa22112b235106"
+      "sha256": "e0fbc19c7f47b4d75d2b70a08c6d7dbd27f402dd3439d06a3c6e507cecc10c88",
+      "signature": "formula::proxygen::2026.03.09.00::0::e0fbc19c7f47b4d75d2b70a08c6d7dbd27f402dd3439d06a3c6e507cecc10c88"
     },
     {
       "kind": "formula",
@@ -127643,10 +127663,10 @@
       "token": "pymupdf",
       "name": "pymupdf",
       "packageUrl": "https://formulae.brew.sh/formula/pymupdf",
-      "version": "1.27.1",
-      "revision": 1,
-      "sha256": "4afbde0769c336717a149ab0de3330dcb75378f795c1a8c5af55c1a628b17d55",
-      "signature": "formula::pymupdf::1.27.1::1::4afbde0769c336717a149ab0de3330dcb75378f795c1a8c5af55c1a628b17d55"
+      "version": "1.27.2",
+      "revision": 0,
+      "sha256": "37fc9cedeafb40839f86a074d4d9feab725144bdd4bbfd20308ff8957e2b10af",
+      "signature": "formula::pymupdf::1.27.2::0::37fc9cedeafb40839f86a074d4d9feab725144bdd4bbfd20308ff8957e2b10af"
     },
     {
       "kind": "formula",
@@ -131124,10 +131144,10 @@
       "token": "risor",
       "name": "risor",
       "packageUrl": "https://formulae.brew.sh/formula/risor",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "revision": 0,
-      "sha256": "053fd2a8057d4387ae746047f7f22dabe8c8c75f1fa1cee0ded50a74f33bb5f9",
-      "signature": "formula::risor::2.0.1::0::053fd2a8057d4387ae746047f7f22dabe8c8c75f1fa1cee0ded50a74f33bb5f9"
+      "sha256": "68aea48e715636482a24b1f5aa6505152c89f339374a4e8225cd1d83edc14ec7",
+      "signature": "formula::risor::2.1.0::0::68aea48e715636482a24b1f5aa6505152c89f339374a4e8225cd1d83edc14ec7"
     },
     {
       "kind": "formula",
@@ -131922,10 +131942,10 @@
       "token": "rtk",
       "name": "rtk",
       "packageUrl": "https://formulae.brew.sh/formula/rtk",
-      "version": "0.28.0",
+      "version": "0.28.1",
       "revision": 0,
-      "sha256": "ac6ccce24d5a6db952478a3cdc82098dfc0a208960233e883db7f4aae662d099",
-      "signature": "formula::rtk::0.28.0::0::ac6ccce24d5a6db952478a3cdc82098dfc0a208960233e883db7f4aae662d099"
+      "sha256": "1002e7bfdfb49c87e020a4b375a378e08a3141b03ec7338e2c2ca78961881453",
+      "signature": "formula::rtk::0.28.1::0::1002e7bfdfb49c87e020a4b375a378e08a3141b03ec7338e2c2ca78961881453"
     },
     {
       "kind": "formula",
@@ -132141,10 +132161,10 @@
       "token": "rumdl",
       "name": "rumdl",
       "packageUrl": "https://formulae.brew.sh/formula/rumdl",
-      "version": "0.1.44",
+      "version": "0.1.45",
       "revision": 0,
-      "sha256": "a5a39688417f4f062c5b33d0085c78520b7d0dfe6f17706fbad4bc094cdc3b0a",
-      "signature": "formula::rumdl::0.1.44::0::a5a39688417f4f062c5b33d0085c78520b7d0dfe6f17706fbad4bc094cdc3b0a"
+      "sha256": "442b87e36c6cf9de32d55a8397c9b898814525ab252bda0e62b9bfdf805e552c",
+      "signature": "formula::rumdl::0.1.45::0::442b87e36c6cf9de32d55a8397c9b898814525ab252bda0e62b9bfdf805e552c"
     },
     {
       "kind": "formula",
@@ -135150,10 +135170,10 @@
       "token": "sk",
       "name": "sk",
       "packageUrl": "https://formulae.brew.sh/formula/sk",
-      "version": "3.7.0",
+      "version": "4.0.0",
       "revision": 0,
-      "sha256": "3b794153c1b1435d4529a072ae1716e8b6781c063174c420d18a71bffd297425",
-      "signature": "formula::sk::3.7.0::0::3b794153c1b1435d4529a072ae1716e8b6781c063174c420d18a71bffd297425"
+      "sha256": "4aea53cd711551f35e67e08a58c8e015009751989da990dde29c10e8c546f581",
+      "signature": "formula::sk::4.0.0::0::4aea53cd711551f35e67e08a58c8e015009751989da990dde29c10e8c546f581"
     },
     {
       "kind": "formula",
@@ -135739,10 +135759,10 @@
       "token": "snapcast",
       "name": "snapcast",
       "packageUrl": "https://formulae.brew.sh/formula/snapcast",
-      "version": "0.34.0",
+      "version": "0.35.0",
       "revision": 0,
-      "sha256": "a2918ea4d1f9b2df9c4247fd71bd452ea03a5d20ac44f60a736df90488858944",
-      "signature": "formula::snapcast::0.34.0::0::a2918ea4d1f9b2df9c4247fd71bd452ea03a5d20ac44f60a736df90488858944"
+      "sha256": "cb75a71479bf52910bf5f47ae8120ec41c89459b0d77d7cd560e674e437ef050",
+      "signature": "formula::snapcast::0.35.0::0::cb75a71479bf52910bf5f47ae8120ec41c89459b0d77d7cd560e674e437ef050"
     },
     {
       "kind": "formula",
@@ -135898,10 +135918,10 @@
       "token": "snowflake",
       "name": "snowflake",
       "packageUrl": "https://formulae.brew.sh/formula/snowflake",
-      "version": "2.11.0",
+      "version": "2.12.1",
       "revision": 0,
-      "sha256": "1362a8d7e848beea63bf4d7e6b5541df92f2859b83daaf4260afef131556ac57",
-      "signature": "formula::snowflake::2.11.0::0::1362a8d7e848beea63bf4d7e6b5541df92f2859b83daaf4260afef131556ac57"
+      "sha256": "655f1daa9af141264c159ce0fe79070d7a4ca46ce43e94af2218a67f826d22d5",
+      "signature": "formula::snowflake::2.12.1::0::655f1daa9af141264c159ce0fe79070d7a4ca46ce43e94af2218a67f826d22d5"
     },
     {
       "kind": "formula",
@@ -137202,10 +137222,10 @@
       "token": "sqlmap",
       "name": "sqlmap",
       "packageUrl": "https://formulae.brew.sh/formula/sqlmap",
-      "version": "1.10.2",
+      "version": "1.10.3",
       "revision": 0,
-      "sha256": "092aab5def8149657899ee37266ef9b6dc93d2de6983fbd97726546ba8fe3dbd",
-      "signature": "formula::sqlmap::1.10.2::0::092aab5def8149657899ee37266ef9b6dc93d2de6983fbd97726546ba8fe3dbd"
+      "sha256": "55df94d28ff5cfa022e53296a548d3b6867d4f2bf2f95fb1038ad251f8d8bd71",
+      "signature": "formula::sqlmap::1.10.3::0::55df94d28ff5cfa022e53296a548d3b6867d4f2bf2f95fb1038ad251f8d8bd71"
     },
     {
       "kind": "formula",
@@ -138049,10 +138069,10 @@
       "token": "storj-uplink",
       "name": "storj-uplink",
       "packageUrl": "https://formulae.brew.sh/formula/storj-uplink",
-      "version": "1.148.4",
+      "version": "1.149.2",
       "revision": 0,
-      "sha256": "79ebd7b5b73247a408e118c6cb41cc0be154e824277f81308de8faba14cc182d",
-      "signature": "formula::storj-uplink::1.148.4::0::79ebd7b5b73247a408e118c6cb41cc0be154e824277f81308de8faba14cc182d"
+      "sha256": "fe2e8829253d22e1a925374490c0690d24c3e2eb696f3709ca6a98c44e9d1352",
+      "signature": "formula::storj-uplink::1.149.2::0::fe2e8829253d22e1a925374490c0690d24c3e2eb696f3709ca6a98c44e9d1352"
     },
     {
       "kind": "formula",
@@ -138837,9 +138857,9 @@
       "token": "swift-protobuf",
       "name": "swift-protobuf",
       "packageUrl": "https://formulae.brew.sh/formula/swift-protobuf",
-      "version": "1.35.1",
+      "version": "1.36.0",
       "revision": 0,
-      "signature": "formula::swift-protobuf::1.35.1::0::"
+      "signature": "formula::swift-protobuf::1.36.0::0::"
     },
     {
       "kind": "formula",
@@ -140580,10 +140600,10 @@
       "token": "testkube",
       "name": "testkube",
       "packageUrl": "https://formulae.brew.sh/formula/testkube",
-      "version": "2.7.0",
+      "version": "2.7.1",
       "revision": 0,
-      "sha256": "509c365ae9dde14e404ff15d697594f878b53dc4b814bcee45c18604894ecd99",
-      "signature": "formula::testkube::2.7.0::0::509c365ae9dde14e404ff15d697594f878b53dc4b814bcee45c18604894ecd99"
+      "sha256": "453e77c18df8925331aae7c134bfd4960fe0dd6c80654f18fc27ce1f68cb9dd8",
+      "signature": "formula::testkube::2.7.1::0::453e77c18df8925331aae7c134bfd4960fe0dd6c80654f18fc27ce1f68cb9dd8"
     },
     {
       "kind": "formula",
@@ -143134,10 +143154,10 @@
       "token": "turso",
       "name": "turso",
       "packageUrl": "https://formulae.brew.sh/formula/turso",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "revision": 0,
-      "sha256": "901d5c8b8f1818f8e32643caa864a323a0d97e2d43d3a8e129e50a22d468c1a6",
-      "signature": "formula::turso::0.5.0::0::901d5c8b8f1818f8e32643caa864a323a0d97e2d43d3a8e129e50a22d468c1a6"
+      "sha256": "a2d9ab254cfe8aa92b35335dbff699fe6e94519f9ea4c0260b44842551169462",
+      "signature": "formula::turso::0.5.1::0::a2d9ab254cfe8aa92b35335dbff699fe6e94519f9ea4c0260b44842551169462"
     },
     {
       "kind": "formula",
@@ -145807,10 +145827,10 @@
       "token": "vsearch",
       "name": "vsearch",
       "packageUrl": "https://formulae.brew.sh/formula/vsearch",
-      "version": "2.30.4",
+      "version": "2.30.5",
       "revision": 0,
-      "sha256": "8b26741fc71a01bb649576b0cd8650f8baae6d72e0e96fac29cd01d210fa75a7",
-      "signature": "formula::vsearch::2.30.4::0::8b26741fc71a01bb649576b0cd8650f8baae6d72e0e96fac29cd01d210fa75a7"
+      "sha256": "b6ecfa61721bb7805974cdb7d490d56b4ad3ed12b0baaa170fd96ff711d92929",
+      "signature": "formula::vsearch::2.30.5::0::b6ecfa61721bb7805974cdb7d490d56b4ad3ed12b0baaa170fd96ff711d92929"
     },
     {
       "kind": "formula",
@@ -146245,10 +146265,10 @@
       "token": "wangle",
       "name": "wangle",
       "packageUrl": "https://formulae.brew.sh/formula/wangle",
-      "version": "2026.03.02.00",
+      "version": "2026.03.09.00",
       "revision": 0,
-      "sha256": "46ee6bdf3f2625e8ec1f7b26cad6faa3b4e58fc981148233fc433f9ac36f706b",
-      "signature": "formula::wangle::2026.03.02.00::0::46ee6bdf3f2625e8ec1f7b26cad6faa3b4e58fc981148233fc433f9ac36f706b"
+      "sha256": "020679cb67bbec2c2a7da678e5020f140415af0719ac7e159f028902e4eb5d8b",
+      "signature": "formula::wangle::2026.03.09.00::0::020679cb67bbec2c2a7da678e5020f140415af0719ac7e159f028902e4eb5d8b"
     },
     {
       "kind": "formula",
@@ -146444,10 +146464,10 @@
       "token": "watchman",
       "name": "watchman",
       "packageUrl": "https://formulae.brew.sh/formula/watchman",
-      "version": "2026.03.02.00",
+      "version": "2026.03.09.00",
       "revision": 0,
-      "sha256": "c82c42560536d680e81ab25bdbb70a5595521d6086bfed3f39400ffcbd367e2b",
-      "signature": "formula::watchman::2026.03.02.00::0::c82c42560536d680e81ab25bdbb70a5595521d6086bfed3f39400ffcbd367e2b"
+      "sha256": "de969937e947f3a2cd86e77adc2f491b3872e326b9d203396a2a04212cb4175f",
+      "signature": "formula::watchman::2026.03.09.00::0::de969937e947f3a2cd86e77adc2f491b3872e326b9d203396a2a04212cb4175f"
     },
     {
       "kind": "formula",
@@ -147053,10 +147073,10 @@
       "token": "wifitui",
       "name": "wifitui",
       "packageUrl": "https://formulae.brew.sh/formula/wifitui",
-      "version": "0.10.0",
+      "version": "0.11.0",
       "revision": 0,
-      "sha256": "2e5e565eaad529b769dc2f558256c7a0aa51bdf4c1baea4353f9e533799395f8",
-      "signature": "formula::wifitui::0.10.0::0::2e5e565eaad529b769dc2f558256c7a0aa51bdf4c1baea4353f9e533799395f8"
+      "sha256": "f3fb64564fd5cd896a16aa36b8214733c88344e6154a63d37357dd9ecbeebece",
+      "signature": "formula::wifitui::0.11.0::0::f3fb64564fd5cd896a16aa36b8214733c88344e6154a63d37357dd9ecbeebece"
     },
     {
       "kind": "formula",
@@ -148118,10 +148138,10 @@
       "token": "xcodegen",
       "name": "xcodegen",
       "packageUrl": "https://formulae.brew.sh/formula/xcodegen",
-      "version": "2.45.2",
+      "version": "2.45.3",
       "revision": 0,
-      "sha256": "a99488fdcfe3a09b253283103e4e9e9d6d084e9836ce72d8fd9b8bfd040ba83a",
-      "signature": "formula::xcodegen::2.45.2::0::a99488fdcfe3a09b253283103e4e9e9d6d084e9836ce72d8fd9b8bfd040ba83a"
+      "sha256": "b8df8b3cffc65621838133fcc168afe4f444dbe9dc74cd32d1445d93380b4389",
+      "signature": "formula::xcodegen::2.45.3::0::b8df8b3cffc65621838133fcc168afe4f444dbe9dc74cd32d1445d93380b4389"
     },
     {
       "kind": "formula",
@@ -150538,6 +150558,16 @@
       "revision": 1,
       "sha256": "46d13ac60509a1566a4e3ad3eaed5262adf86eb5601ff892dba49affb0b63750",
       "signature": "formula::zurl::1.12.0::1::46d13ac60509a1566a4e3ad3eaed5262adf86eb5601ff892dba49affb0b63750"
+    },
+    {
+      "kind": "formula",
+      "token": "zvbi",
+      "name": "zvbi",
+      "packageUrl": "https://formulae.brew.sh/formula/zvbi",
+      "version": "0.2.44",
+      "revision": 0,
+      "sha256": "bca620ab670328ad732d161e4ce8d9d9fc832533cb7440e98c50e112b805ac5e",
+      "signature": "formula::zvbi::0.2.44::0::bca620ab670328ad732d161e4ce8d9d9fc832533cb7440e98c50e112b805ac5e"
     },
     {
       "kind": "formula",

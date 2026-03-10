@@ -31,6 +31,7 @@ describe("HomeFeedPage", () => {
     expect(html).toContain("Latest snapshot");
     expect(html).toContain("Published items:</strong> 4");
     expect(html).toContain("ripgrep");
+    expect(html).toContain("Internet file retriever");
     expect(html).toContain("Today");
     expect(html).toContain("Last 7 Days");
     expect(html).toContain("Previous 7 Days");
@@ -39,6 +40,7 @@ describe("HomeFeedPage", () => {
     expect(html).toContain("New");
     expect(html).toContain("Updated");
     expect(html).toContain("Fri, Mar 6, 2026");
+    expect(html).toContain('placeholder="Search by package name, token, or description"');
     expect(html).not.toContain("feed-card__date");
     expect(html).not.toContain("Snapshots retained");
   });

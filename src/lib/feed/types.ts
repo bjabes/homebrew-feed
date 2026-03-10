@@ -25,6 +25,7 @@ export interface FeedItem {
   kind: PackageKind;
   token: string;
   name: string;
+  description?: string;
   changeType: ChangeType;
   currentVersion: string;
   previousVersion: string | null;

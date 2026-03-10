@@ -46,6 +46,10 @@ function normalizeString(value: unknown, fallback = ""): string {
   return typeof value === "string" && value.length > 0 ? value : fallback;
 }
 
+function normalizeDescription(value: unknown): string | undefined {
+  return typeof value === "string" && value.trim().length > 0 ? value.trim() : undefined;
+}
+
 function normalizeSha(value: unknown): string | undefined {
   if (typeof value === "string") {
     return value;
@@ -138,6 +142,32 @@ export function buildSnapshot(formulae: unknown[], casks: unknown[]): SnapshotEn
     ...formulae.map((entry) => normalizeFormulaEntry(entry as Record<string, unknown>)),
     ...casks.map((entry) => normalizeCaskEntry(entry as Record<string, unknown>))
   ].sort(compareEntries);
+}
+
+export function buildDescriptionLookup(formulae: unknown[], casks: unknown[]): Map<string, string> {
+  const descriptions = new Map<string, string>();
+
+  for (const entry of formulae) {
+    const record = entry as Record<string, unknown>;
+    const token = normalizeString(record.name);
+    const description = normalizeDescription(record.desc);
+
+    if (token && description) {
+      descriptions.set(`formula:${token}`, description);
+    }
+  }
+
+  for (const entry of casks) {
+    const record = entry as Record<string, unknown>;
+    const token = normalizeString(record.token);
+    const description = normalizeDescription(record.desc);
+
+    if (token && description) {
+      descriptions.set(`cask:${token}`, description);
+    }
+  }
+
+  return descriptions;
 }
 
 export function diffSnapshots(
@@ -260,7 +290,7 @@ export function filterFeedItems(
         return true;
       }
 
-      const haystack = `${item.name} ${item.token}`.toLowerCase();
+      const haystack = `${item.name} ${item.token} ${item.description ?? ""}`.toLowerCase();
       return haystack.includes(query);
     })
     .sort(compareFeedItems);

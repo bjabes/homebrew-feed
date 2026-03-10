@@ -1,6 +1,7 @@
 export const formulaFixture = {
   name: "wget",
   full_name: "wget",
+  desc: "Internet file retriever",
   versions: {
     stable: "1.25.0"
   },
@@ -20,6 +21,7 @@ export const formulaRevisionFixture = {
 export const caskFixture = {
   token: "visual-studio-code",
   name: ["Visual Studio Code"],
+  desc: "Open-source code editor",
   version: "1.98.0",
   sha256: "cask-checksum-1"
 };
@@ -27,6 +29,7 @@ export const caskFixture = {
 export const latestCaskFixture = {
   token: "orbstack",
   name: ["OrbStack"],
+  desc: "Fast, light, and simple container and Linux machine manager",
   version: "latest",
   sha256: "no_check"
 };
@@ -44,6 +47,7 @@ export const dayTwoFormulae = [
   {
     name: "ripgrep",
     full_name: "ripgrep",
+    desc: "Line-oriented search tool that recursively searches directories",
     versions: {
       stable: "14.1.1"
     },
@@ -69,6 +73,7 @@ export const recentFeedItems = [
     kind: "formula",
     token: "ripgrep",
     name: "ripgrep",
+    description: "Line-oriented search tool that recursively searches directories",
     changeType: "new",
     currentVersion: "14.1.1",
     previousVersion: null,
@@ -79,6 +84,7 @@ export const recentFeedItems = [
     kind: "formula",
     token: "wget",
     name: "wget",
+    description: "Internet file retriever",
     changeType: "updated",
     currentVersion: "1.25.0_1",
     previousVersion: "1.25.0",
@@ -89,6 +95,7 @@ export const recentFeedItems = [
     kind: "cask",
     token: "visual-studio-code",
     name: "Visual Studio Code",
+    description: "Open-source code editor",
     changeType: "updated",
     currentVersion: "1.99.0",
     previousVersion: "1.98.0",
@@ -99,6 +106,7 @@ export const recentFeedItems = [
     kind: "cask",
     token: "orbstack",
     name: "OrbStack",
+    description: "Fast, light, and simple container and Linux machine manager",
     changeType: "new",
     currentVersion: "latest",
     previousVersion: null,

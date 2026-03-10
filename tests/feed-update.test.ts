@@ -54,11 +54,28 @@ describe("runFeedUpdate", () => {
 
     expect(thirdResult.changed).toBe(true);
 
-    const feedJson = JSON.parse(
-      await readFile(join(publicDataDir, "feed.json"), "utf8")
-    );
+    const feedJson = JSON.parse(await readFile(join(publicDataDir, "feed.json"), "utf8"));
+    const snapshotJson = JSON.parse(await readFile(join(historyDir, "2026-03-06.json"), "utf8"));
 
     expect(feedJson.latestSnapshotDate).toBe("2026-03-06");
     expect(feedJson.items).toHaveLength(3);
+    expect(feedJson.items).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({
+          token: "ripgrep",
+          description: "Line-oriented search tool that recursively searches directories"
+        }),
+        expect.objectContaining({
+          token: "wget",
+          description: "Internet file retriever"
+        }),
+        expect.objectContaining({
+          token: "visual-studio-code",
+          description: "Open-source code editor"
+        })
+      ])
+    );
+    expect(snapshotJson.entries[0]).not.toHaveProperty("description");
+    expect(snapshotJson.entries[0]).not.toHaveProperty("desc");
   });
 });
