@@ -106,7 +106,7 @@ function renderFeedCardMarkup(item: FeedItem): string {
       </div>
       <div class="feed-card__body">
         <h3><a href="${escapeHtml(item.packageUrl)}">${escapeHtml(item.name)}</a></h3>
-        <p class="feed-card__token">${escapeHtml(item.token)}</p>
+        <p class="feed-card__token">${escapeHtml(item.description ?? item.token)}</p>
         <p class="feed-card__version">
           ${escapeHtml(item.previousVersion ?? "new")} &rarr; ${escapeHtml(item.currentVersion)}
         </p>

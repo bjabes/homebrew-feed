@@ -147,6 +147,8 @@ describe("feed browser", () => {
     expect(markup).toContain("feed-group");
     expect(markup).toContain("Fri, Mar 6, 2026");
     expect(markup).toContain("Wed, Mar 4, 2026");
+    expect(markup).toContain("Open-source code editor");
+    expect(markup).not.toContain('<p class="feed-card__token">visual-studio-code</p>');
     expect(markup).not.toContain("feed-card__date");
   });
 

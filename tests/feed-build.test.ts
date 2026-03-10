@@ -19,14 +19,17 @@ describe("build output", () => {
       latestSnapshotDate: string | null;
       items: Array<{
         token: string;
+        description?: string;
       }>;
     };
     const html = await readFile(join(repoRoot, "dist", "index.html"), "utf8");
+    const describedItem = feed.items.find((item) => item.description);
 
     expect(feed.items.length).toBeGreaterThan(0);
     expect(feed.latestSnapshotDate).not.toBeNull();
+    expect(describedItem).toBeDefined();
     expect(html).toContain(`Latest snapshot:</strong> ${feed.latestSnapshotDate}`);
-    expect(html).toContain(feed.items[0].token);
+    expect(html).toContain(describedItem?.description ?? "");
     expect(html).not.toContain('"generatedAt":"1970-01-01T00:00:00.000Z"');
     expect(html).not.toContain('import { hydrateFeedPage } from "../lib/feed/browser";');
     expect(html).not.toContain('src="data:video/mp2t;base64,');

@@ -9,6 +9,7 @@ import {
   normalizeCaskEntry,
   normalizeFormulaEntry
 } from "../src/lib/feed/core";
+import * as feedCore from "../src/lib/feed/core";
 import {
   caskFixture,
   dayOneCasks,
@@ -253,5 +254,84 @@ describe("feed core", () => {
     expect(
       filterFeedItems(items, { window: "month", type: "all", q: "" }, null).map((item) => item.token)
     ).toEqual(["ripgrep", "visual-studio-code"]);
+  });
+
+  it("builds a latest-description lookup from formula and cask collections", () => {
+    const buildDescriptionLookup = (feedCore as Record<string, unknown>).buildDescriptionLookup;
+
+    expect(typeof buildDescriptionLookup).toBe("function");
+
+    const lookup = (
+      buildDescriptionLookup as (
+        formulae: unknown[],
+        casks: unknown[]
+      ) => Map<string, string | undefined>
+    )(
+      [
+        formulaFixture,
+        {
+          name: "htop",
+          full_name: "htop",
+          desc: "",
+          versions: {
+            stable: "3.4.1"
+          },
+          revision: 0,
+          urls: {
+            stable: {
+              checksum: "formula-checksum-3"
+            }
+          }
+        }
+      ],
+      [
+        caskFixture,
+        {
+          token: "missing-desc",
+          name: ["Missing Desc"],
+          desc: null,
+          version: "1.0.0",
+          sha256: "cask-checksum-2"
+        }
+      ]
+    );
+
+    expect(lookup.get("formula:wget")).toBe("Internet file retriever");
+    expect(lookup.get("cask:visual-studio-code")).toBe("Open-source code editor");
+    expect(lookup.has("formula:htop")).toBe(false);
+    expect(lookup.has("cask:missing-desc")).toBe(false);
+  });
+
+  it("matches search queries against package descriptions", () => {
+    expect(
+      filterFeedItems(
+        [
+          {
+            date: "2026-03-06",
+            kind: "formula",
+            token: "ripgrep",
+            name: "ripgrep",
+            description: "Line-oriented search tool that recursively searches directories",
+            changeType: "new",
+            currentVersion: "14.1.1",
+            previousVersion: null,
+            packageUrl: "https://formulae.brew.sh/formula/ripgrep"
+          },
+          {
+            date: "2026-03-06",
+            kind: "formula",
+            token: "wget",
+            name: "wget",
+            description: "Internet file retriever",
+            changeType: "updated",
+            currentVersion: "1.25.0_1",
+            previousVersion: "1.25.0",
+            packageUrl: "https://formulae.brew.sh/formula/wget"
+          }
+        ],
+        { window: "today", type: "all", q: "searches directories" },
+        "2026-03-06"
+      ).map((item) => item.token)
+    ).toEqual(["ripgrep"]);
   });
 });
