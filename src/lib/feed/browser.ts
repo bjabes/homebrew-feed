@@ -7,11 +7,19 @@ import type {
   FeedWindow
 } from "./types";
 
+type ChangeFilter = "all" | "new" | "updated";
+
 const WINDOW_LABELS: Record<FeedWindow, string> = {
   today: "Today",
   last7: "Last 7 Days",
   previous7: "Previous 7 Days",
   month: "This Month"
+};
+
+const CHANGE_LABELS: Record<ChangeFilter, string> = {
+  all: "All changes",
+  new: "New",
+  updated: "Updated"
 };
 
 interface FeedBrowserModel {
@@ -107,6 +115,24 @@ function renderFeedCardMarkup(item: FeedItem): string {
   `;
 }
 
+function filterItemsByChange(items: readonly FeedItem[], change: ChangeFilter): FeedItem[] {
+  if (change === "all") {
+    return [...items];
+  }
+
+  return items.filter((item) => item.changeType === change);
+}
+
+function buildChangeCounts(feedData: FeedData, window: FeedWindow, latestSnapshotDate: string | null) {
+  const windowItems = filterFeedItems(feedData.items, { window, type: "all", q: "" }, latestSnapshotDate);
+
+  return {
+    all: windowItems.length,
+    new: windowItems.filter((item) => item.changeType === "new").length,
+    updated: windowItems.filter((item) => item.changeType === "updated").length
+  };
+}
+
 function buildModel(feedData: FeedData, state: FeedBrowserState, metaData?: FeedMeta | null): FeedBrowserModel {
   const viewMeta = deriveFeedMeta(feedData, metaData);
   const visibleItems = filterFeedItems(feedData.items, state, viewMeta.browseAnchorDate);
@@ -134,8 +160,13 @@ export function createFeedBrowserModel(
 export function renderResultsSummary(
   count: number,
   window: FeedWindow,
+  change: ChangeFilter = "all",
   latestSnapshotDate: string | null
 ): string {
+  if (change === "new" || change === "updated") {
+    return `${count} ${change} packages in ${WINDOW_LABELS[window]} ending ${formatFeedDate(latestSnapshotDate)}`;
+  }
+
   return `${count} packages in ${WINDOW_LABELS[window]} ending ${formatFeedDate(latestSnapshotDate)}`;
 }
 
@@ -184,6 +215,7 @@ export function hydrateFeedPage(
 ): void {
   const root = doc.querySelector<HTMLElement>("[data-feed-app]");
   const windowControls = doc.querySelector<HTMLElement>("[data-window-controls]");
+  const changeControls = doc.querySelector<HTMLElement>("[data-change-controls]");
   const typeFilter = doc.querySelector<HTMLSelectElement>("[data-type-filter]");
   const searchInput = doc.querySelector<HTMLInputElement>("[data-search-input]");
   const resultsSummary = doc.querySelector<HTMLElement>("[data-results-summary]");
@@ -196,9 +228,17 @@ export function hydrateFeedPage(
   let state = createFeedBrowserModel(feedData, {
     search: options.search ?? doc.defaultView?.location.search ?? ""
   }).state;
+  let change: ChangeFilter = "all";
 
   const render = () => {
     const model = buildModel(feedData, state, metaData);
+    const changeCounts = buildChangeCounts(feedData, state.window, model.viewMeta.browseAnchorDate);
+    const visibleItems = filterItemsByChange(model.visibleItems, change);
+    const displayModel = {
+      ...model,
+      visibleItems,
+      visibleGroups: groupFeedItemsByDate(visibleItems)
+    };
 
     windowControls.innerHTML = (["today", "last7", "previous7", "month"] as const)
       .map((window) => {
@@ -213,6 +253,20 @@ export function hydrateFeedPage(
       })
       .join("");
 
+    if (changeControls) {
+      changeControls.innerHTML = (["all", "new", "updated"] as const)
+        .map((value) => {
+          const activeClass = change === value ? "is-active" : "";
+
+          return `
+            <button class="window-pill ${activeClass}" data-change="${value}" type="button">
+              ${CHANGE_LABELS[value]} <span>${changeCounts[value]}</span>
+            </button>
+          `;
+        })
+        .join("");
+    }
+
     if (typeFilter.options.length === 0) {
       typeFilter.innerHTML = `
         <option value="all">All packages</option>
@@ -225,11 +279,12 @@ export function hydrateFeedPage(
     searchInput.value = state.q;
     searchInput.setAttribute("value", state.q);
     resultsSummary.textContent = renderResultsSummary(
-      model.visibleItems.length,
+      displayModel.visibleItems.length,
       state.window,
+      change,
       model.viewMeta.browseAnchorDate
     );
-    feedList.innerHTML = renderFeedListMarkup(model);
+    feedList.innerHTML = renderFeedListMarkup(displayModel);
 
     const search = buildSearch(state);
     const history = doc.defaultView?.history;
@@ -247,6 +302,19 @@ export function hydrateFeedPage(
         };
         render();
       });
+    }
+
+    if (changeControls) {
+      for (const button of changeControls.querySelectorAll<HTMLButtonElement>("[data-change]")) {
+        button.addEventListener("click", () => {
+          const next = button.dataset.change;
+
+          if (next === "all" || next === "new" || next === "updated") {
+            change = next;
+            render();
+          }
+        });
+      }
     }
   };
 

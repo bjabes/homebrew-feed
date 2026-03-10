@@ -34,6 +34,11 @@ const windowLabels: Record<FeedWindow, string> = {
   previous7: "Previous 7 Days",
   month: "This Month"
 };
+const changeCounts = {
+  all: defaultModel.visibleItems.length,
+  new: defaultModel.visibleItems.filter((item) => item.changeType === "new").length,
+  updated: defaultModel.visibleItems.filter((item) => item.changeType === "updated").length
+};
 ---
 
 <SiteLayout title="What's New In Homebrew">
@@ -71,6 +76,18 @@ const windowLabels: Record<FeedWindow, string> = {
         }
       </div>
 
+      <div class="window-pills" data-change-controls>
+        <button class="window-pill is-active" data-change="all" type="button">
+          All changes <span>{changeCounts.all}</span>
+        </button>
+        <button class="window-pill" data-change="new" type="button">
+          New <span>{changeCounts.new}</span>
+        </button>
+        <button class="window-pill" data-change="updated" type="button">
+          Updated <span>{changeCounts.updated}</span>
+        </button>
+      </div>
+
       <div class="field-row">
         <div class="field">
           <label for="kind-filter">Package type</label>
@@ -96,6 +113,7 @@ const windowLabels: Record<FeedWindow, string> = {
         {renderResultsSummary(
           defaultModel.visibleItems.length,
           defaultModel.state.window,
+          "all",
           defaultModel.viewMeta.browseAnchorDate
         )}
       </p>

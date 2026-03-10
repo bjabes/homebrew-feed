@@ -35,6 +35,9 @@ describe("HomeFeedPage", () => {
     expect(html).toContain("Last 7 Days");
     expect(html).toContain("Previous 7 Days");
     expect(html).toContain("This Month");
+    expect(html).toContain("All changes");
+    expect(html).toContain("New");
+    expect(html).toContain("Updated");
     expect(html).toContain("Fri, Mar 6, 2026");
     expect(html).not.toContain("feed-card__date");
     expect(html).not.toContain("Snapshots retained");

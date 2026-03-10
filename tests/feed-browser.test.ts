@@ -6,6 +6,100 @@ import { createFeedBrowserModel, hydrateFeedPage, renderFeedListMarkup } from ".
 import { sampleFeedData, sampleMetaData } from "./fixtures/feed";
 
 describe("feed browser", () => {
+  it("renders change-type pills with counts for the active window", () => {
+    document.body.innerHTML = `
+      <div data-feed-app>
+        <div data-window-controls></div>
+        <div data-change-controls></div>
+        <select data-type-filter></select>
+        <input data-search-input />
+        <p data-results-summary></p>
+        <div data-feed-list></div>
+      </div>
+    `;
+
+    hydrateFeedPage(document, sampleFeedData, sampleMetaData);
+
+    expect(document.querySelector("[data-change-controls]")?.textContent).toContain("All changes 2");
+    expect(document.querySelector("[data-change-controls]")?.textContent).toContain("New 1");
+    expect(document.querySelector("[data-change-controls]")?.textContent).toContain("Updated 1");
+  });
+
+  it("filters the hydrated list by change type and updates the summary copy", () => {
+    document.body.innerHTML = `
+      <div data-feed-app>
+        <div data-window-controls></div>
+        <div data-change-controls></div>
+        <select data-type-filter></select>
+        <input data-search-input />
+        <p data-results-summary></p>
+        <div data-feed-list></div>
+      </div>
+    `;
+
+    hydrateFeedPage(document, sampleFeedData, sampleMetaData);
+
+    document.querySelector<HTMLButtonElement>('[data-change="updated"]')?.click();
+
+    expect(document.querySelector("[data-results-summary]")?.textContent).toContain(
+      "1 updated packages in Today ending Fri, Mar 6, 2026"
+    );
+    expect(document.querySelector("[data-feed-list]")?.textContent).toContain("wget");
+    expect(document.querySelector("[data-feed-list]")?.textContent).not.toContain("ripgrep");
+  });
+
+  it("preserves the selected change pill across windows without adding it to the URL", () => {
+    document.body.innerHTML = `
+      <div data-feed-app>
+        <div data-window-controls></div>
+        <div data-change-controls></div>
+        <select data-type-filter></select>
+        <input data-search-input />
+        <p data-results-summary></p>
+        <div data-feed-list></div>
+      </div>
+    `;
+    window.history.replaceState({}, "", "/");
+
+    hydrateFeedPage(document, sampleFeedData, sampleMetaData, {
+      search: "?window=month"
+    });
+
+    document.querySelector<HTMLButtonElement>('[data-change="new"]')?.click();
+    document.querySelector<HTMLButtonElement>('[data-window="last7"]')?.click();
+
+    expect(document.querySelector("[data-results-summary]")?.textContent).toContain(
+      "1 new packages in Last 7 Days ending Fri, Mar 6, 2026"
+    );
+    expect(document.querySelector("[data-feed-list]")?.textContent).toContain("ripgrep");
+    expect(document.querySelector("[data-feed-list]")?.textContent).not.toContain("wget");
+    expect(document.querySelector("[data-change-controls]")?.textContent).toContain("All changes 3");
+    expect(document.querySelector("[data-change-controls]")?.textContent).toContain("New 1");
+    expect(document.querySelector("[data-change-controls]")?.textContent).toContain("Updated 2");
+
+    const typeFilter = document.querySelector<HTMLSelectElement>("[data-type-filter]");
+    const searchInput = document.querySelector<HTMLInputElement>("[data-search-input]");
+
+    if (!typeFilter || !searchInput) {
+      throw new Error("Expected hydrated controls to exist");
+    }
+
+    typeFilter.value = "cask";
+    typeFilter.dispatchEvent(new Event("change"));
+    searchInput.value = "studio";
+    searchInput.dispatchEvent(new Event("input"));
+
+    expect(document.querySelector("[data-results-summary]")?.textContent).toContain(
+      "0 new packages in Last 7 Days ending Fri, Mar 6, 2026"
+    );
+    expect(document.querySelector("[data-feed-list]")?.textContent).toContain("No packages");
+    expect(document.querySelector("[data-change-controls]")?.textContent).toContain("All changes 3");
+    expect(document.querySelector("[data-change-controls]")?.textContent).toContain("New 1");
+    expect(document.querySelector("[data-change-controls]")?.textContent).toContain("Updated 2");
+    expect(window.location.search).toBe("?window=last7&type=cask&q=studio");
+    expect(window.location.search).not.toContain("change=");
+  });
+
   it("defaults to today and supports the new rolling browse windows", () => {
     const model = createFeedBrowserModel(sampleFeedData, {
       search: ""
