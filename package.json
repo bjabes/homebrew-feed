@@ -7,7 +7,6 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
     "test": "vitest run",
     "test:watch": "vitest",
     "feed:update": "node --import tsx scripts/update-feed.ts"
