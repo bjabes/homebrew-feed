@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-14T19:02:29.141Z",
-  "latestSnapshotDate": "2026-09-14",
-  "snapshotCount": 188,
-  "itemCount": 14117,
+  "generatedAt": "2026-09-15T17:56:34.337Z",
+  "latestSnapshotDate": "2026-09-15",
+  "snapshotCount": 189,
+  "itemCount": 14283,
   "windowCounts": {
-    "today": 293,
-    "last7": 2176,
-    "previous7": 2227,
-    "month": 4403
+    "today": 452,
+    "last7": 2344,
+    "previous7": 2192,
+    "month": 4855
   }
 }
